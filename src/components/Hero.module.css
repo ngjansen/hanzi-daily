@@ -1,0 +1,336 @@
+/* ── Hero Section ── */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-16) 0 var(--space-20);
+}
+
+/* Background */
+.heroBg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.heroBgGlow {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(600px, 90vw);
+  height: min(600px, 90vw);
+  background: radial-gradient(ellipse, rgba(200, 71, 58, 0.12) 0%, transparent 70%);
+  filter: blur(40px);
+  animation: fadeIn 1s ease-out both;
+}
+
+:global(html.dark) .heroBgGlow {
+  background: radial-gradient(ellipse, rgba(200, 71, 58, 0.18) 0%, transparent 65%);
+}
+
+.heroBgWatermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-display);
+  font-size: clamp(160px, 28vw, 280px);
+  font-weight: 900;
+  color: var(--brand);
+  opacity: 0.04;
+  user-select: none;
+  white-space: nowrap;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+:global(html.dark) .heroBgWatermark {
+  opacity: 0.06;
+}
+
+/* Content */
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Meta row */
+.heroMeta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+  animation: fadeUp var(--t-slow) ease-out both;
+  animation-delay: inherit;
+}
+
+.dayLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.catDot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex-shrink: 0;
+}
+
+/* Chinese + TTS row */
+.chineseWrap {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
+.chinese {
+  font-family: var(--font-display);
+  font-size: clamp(56px, 8vw, 80px);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  flex: 1;
+}
+
+/* TTS Button */
+.ttsBtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  border: 1.5px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast), transform var(--t-spring), box-shadow var(--t-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.ttsBtn:hover {
+  background: var(--surface-elevated);
+  color: var(--brand);
+  border-color: var(--brand);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-brand);
+}
+
+.ttsBtn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.ttsBtnPlaying {
+  color: var(--brand);
+  border-color: var(--brand);
+  background: var(--brand-dim);
+  box-shadow: var(--shadow-brand);
+}
+
+.ttsBtnDisabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.ttsBtnDisabled:hover {
+  transform: none;
+  box-shadow: var(--shadow-sm);
+  background: var(--surface);
+  color: var(--text-secondary);
+  border-color: var(--border-strong);
+}
+
+/* Pulsing ring on TTS active */
+.ttsPulse {
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--brand);
+  border-radius: calc(var(--radius-md) + 4px);
+  animation: pulsingRing 1.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Pinyin */
+.pinyin {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-3);
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
+/* Meaning */
+.meaning {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 0;
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
+/* Divider */
+.divider {
+  width: 48px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--brand), transparent);
+  border-radius: var(--radius-pill);
+  margin: var(--space-8) 0;
+  animation: fadeIn var(--t-slow) ease-out both;
+}
+
+/* Examples */
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin-bottom: var(--space-6);
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
+.examplesHeading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: var(--space-1);
+}
+
+.example {
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--brand);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  box-shadow: var(--shadow-sm);
+  transition: background var(--t-slow), border-color var(--t-slow), transform var(--t-spring), box-shadow var(--t-fast);
+}
+
+.example:hover {
+  transform: translateX(3px);
+  box-shadow: var(--shadow-md);
+}
+
+.exampleChinese {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.exampleEnglish {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Backstory */
+.backstory {
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
+.backstoryToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-3);
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition:
+    color var(--t-fast),
+    background var(--t-fast),
+    border-color var(--t-fast),
+    transform var(--t-spring),
+    box-shadow var(--t-fast);
+  font-family: var(--font-body);
+  box-shadow: var(--shadow-sm);
+}
+
+.backstoryToggle:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+  background: var(--brand-dim);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-brand);
+}
+
+.backstoryToggle:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.backstoryToggle:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.backstoryIcon {
+  font-size: 0.75em;
+  transition: transform var(--t-spring);
+}
+
+.backstoryText {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  margin-top: var(--space-2);
+  animation: fadeIn 250ms ease-out both;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero {
+    padding: var(--space-10) 0 var(--space-16);
+  }
+
+  .heroContent {
+    padding: 0 var(--space-4);
+  }
+
+  .chinese {
+    font-size: clamp(48px, 14vw, 64px);
+  }
+
+  .meaning {
+    font-size: 1.25rem;
+  }
+
+  .example {
+    padding: var(--space-3) var(--space-4);
+  }
+}

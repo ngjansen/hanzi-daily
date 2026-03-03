@@ -1,0 +1,192 @@
+/* ============================================================
+   Design System — 每日一词 (HanziDaily)
+   Vermilion red × warm cream × deep ink
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Inter:ital,opsz,wght@0,14..32,300..700;1,14..32,300..400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Custom Properties ── */
+:root {
+  /* Brand */
+  --brand:       #C8473A;
+  --brand-light: #E8695E;
+  --brand-dark:  #A33028;
+  --brand-dim:   rgba(200, 71, 58, 0.12);
+
+  /* Light mode surfaces */
+  --bg:                #FAF8F5;
+  --surface:           #FFFFFF;
+  --surface-elevated:  #F5F2EE;
+  --surface-floating:  #EEEBE6;
+  --border:            rgba(26, 26, 26, 0.08);
+  --border-strong:     rgba(26, 26, 26, 0.16);
+
+  /* Light mode text */
+  --text-primary:   #1A1A1A;
+  --text-secondary: #6B6B6B;
+  --text-tertiary:  #A0A0A0;
+
+  /* Category colors */
+  --cat-classical:   #8B6914;
+  --cat-tech:        #1A6B8A;
+  --cat-business:    #2D6A4F;
+  --cat-literature:  #6B3FA0;
+  --cat-internet:    #C44B9A;
+
+  --cat-classical-bg:  rgba(139, 105, 20, 0.10);
+  --cat-tech-bg:       rgba(26, 107, 138, 0.10);
+  --cat-business-bg:   rgba(45, 106, 79, 0.10);
+  --cat-literature-bg: rgba(107, 63, 160, 0.10);
+  --cat-internet-bg:   rgba(196, 75, 154, 0.10);
+
+  /* Spacing scale */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Typography */
+  --font-display: 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Cascadia Code', monospace;
+
+  /* Shadows */
+  --shadow-sm:    0 1px 3px rgba(26,26,26,0.06), 0 1px 2px rgba(26,26,26,0.04);
+  --shadow-md:    0 4px 12px rgba(26,26,26,0.08), 0 2px 4px rgba(26,26,26,0.04);
+  --shadow-lg:    0 12px 32px rgba(26,26,26,0.10), 0 4px 8px rgba(26,26,26,0.06);
+  --shadow-brand: 0 4px 20px rgba(200, 71, 58, 0.25), 0 2px 8px rgba(200, 71, 58, 0.15);
+
+  /* Radii */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-pill: 999px;
+
+  /* Transitions */
+  --t-fast:   150ms cubic-bezier(0.32, 0, 0.67, 0);
+  --t-normal: 250ms cubic-bezier(0.33, 1, 0.68, 1);
+  --t-slow:   400ms cubic-bezier(0.33, 1, 0.68, 1);
+  --t-spring: 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout */
+  --nav-height:   64px;
+  --content-max:  760px;
+  --grid-max:     1100px;
+}
+
+/* Dark mode */
+html.dark {
+  --bg:                #141414;
+  --surface:           #1E1E1E;
+  --surface-elevated:  #282828;
+  --surface-floating:  #303030;
+  --border:            rgba(245, 245, 240, 0.08);
+  --border-strong:     rgba(245, 245, 240, 0.16);
+
+  --text-primary:   #F5F5F0;
+  --text-secondary: #9A9A9A;
+  --text-tertiary:  #5A5A5A;
+
+  --shadow-sm:    0 1px 3px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.15);
+  --shadow-md:    0 4px 12px rgba(0,0,0,0.30), 0 2px 4px rgba(0,0,0,0.20);
+  --shadow-lg:    0 12px 32px rgba(0,0,0,0.40), 0 4px 8px rgba(0,0,0,0.25);
+  --shadow-brand: 0 4px 20px rgba(200, 71, 58, 0.35), 0 2px 8px rgba(200, 71, 58, 0.20);
+
+  --cat-classical-bg:  rgba(139, 105, 20, 0.15);
+  --cat-tech-bg:       rgba(26, 107, 138, 0.15);
+  --cat-business-bg:   rgba(45, 106, 79, 0.15);
+  --cat-literature-bg: rgba(107, 63, 160, 0.15);
+  --cat-internet-bg:   rgba(196, 75, 154, 0.15);
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  background-color: var(--bg);
+  transition: background-color var(--t-slow), color var(--t-slow);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Focus visible ── */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: var(--radius-pill);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
+
+/* ── Animations ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes pulsingRing {
+  0%   { transform: scale(1);    opacity: 0.9; }
+  50%  { transform: scale(1.18); opacity: 0.3; }
+  100% { transform: scale(1);    opacity: 0.9; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Badge ── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px 3px 8px;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge-classical_idiom  { color: var(--cat-classical);  background: var(--cat-classical-bg); }
+.badge-modern_tech      { color: var(--cat-tech);       background: var(--cat-tech-bg); }
+.badge-business         { color: var(--cat-business);   background: var(--cat-business-bg); }
+.badge-literature       { color: var(--cat-literature); background: var(--cat-literature-bg); }
+.badge-internet_culture { color: var(--cat-internet);   background: var(--cat-internet-bg); }
