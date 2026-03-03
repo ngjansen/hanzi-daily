@@ -215,3 +215,21 @@
     font-size: 1.8rem;
   }
 }
+
+@media (max-width: 360px) {
+  .section {
+    padding: var(--space-12) var(--space-4);
+  }
+
+  .inner {
+    gap: var(--space-3);
+  }
+
+  .heading {
+    font-size: 1.55rem;
+  }
+
+  .description {
+    font-size: 0.92rem;
+  }
+}

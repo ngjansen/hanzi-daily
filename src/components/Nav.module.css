@@ -72,7 +72,8 @@
 }
 
 .langBtn {
-  padding: 4px 12px;
+  padding: 10px 14px;
+  min-height: 44px;
   border: none;
   background: transparent;
   border-radius: var(--radius-pill);
@@ -105,8 +106,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--border);
   background: var(--surface-elevated);
   border-radius: var(--radius-md);
@@ -123,4 +124,18 @@
 
 .themeBtn:active {
   transform: translateY(0) scale(0.95);
+}
+
+@media (max-width: 360px) {
+  .nav {
+    padding: 0 var(--space-3);
+  }
+
+  .brandChinese {
+    font-size: 1.05rem;
+  }
+
+  .langBtn {
+    padding: 10px 10px;
+  }
 }

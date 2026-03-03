@@ -99,3 +99,21 @@
   line-height: 1.5;
   margin-top: var(--space-1);
 }
+
+@media (max-width: 640px) {
+  .card {
+    padding: var(--space-4);
+  }
+
+  .chinese {
+    font-size: 1.7rem;
+  }
+
+  .pinyin {
+    font-size: 0.75rem;
+  }
+
+  .dayLabel {
+    font-size: 0.68rem;
+  }
+}

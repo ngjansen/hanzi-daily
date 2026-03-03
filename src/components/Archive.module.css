@@ -114,3 +114,13 @@
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 360px) {
+  .archive {
+    padding: var(--space-10) 0 var(--space-12);
+  }
+
+  .archiveInner {
+    padding: 0 var(--space-3);
+  }
+}

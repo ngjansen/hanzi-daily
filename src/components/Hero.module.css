@@ -334,3 +334,17 @@
     padding: var(--space-3) var(--space-4);
   }
 }
+
+@media (max-width: 360px) {
+  .heroContent {
+    padding: 0 var(--space-3);
+  }
+
+  .meaning {
+    font-size: 1.1rem;
+  }
+
+  .heroBgWatermark {
+    font-size: clamp(120px, 32vw, 160px);
+  }
+}
