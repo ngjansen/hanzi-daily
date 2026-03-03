@@ -7,18 +7,9 @@ import { SubscribeForm } from './components/SubscribeForm';
 import { UnsubscribePage } from './components/UnsubscribePage';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
+import { getDaysSinceStart } from './lib/constants';
 
 const data = wordsData as WordsData;
-
-const LAUNCH_DATE = new Date('2026-02-22');
-
-function getDaysSinceStart(date: Date): number {
-  const start = new Date(LAUNCH_DATE);
-  start.setHours(0, 0, 0, 0);
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  return Math.floor((d.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-}
 
 function App() {
   // Unsubscribe route guard — render standalone page at /unsubscribe

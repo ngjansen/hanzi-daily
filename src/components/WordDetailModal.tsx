@@ -55,11 +55,7 @@ export function WordDetailModal({ entry, dayNumber, onClose }: WordDetailModalPr
               {t(`第 ${dayNumber} 天`, `Day ${dayNumber}`)}
             </span>
             <span className={`badge badge-${entry.category}`}>
-              {lang === 'zh'
-                ? categoryLabel.zh
-                : lang === 'en'
-                ? categoryLabel.en
-                : `${categoryLabel.en} · ${categoryLabel.zh}`}
+              {lang === 'zh' ? categoryLabel.zh : `${categoryLabel.en} · ${categoryLabel.zh}`}
             </span>
           </div>
           <button

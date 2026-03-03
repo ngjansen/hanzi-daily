@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
 
-export type LangMode = 'bilingual' | 'zh' | 'en';
+export type LangMode = 'bilingual' | 'zh';
 
 interface LanguageContextValue {
   lang: LangMode;
@@ -20,7 +20,7 @@ const STORAGE_KEY = 'hanzi-lang';
 function getInitialLang(): LangMode {
   try {
     const stored = localStorage.getItem(STORAGE_KEY) as LangMode | null;
-    if (stored && ['bilingual', 'zh', 'en'].includes(stored)) return stored;
+    if (stored && ['bilingual', 'zh'].includes(stored)) return stored;
   } catch {}
   return 'bilingual';
 }
@@ -35,7 +35,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const t = useCallback((zh: string, en: string): React.ReactNode => {
     if (lang === 'zh') return zh;
-    if (lang === 'en') return en;
     // bilingual: en + zh caption
     return (
       <>

@@ -3,7 +3,6 @@ import { useTheme } from '../contexts/ThemeContext';
 import styles from './Nav.module.css';
 
 const LANG_OPTIONS: { value: LangMode; label: string; title: string }[] = [
-  { value: 'en',        label: 'EN',  title: 'English only' },
   { value: 'bilingual', label: '双',  title: 'Bilingual (English + Chinese)' },
   { value: 'zh',        label: '中',  title: 'Chinese only' },
 ];

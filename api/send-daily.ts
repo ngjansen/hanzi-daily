@@ -4,18 +4,9 @@ import { render } from '@react-email/render';
 import { createElement } from 'react';
 import { DailyWordEmail } from './emails/DailyWordEmail';
 import wordsData from '../src/data/words.json';
+import { getDaysSinceStart } from '../src/lib/constants';
 
 const BATCH_SIZE = 100;
-
-const LAUNCH_DATE = new Date('2026-02-22');
-
-function getDaysSinceStart(date: Date): number {
-  const start = new Date(LAUNCH_DATE);
-  start.setHours(0, 0, 0, 0);
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  return Math.floor((d.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-}
 
 function buildToken(email: string, secret: string): string {
   return Buffer.from(`${email}:${secret}`).toString('base64url');

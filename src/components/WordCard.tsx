@@ -38,7 +38,7 @@ export function WordCard({ entry, dayNumber, onClick }: WordCardProps) {
           {t(`第 ${dayNumber} 天`, `Day ${dayNumber}`)}
         </span>
         <span className={`badge badge-${entry.category} ${styles.badge}`}>
-          {lang === 'zh' ? label.zh : lang === 'en' ? label.en : `${label.en} · ${label.zh}`}
+          {lang === 'zh' ? label.zh : `${label.en} · ${label.zh}`}
         </span>
       </div>
 

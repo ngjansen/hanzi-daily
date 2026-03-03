@@ -50,11 +50,7 @@ export function Hero({ entry, dayNumber }: HeroProps) {
           </span>
           <span className={`badge badge-${entry.category}`}>
             <span className={styles.catDot} />
-            {lang === 'zh'
-              ? categoryLabel.zh
-              : lang === 'en'
-              ? categoryLabel.en
-              : `${categoryLabel.en} · ${categoryLabel.zh}`}
+            {lang === 'zh' ? categoryLabel.zh : `${categoryLabel.en} · ${categoryLabel.zh}`}
           </span>
         </div>
 
