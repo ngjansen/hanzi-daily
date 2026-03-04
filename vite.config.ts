@@ -36,6 +36,7 @@ export default defineConfig({
         theme_color: '#C8473A',
         background_color: '#FAF8F5',
         display: 'standalone',
+        lang: 'zh-Hans',
         start_url: '/',
         icons: [
           {
