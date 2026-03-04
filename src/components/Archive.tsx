@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { WordCard } from './WordCard';
-import { WordDetailModal } from './WordDetailModal';
 import type { WordEntry } from '../types';
 import styles from './Archive.module.css';
 
@@ -14,7 +14,6 @@ interface ArchiveProps {
 export function Archive({ entries }: ArchiveProps) {
   const { t } = useLanguage();
   const [showAll, setShowAll] = useState(false);
-  const [selected, setSelected] = useState<{ entry: WordEntry; dayNumber: number } | null>(null);
 
   if (entries.length === 0) return null;
 
@@ -36,12 +35,17 @@ export function Archive({ entries }: ArchiveProps) {
 
         <div className={styles.grid}>
           {visibleEntries.map(({ entry, dayNumber }) => (
-            <WordCard
+            <Link
               key={entry.id}
-              entry={entry}
-              dayNumber={dayNumber}
-              onClick={() => setSelected({ entry, dayNumber })}
-            />
+              to={`/word/${entry.id}`}
+              style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
+            >
+              <WordCard
+                entry={entry}
+                dayNumber={dayNumber}
+                onClick={() => {}}
+              />
+            </Link>
           ))}
         </div>
 
@@ -58,13 +62,6 @@ export function Archive({ entries }: ArchiveProps) {
         )}
       </div>
 
-      {selected && (
-        <WordDetailModal
-          entry={selected.entry}
-          dayNumber={selected.dayNumber}
-          onClose={() => setSelected(null)}
-        />
-      )}
     </section>
   );
 }
