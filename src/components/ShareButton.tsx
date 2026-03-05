@@ -4,6 +4,28 @@ import styles from './ShareButton.module.css';
 
 const SITE_URL = 'https://www.hanzidaily.com';
 
+async function shareImage(entry: WordEntry) {
+  const imageUrl = `${SITE_URL}/api/og?wordId=${entry.id}`;
+
+  // Try Web Share API with files (iOS Safari + Android Chrome)
+  if (navigator.canShare) {
+    try {
+      const res = await fetch(imageUrl);
+      const blob = await res.blob();
+      const file = new File([blob], `${entry.chinese}-hanzidaily.jpg`, { type: 'image/jpeg' });
+      if (navigator.canShare({ files: [file] })) {
+        await navigator.share({ files: [file], title: entry.chinese, text: `${entry.chinese} (${entry.pinyin}) — ${entry.english}` });
+        return;
+      }
+    } catch {
+      // fall through to download
+    }
+  }
+
+  // Fallback: open image in new tab (user can long-press / right-click to save)
+  window.open(imageUrl, '_blank', 'noopener');
+}
+
 interface ShareButtonProps {
   entry: WordEntry;
 }
@@ -67,6 +89,10 @@ export function ShareButton({ entry }: ShareButtonProps) {
 
       {open && !canNativeShare && (
         <div ref={popoverRef} className={styles.popover} role="menu">
+          <button className={styles.popoverItem} onClick={() => { shareImage(entry); setOpen(false); }}>
+            <ImageIcon /> Save image card
+          </button>
+          <div className={styles.popoverDivider} />
           <a
             className={styles.popoverItem}
             href={`https://wa.me/?text=${fullText}`}
@@ -97,6 +123,14 @@ export function ShareButton({ entry }: ShareButtonProps) {
         </div>
       )}
     </div>
+  );
+}
+
+function ImageIcon() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+    </svg>
   );
 }
 

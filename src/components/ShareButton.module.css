@@ -90,3 +90,9 @@
   outline: 2px solid var(--brand);
   outline-offset: 2px;
 }
+
+.popoverDivider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 6px;
+}
