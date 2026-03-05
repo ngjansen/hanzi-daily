@@ -1,0 +1,92 @@
+.wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-3);
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition:
+    color var(--t-fast),
+    background var(--t-fast),
+    border-color var(--t-fast),
+    transform var(--t-spring),
+    box-shadow var(--t-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.shareBtn:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+  background: var(--brand-dim);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-brand);
+}
+
+.shareBtn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.shareBtn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+/* Desktop popover */
+.popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 180px;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 6px;
+  z-index: 100;
+  animation: popIn 150ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.popoverItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border-radius: calc(var(--radius-md) - 2px);
+  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--t-fast), color var(--t-fast);
+}
+
+.popoverItem:hover {
+  background: var(--brand-dim);
+  color: var(--brand);
+}
+
+.popoverItem:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}

@@ -312,6 +312,16 @@
   animation: fadeIn 250ms ease-out both;
 }
 
+/* Share + Reaction row */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: var(--space-8);
+  animation: fadeUp var(--t-slow) ease-out both;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .hero {

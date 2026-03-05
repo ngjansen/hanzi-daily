@@ -32,3 +32,4 @@ src/data/.words-progress.json
 src/data/.enrich-progress.json
 src/data/.debug-*.txt
 .worktrees/
+.env*.local

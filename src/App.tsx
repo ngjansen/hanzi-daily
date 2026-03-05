@@ -37,7 +37,7 @@ function HomePage() {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Nav />
       <main style={{ flex: 1 }}>
-        <Hero entry={todayEntry} dayNumber={daysSinceStart + 1} />
+        <Hero entry={todayEntry} dayNumber={daysSinceStart + 1} isToday />
         <SubscribeForm />
         <Archive entries={pastEntries} />
       </main>

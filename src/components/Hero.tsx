@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTTS } from '../hooks/useTTS';
+import { ShareButton } from './ShareButton';
+import { ReactionBar } from './ReactionBar';
 import type { WordEntry } from '../types';
 import styles from './Hero.module.css';
 
@@ -15,9 +17,10 @@ const CATEGORY_LABELS: Record<string, { en: string; zh: string }> = {
 interface HeroProps {
   entry: WordEntry;
   dayNumber: number;
+  isToday?: boolean;
 }
 
-export function Hero({ entry, dayNumber }: HeroProps) {
+export function Hero({ entry, dayNumber, isToday = false }: HeroProps) {
   const { lang, t } = useLanguage();
   const { speak, stop, isPlaying, isSupported } = useTTS();
   const [backstoryOpen, setBackstoryOpen] = useState(false);
@@ -137,6 +140,12 @@ export function Hero({ entry, dayNumber }: HeroProps) {
             )}
           </div>
         )}
+
+        {/* Share + Reactions */}
+        <div className={styles.actions} style={{ animationDelay: '380ms' }}>
+          <ShareButton entry={entry} />
+          {isToday && <ReactionBar wordId={entry.id} />}
+        </div>
       </div>
     </section>
   );
