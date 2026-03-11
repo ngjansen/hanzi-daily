@@ -30,6 +30,7 @@
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "crons": [
-    { "path": "/api/send-daily", "schedule": "0 0 * * *" }
+    { "path": "/api/send-daily", "schedule": "0 0 * * *" },
+    { "path": "/api/post-social", "schedule": "0 1 * * *" }
   ]
 }
