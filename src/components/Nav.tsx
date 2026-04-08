@@ -25,6 +25,7 @@ export function Nav() {
       {/* Middle: nav links */}
       <div className={styles.navLinks}>
         <Link to="/browse" className={styles.navLink}>Browse</Link>
+        <Link to="/favorites" className={styles.navLink}>Saved</Link>
         <Link to="/resources" className={styles.navLink}>Resources</Link>
       </div>
 

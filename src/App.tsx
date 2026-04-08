@@ -9,6 +9,7 @@ import { UnsubscribePage } from './components/UnsubscribePage';
 import { WordPage } from './components/WordPage';
 import { ResourcesPage } from './components/ResourcesPage';
 import { BrowsePage } from './components/BrowsePage';
+import { FavoritesPage } from './components/FavoritesPage';
 import { DailyQuiz } from './components/DailyQuiz';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
@@ -77,6 +78,7 @@ function App() {
           <Route path="/unsubscribe" element={<UnsubscribePage />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/browse" element={<BrowsePage />} />
+          <Route path="/favorites" element={<FavoritesPage />} />
         </Routes>
       </LanguageProvider>
     </ThemeProvider>

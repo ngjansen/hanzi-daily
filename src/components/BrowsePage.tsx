@@ -108,7 +108,7 @@ export function BrowsePage() {
               {visible.length === 0 && (
                 <p className={styles.empty}>No words match your search.</p>
               )}
-              {visible.map((entry, i) => (
+              {visible.map((entry) => (
                 <Link
                   key={entry.id}
                   to={`/word/${entry.id}`}
