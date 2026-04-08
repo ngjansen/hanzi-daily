@@ -51,18 +51,22 @@ Return ONLY the raw JSON array, no markdown fences, no explanation.`;
 
   const message = await client.messages.create({
     model: 'claude-opus-4-6',
-    max_tokens: 8096,
+    max_tokens: 32768,
     messages: [{ role: 'user', content: prompt }],
   });
 
   const raw = message.content[0].text.trim();
-  return JSON.parse(raw);
+  const parsed = JSON.parse(raw);
+  if (!Array.isArray(parsed) || parsed.length !== count) {
+    throw new Error(`Expected ${count} entries, got ${Array.isArray(parsed) ? parsed.length : 'non-array'}`);
+  }
+  return parsed;
 }
 
 async function main() {
   const wordsData = JSON.parse(readFileSync(wordsPath, 'utf8'));
   const existing = wordsData.entries;
-  let nextId = Math.max(...existing.map(e => e.id)) + 1;
+  let nextId = existing.length > 0 ? Math.max(...existing.map(e => e.id)) + 1 : 1;
 
   console.log(`Starting with ${existing.length} entries. Target: ${existing.length + Object.values(TARGETS).reduce((a, b) => a + b, 0)}`);
 
