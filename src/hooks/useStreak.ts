@@ -13,7 +13,7 @@ export function computeStreak(
   storedDate: string | null,
   storedCount: string | null,
 ): StreakResult {
-  if (!storedDate || !storedCount) {
+  if (storedDate === null || storedCount === null) {
     return { count: 1, isNew: true };
   }
 
@@ -32,8 +32,12 @@ export function computeStreak(
   return { count: 1, isNew: true };
 }
 
+// Use local date components so "day" matches the user's timezone, not UTC.
 function toDateStr(d: Date): string {
-  return d.toISOString().slice(0, 10);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 export function useStreak(): number {
