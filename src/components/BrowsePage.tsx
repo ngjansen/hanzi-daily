@@ -26,15 +26,16 @@ export function BrowsePage() {
   const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = query.trim();
+    const ql = q.toLowerCase();
     return data.entries.filter((entry: WordEntry) => {
       const categoryMatch = activeCategory === 'all' || entry.category === activeCategory;
       if (!categoryMatch) return false;
       if (!q) return true;
       return (
-        entry.chinese.includes(query.trim()) ||
-        entry.pinyin.toLowerCase().includes(q) ||
-        entry.english.toLowerCase().includes(q)
+        entry.chinese.includes(q) ||
+        entry.pinyin.toLowerCase().includes(ql) ||
+        entry.english.toLowerCase().includes(ql)
       );
     });
   }, [query, activeCategory]);
@@ -113,7 +114,7 @@ export function BrowsePage() {
                   to={`/word/${entry.id}`}
                   style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
                 >
-                  <WordCard entry={entry} dayNumber={i + 1} onClick={() => {}} />
+                  <WordCard entry={entry} dayNumber={entry.id} onClick={() => {}} />
                 </Link>
               ))}
             </div>
