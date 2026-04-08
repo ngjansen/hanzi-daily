@@ -52,6 +52,34 @@
   .brandSub { display: none; }
 }
 
+/* Nav links */
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.navLink {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.01em;
+  transition: color var(--t-fast), background var(--t-fast);
+}
+
+.navLink:hover {
+  color: var(--text-primary);
+  background: var(--surface-elevated);
+}
+
+@media (max-width: 480px) {
+  .navLinks { display: none; }
+}
+
 /* Controls */
 .controls {
   display: flex;
@@ -138,4 +166,30 @@
   .langBtn {
     padding: 10px 10px;
   }
+}
+
+/* Streak badge */
+.streakBadge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  transition: background var(--t-fast);
+}
+
+.streakBadge:hover {
+  background: var(--surface-floating);
+}
+
+.streakFlame {
+  font-size: 0.9rem;
+  line-height: 1;
 }

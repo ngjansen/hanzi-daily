@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLanguage, type LangMode } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
+import { useStreak } from '../hooks/useStreak';
 import styles from './Nav.module.css';
 
 const LANG_OPTIONS: { value: LangMode; label: string; title: string }[] = [
@@ -11,6 +12,7 @@ const LANG_OPTIONS: { value: LangMode; label: string; title: string }[] = [
 export function Nav() {
   const { lang, setLang } = useLanguage();
   const { theme, toggleTheme } = useTheme();
+  const streak = useStreak();
 
   return (
     <nav className={styles.nav} id="main-nav" role="navigation" aria-label="Main navigation">
@@ -28,6 +30,14 @@ export function Nav() {
 
       {/* Right: controls */}
       <div className={styles.controls}>
+        {/* Streak badge — only show when streak > 0 */}
+        {streak > 0 && (
+          <span className={styles.streakBadge} title={`${streak}-day streak`}>
+            <span className={styles.streakFlame}>🔥</span>
+            {streak}
+          </span>
+        )}
+
         {/* Language toggle pill */}
         <div className={styles.langPill} role="group" aria-label="Language mode">
           {LANG_OPTIONS.map(opt => (
