@@ -3,6 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useTTS } from '../hooks/useTTS';
 import { ShareButton } from './ShareButton';
 import { ReactionBar } from './ReactionBar';
+import { FavoriteButton } from './FavoriteButton';
 import type { WordEntry } from '../types';
 import styles from './Hero.module.css';
 
@@ -18,9 +19,11 @@ interface HeroProps {
   entry: WordEntry;
   dayNumber: number;
   isToday?: boolean;
+  isFav?: boolean;
+  onToggleFav?: () => void;
 }
 
-export function Hero({ entry, dayNumber, isToday = false }: HeroProps) {
+export function Hero({ entry, dayNumber, isToday = false, isFav = false, onToggleFav }: HeroProps) {
   const { lang, t } = useLanguage();
   const { speak, stop, isPlaying, isSupported } = useTTS();
   const [backstoryOpen, setBackstoryOpen] = useState(false);
@@ -144,6 +147,9 @@ export function Hero({ entry, dayNumber, isToday = false }: HeroProps) {
         {/* Share + Reactions */}
         <div className={styles.actions} style={{ animationDelay: '380ms' }}>
           <ShareButton entry={entry} />
+          {onToggleFav && (
+            <FavoriteButton isFav={isFav} onToggle={onToggleFav} />
+          )}
           {isToday && <ReactionBar wordId={entry.id} />}
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { useLanguage } from '../contexts/LanguageContext';
 import type { WordEntry } from '../types';
 import styles from './WordCard.module.css';
+import { FavoriteButton } from './FavoriteButton';
 
 const CATEGORY_LABELS: Record<string, { en: string; zh: string }> = {
   classical_idiom:  { en: 'Classical', zh: '成语' },
@@ -14,9 +15,11 @@ interface WordCardProps {
   entry: WordEntry;
   dayNumber: number;
   onClick?: () => void;
+  isFav?: boolean;
+  onToggleFav?: () => void;
 }
 
-export function WordCard({ entry, dayNumber, onClick }: WordCardProps) {
+export function WordCard({ entry, dayNumber, onClick, isFav, onToggleFav }: WordCardProps) {
   const { lang, t } = useLanguage();
   const label = CATEGORY_LABELS[entry.category] ?? { en: entry.category, zh: entry.category };
 
@@ -51,6 +54,11 @@ export function WordCard({ entry, dayNumber, onClick }: WordCardProps) {
       {/* English meaning */}
       {lang !== 'zh' && (
         <p className={styles.english}>{entry.english}</p>
+      )}
+      {onToggleFav && (
+        <div className={styles.favWrap}>
+          <FavoriteButton isFav={isFav ?? false} onToggle={onToggleFav} size={15} />
+        </div>
       )}
     </article>
   );

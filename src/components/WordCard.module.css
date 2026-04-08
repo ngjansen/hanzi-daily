@@ -117,3 +117,9 @@
     font-size: 0.68rem;
   }
 }
+
+.favWrap {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+}

@@ -13,6 +13,7 @@ import { DailyQuiz } from './components/DailyQuiz';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
 import { getDaysSinceStart } from './lib/constants';
+import { useFavorites } from './hooks/useFavorites';
 
 const data = wordsData as WordsData;
 
@@ -35,11 +36,19 @@ function HomePage() {
   // Homepage shows last 7 only
   const recentEntries = allPastEntries.slice(0, 7);
 
+  const { isFav, toggle } = useFavorites();
+
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Nav />
       <main style={{ flex: 1 }}>
-        <Hero entry={todayEntry} dayNumber={daysSinceStart + 1} isToday />
+        <Hero
+          entry={todayEntry}
+          dayNumber={daysSinceStart + 1}
+          isToday
+          isFav={isFav(todayEntry.id)}
+          onToggleFav={() => toggle(todayEntry.id)}
+        />
         <DailyQuiz todayEntry={todayEntry} allEntries={data.entries} />
         <SubscribeForm />
         <Archive entries={recentEntries} totalPast={allPastEntries.length} />
