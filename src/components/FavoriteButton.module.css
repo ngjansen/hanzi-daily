@@ -1,0 +1,36 @@
+/* src/components/FavoriteButton.module.css */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  background: var(--surface-elevated);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  color: var(--text-tertiary);
+  transition: color var(--t-fast), background var(--t-fast), border-color var(--t-fast), transform var(--t-spring);
+  flex-shrink: 0;
+}
+
+.btn:hover {
+  color: var(--text-primary);
+  background: var(--surface-floating);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.92);
+}
+
+.btnActive {
+  color: #e85c3a;
+  border-color: rgba(232, 92, 58, 0.35);
+  background: rgba(232, 92, 58, 0.08);
+}
+
+.btnActive:hover {
+  color: #e85c3a;
+  background: rgba(232, 92, 58, 0.14);
+}
