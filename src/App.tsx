@@ -9,6 +9,7 @@ import { UnsubscribePage } from './components/UnsubscribePage';
 import { WordPage } from './components/WordPage';
 import { ResourcesPage } from './components/ResourcesPage';
 import { BrowsePage } from './components/BrowsePage';
+import { DailyQuiz } from './components/DailyQuiz';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
 import { getDaysSinceStart } from './lib/constants';
@@ -39,6 +40,7 @@ function HomePage() {
       <Nav />
       <main style={{ flex: 1 }}>
         <Hero entry={todayEntry} dayNumber={daysSinceStart + 1} isToday />
+        <DailyQuiz todayEntry={todayEntry} allEntries={data.entries} />
         <SubscribeForm />
         <Archive entries={recentEntries} totalPast={allPastEntries.length} />
       </main>
