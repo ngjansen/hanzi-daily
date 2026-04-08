@@ -75,10 +75,11 @@ export function useQuiz(todayEntry: WordEntry, allEntries: WordEntry[]): UseQuiz
   const todayStr = toDateStr(new Date());
   const key = scoreKey(todayStr);
 
+  const daysSinceEpoch = Math.floor(new Date(todayStr).getTime() / 86_400_000);
   const { options, correctIndex } = buildQuizOptions(
     todayEntry,
     allEntries,
-    todayEntry.id + (new Date(todayStr).getTime() % 10000),
+    todayEntry.id * 1000 + (daysSinceEpoch % 1000),
   );
 
   const stored = localStorage.getItem(key);

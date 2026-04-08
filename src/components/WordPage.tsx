@@ -2,6 +2,7 @@ import { useParams, Navigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Nav } from './Nav';
 import { Hero } from './Hero';
+import { useFavorites } from '../hooks/useFavorites';
 import wordsData from '../data/words.json';
 import type { WordsData, WordEntry } from '../types';
 
@@ -24,6 +25,7 @@ function wordSchema(entry: WordEntry, id: number) {
 export function WordPage() {
   const { id } = useParams<{ id: string }>();
   const numId = Number(id);
+  const { isFav, toggle } = useFavorites();
 
   const entry = data.entries.find((e) => e.id === numId);
   if (!entry) return <Navigate to="/" replace />;
@@ -43,7 +45,8 @@ export function WordPage() {
         <meta property="og:title" content={`${entry.chinese} — ${entry.english} | HanziDaily`} />
         <meta property="og:description" content={entry.backstory.slice(0, 200)} />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={`${SITE_URL}/og-image.png`} />
+        <meta property="og:image" content={`${SITE_URL}/api/og?wordId=${numId}`} />
+        <meta name="twitter:image" content={`${SITE_URL}/api/og?wordId=${numId}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${entry.chinese} — ${entry.english} | HanziDaily`} />
         <meta name="twitter:description" content={entry.backstory.slice(0, 200)} />
@@ -76,7 +79,12 @@ export function WordPage() {
               ← Today's word
             </Link>
           </div>
-          <Hero entry={entry} dayNumber={dayNumber} />
+          <Hero
+            entry={entry}
+            dayNumber={dayNumber}
+            isFav={isFav(entry.id)}
+            onToggleFav={() => toggle(entry.id)}
+          />
         </main>
       </div>
     </>

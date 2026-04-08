@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Nav } from './Nav';
 import { WordCard } from './WordCard';
+import { useFavorites } from '../hooks/useFavorites';
 import wordsData from '../data/words.json';
 import type { WordsData, WordEntry, WordCategory } from '../types';
 import styles from './BrowsePage.module.css';
@@ -23,6 +24,7 @@ const CATEGORY_FILTERS: { value: WordCategory | 'all'; label: string }[] = [
 export function BrowsePage() {
   const [query, setQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<WordCategory | 'all'>('all');
+  const { isFav, toggle } = useFavorites();
   const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
@@ -114,7 +116,12 @@ export function BrowsePage() {
                   to={`/word/${entry.id}`}
                   style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
                 >
-                  <WordCard entry={entry} dayNumber={entry.id} onClick={() => {}} />
+                  <WordCard
+                    entry={entry}
+                    dayNumber={entry.id}
+                    isFav={isFav(entry.id)}
+                    onToggleFav={() => toggle(entry.id)}
+                  />
                 </Link>
               ))}
             </div>

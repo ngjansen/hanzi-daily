@@ -75,6 +75,11 @@
   cursor: default;
 }
 
+.option:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
 .optionCorrect {
   background: rgba(34, 197, 94, 0.12);
   border-color: rgb(34, 197, 94);
