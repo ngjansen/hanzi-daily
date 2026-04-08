@@ -31,10 +31,16 @@
 }
 
 .archiveCount {
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--text-tertiary);
   font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity var(--t-fast);
+}
+
+.archiveCount:hover {
+  opacity: 0.75;
 }
 
 /* Show-more button */

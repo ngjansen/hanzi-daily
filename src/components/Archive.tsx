@@ -1,23 +1,18 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { WordCard } from './WordCard';
 import type { WordEntry } from '../types';
 import styles from './Archive.module.css';
 
-const VISIBLE_LIMIT = 30;
-
 interface ArchiveProps {
   entries: { entry: WordEntry; dayNumber: number }[];
+  totalPast: number;
 }
 
-export function Archive({ entries }: ArchiveProps) {
+export function Archive({ entries, totalPast }: ArchiveProps) {
   const { t } = useLanguage();
-  const [showAll, setShowAll] = useState(false);
 
   if (entries.length === 0) return null;
-
-  const visibleEntries = showAll ? entries : entries.slice(0, VISIBLE_LIMIT);
 
   return (
     <section className={styles.archive} aria-label="Past words archive">
@@ -27,14 +22,14 @@ export function Archive({ entries }: ArchiveProps) {
             <h2 className={styles.archiveHeading}>
               {t('往期词汇', 'Past Words')}
             </h2>
-            <span className={styles.archiveCount}>
-              {t(`${entries.length} 词`, `${entries.length} words`)}
-            </span>
+            <Link to="/browse" className={styles.archiveCount}>
+              {t(`查看全部 ${totalPast} 词 →`, `Browse all ${totalPast} words →`)}
+            </Link>
           </div>
         </div>
 
         <div className={styles.grid}>
-          {visibleEntries.map(({ entry, dayNumber }) => (
+          {entries.map(({ entry, dayNumber }) => (
             <Link
               key={entry.id}
               to={`/word/${entry.id}`}
@@ -48,20 +43,7 @@ export function Archive({ entries }: ArchiveProps) {
             </Link>
           ))}
         </div>
-
-        {entries.length > VISIBLE_LIMIT && !showAll && (
-          <button
-            className={styles.showMore}
-            onClick={() => setShowAll(true)}
-          >
-            {t('展开更多', 'Show more')}
-            <span className={styles.showMoreCount}>
-              {t(`· 还有 ${entries.length - VISIBLE_LIMIT} 个`, `· ${entries.length - VISIBLE_LIMIT} more`)}
-            </span>
-          </button>
-        )}
       </div>
-
     </section>
   );
 }

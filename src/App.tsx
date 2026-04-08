@@ -7,6 +7,7 @@ import { Archive } from './components/Archive';
 import { SubscribeForm } from './components/SubscribeForm';
 import { UnsubscribePage } from './components/UnsubscribePage';
 import { WordPage } from './components/WordPage';
+import { ResourcesPage } from './components/ResourcesPage';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
 import { getDaysSinceStart } from './lib/constants';
@@ -22,16 +23,15 @@ function HomePage() {
   const todayIndex = daysSinceStart % totalEntries;
   const todayEntry: WordEntry = data.entries[todayIndex];
 
-  // Past entries: all indices before today's (in rotation order)
-  const pastEntries: { entry: WordEntry; dayNumber: number }[] = [];
+  // All past entries in reverse order (most recent first)
+  const allPastEntries: { entry: WordEntry; dayNumber: number }[] = [];
   for (let i = 0; i < todayIndex; i++) {
-    pastEntries.push({
-      entry: data.entries[i],
-      dayNumber: i + 1,
-    });
+    allPastEntries.push({ entry: data.entries[i], dayNumber: i + 1 });
   }
-  // Reverse so most recent past is first
-  pastEntries.reverse();
+  allPastEntries.reverse();
+
+  // Homepage shows last 7 only
+  const recentEntries = allPastEntries.slice(0, 7);
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -39,7 +39,7 @@ function HomePage() {
       <main style={{ flex: 1 }}>
         <Hero entry={todayEntry} dayNumber={daysSinceStart + 1} isToday />
         <SubscribeForm />
-        <Archive entries={pastEntries} />
+        <Archive entries={recentEntries} totalPast={allPastEntries.length} />
       </main>
       <footer style={{
         borderTop: '1px solid var(--border)',
@@ -63,6 +63,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/word/:id" element={<WordPage />} />
           <Route path="/unsubscribe" element={<UnsubscribePage />} />
+          <Route path="/resources" element={<ResourcesPage />} />
         </Routes>
       </LanguageProvider>
     </ThemeProvider>
