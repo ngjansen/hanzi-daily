@@ -24,6 +24,11 @@
   transform: translateY(0) scale(0.92);
 }
 
+.btn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
 .btnActive {
   color: #e85c3a;
   border-color: rgba(232, 92, 58, 0.35);
