@@ -17,6 +17,7 @@ export interface WordEntry {
   english: string;
   meaning_zh?: string;
   category: WordCategory;
+  hsk_level?: number | null;
   examples: WordExample[];
   backstory: string;
   backstory_zh?: string;
