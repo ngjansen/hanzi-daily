@@ -8,6 +8,7 @@ import { SubscribeForm } from './components/SubscribeForm';
 import { UnsubscribePage } from './components/UnsubscribePage';
 import { WordPage } from './components/WordPage';
 import { ResourcesPage } from './components/ResourcesPage';
+import { BrowsePage } from './components/BrowsePage';
 import wordsData from './data/words.json';
 import type { WordsData, WordEntry } from './types';
 import { getDaysSinceStart } from './lib/constants';
@@ -64,6 +65,7 @@ function App() {
           <Route path="/word/:id" element={<WordPage />} />
           <Route path="/unsubscribe" element={<UnsubscribePage />} />
           <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/browse" element={<BrowsePage />} />
         </Routes>
       </LanguageProvider>
     </ThemeProvider>

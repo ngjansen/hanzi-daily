@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLanguage, type LangMode } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 import styles from './Nav.module.css';
@@ -17,6 +18,12 @@ export function Nav() {
       <div className={styles.brand}>
         <span className={styles.brandChinese}>每日一词</span>
         <span className={styles.brandSub}>Daily Chinese Word</span>
+      </div>
+
+      {/* Middle: nav links */}
+      <div className={styles.navLinks}>
+        <Link to="/browse" className={styles.navLink}>Browse</Link>
+        <Link to="/resources" className={styles.navLink}>Resources</Link>
       </div>
 
       {/* Right: controls */}
