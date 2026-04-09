@@ -13,6 +13,13 @@
   transition: background var(--t-slow), border-color var(--t-slow);
 }
 
+.headingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
 .heading {
   font-family: var(--font-display);
   font-size: 0.75rem;
@@ -20,7 +27,36 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-tertiary);
-  margin: 0 0 var(--space-4);
+  margin: 0;
+}
+
+.langToggle {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: background var(--t-fast), border-color var(--t-fast), color var(--t-fast);
+}
+
+.langToggle:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.langToggle:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.langToggleActive {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
 }
 
 .question {

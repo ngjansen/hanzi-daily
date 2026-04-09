@@ -1,4 +1,5 @@
 // src/components/DailyQuiz.tsx
+import { useState } from 'react';
 import { useQuiz } from '../hooks/useQuiz';
 import type { WordEntry } from '../types';
 import styles from './DailyQuiz.module.css';
@@ -13,6 +14,7 @@ export function DailyQuiz({ todayEntry, allEntries }: DailyQuizProps) {
     todayEntry,
     allEntries,
   );
+  const [lang, setLang] = useState<'en' | 'zh'>('en');
 
   function getOptionClass(i: number): string {
     if (!answered) return styles.option;
@@ -31,9 +33,23 @@ export function DailyQuiz({ todayEntry, allEntries }: DailyQuizProps) {
   return (
     <div className={styles.quiz}>
       <div className={styles.card}>
-        <p className={styles.heading}>Daily Quiz</p>
+        <div className={styles.headingRow}>
+          <p className={styles.heading}>Daily Quiz</p>
+          <button
+            className={`${styles.langToggle} ${lang === 'zh' ? styles.langToggleActive : ''}`}
+            onClick={() => setLang(l => l === 'en' ? 'zh' : 'en')}
+            aria-label="Toggle quiz language"
+          >
+            {lang === 'en' ? '中文' : 'EN'}
+          </button>
+        </div>
+
         <p className={styles.question}>
-          What does <span className={styles.questionWord}>{todayEntry.chinese}</span> mean?
+          {lang === 'en' ? (
+            <>What does <span className={styles.questionWord}>{todayEntry.chinese}</span> mean?</>
+          ) : (
+            <>「<span className={styles.questionWord}>{todayEntry.chinese}</span>」是什么意思？</>
+          )}
         </p>
 
         <div className={styles.options}>
@@ -47,17 +63,22 @@ export function DailyQuiz({ todayEntry, allEntries }: DailyQuizProps) {
               {answered && (
                 <span className={styles.optionIndicator}>{getIndicator(i)}</span>
               )}
-              {opt.english}
+              {lang === 'en' ? opt.english : opt.meaning_zh}
             </button>
           ))}
         </div>
 
         {answered && (
           <div className={`${styles.result} ${correct ? styles.resultCorrect : styles.resultWrong}`}>
-            <p className={styles.resultHeading}>{correct ? 'Correct!' : 'Not quite —'}</p>
+            <p className={styles.resultHeading}>{correct ? (lang === 'en' ? 'Correct!' : '答对了！') : (lang === 'en' ? 'Not quite —' : '答错了 —')}</p>
             <p>
-              {todayEntry.chinese} ({todayEntry.pinyin}) means &ldquo;{todayEntry.english}&rdquo;.{' '}
-              {todayEntry.meaning_zh && <span>{todayEntry.meaning_zh}</span>}
+              {lang === 'en' ? (
+                <>{todayEntry.chinese} ({todayEntry.pinyin}) means &ldquo;{todayEntry.english}&rdquo;.{' '}
+                {todayEntry.meaning_zh && <span>{todayEntry.meaning_zh}</span>}</>
+              ) : (
+                <>{todayEntry.chinese}（{todayEntry.pinyin}）的意思是"{todayEntry.meaning_zh}"。{' '}
+                <span>{todayEntry.english}</span></>
+              )}
             </p>
           </div>
         )}

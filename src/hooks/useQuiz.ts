@@ -8,6 +8,7 @@ export function scoreKey(dateStr: string): string {
 interface QuizOption {
   id: number;
   english: string;
+  meaning_zh: string;
 }
 
 export interface QuizState {
@@ -37,8 +38,8 @@ export function buildQuizOptions(
     .slice(0, 3);
 
   const allOptions: QuizOption[] = [
-    { id: correct.id, english: correct.english },
-    ...distractors.map(e => ({ id: e.id, english: e.english })),
+    { id: correct.id, english: correct.english, meaning_zh: correct.meaning_zh ?? '' },
+    ...distractors.map(e => ({ id: e.id, english: e.english, meaning_zh: e.meaning_zh ?? '' })),
   ];
 
   // Shuffle with same seed offset
