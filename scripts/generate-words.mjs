@@ -17,6 +17,8 @@ const TARGETS = {
   internet_culture: 50,
 };
 
+const CHUNK_SIZE = 25; // max entries per API call to avoid JSON corruption
+
 async function generateBatch(category, count, existing) {
   const existingList = existing.map(e => e.chinese).join('、');
 
@@ -51,14 +53,26 @@ Return ONLY the raw JSON array, no markdown fences, no explanation.`;
 
   const message = await client.messages.create({
     model: 'claude-opus-4-6',
-    max_tokens: 32768,
+    max_tokens: 16384,
     messages: [{ role: 'user', content: prompt }],
   });
 
-  const raw = message.content[0].text.trim();
+  let raw = message.content[0].text.trim();
+
+  // Strip markdown code fences if model wrapped the output
+  raw = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+
   const parsed = JSON.parse(raw);
-  if (!Array.isArray(parsed) || parsed.length !== count) {
-    throw new Error(`Expected ${count} entries, got ${Array.isArray(parsed) ? parsed.length : 'non-array'}`);
+  if (!Array.isArray(parsed)) {
+    throw new Error(`Expected JSON array, got ${typeof parsed}`);
+  }
+  // Truncate if model returned too many; warn if too few
+  if (parsed.length > count) {
+    console.warn(`  ⚠ Model returned ${parsed.length}, truncating to ${count}`);
+    return parsed.slice(0, count);
+  }
+  if (parsed.length < count) {
+    console.warn(`  ⚠ Model returned only ${parsed.length} of ${count} requested`);
   }
   return parsed;
 }
@@ -72,23 +86,30 @@ async function main() {
 
   const newEntries = [];
 
-  for (const [category, count] of Object.entries(TARGETS)) {
-    console.log(`\nGenerating ${count} entries for ${category}...`);
-    const allExisting = [...existing, ...newEntries];
+  for (const [category, total] of Object.entries(TARGETS)) {
+    console.log(`\nGenerating ${total} entries for ${category}...`);
+    let categoryCount = 0;
 
-    try {
-      const batch = await generateBatch(category, count, allExisting);
+    // Split into chunks to avoid large JSON corruption
+    for (let remaining = total; remaining > 0; remaining -= CHUNK_SIZE) {
+      const chunkSize = Math.min(remaining, CHUNK_SIZE);
+      const allExisting = [...existing, ...newEntries];
 
-      for (const entry of batch) {
-        entry.id = nextId++;
-        entry.category = category; // ensure correct category
-        newEntries.push(entry);
+      try {
+        const batch = await generateBatch(category, chunkSize, allExisting);
+
+        for (const entry of batch) {
+          entry.id = nextId++;
+          entry.category = category;
+          newEntries.push(entry);
+        }
+
+        categoryCount += batch.length;
+        console.log(`  ✓ Chunk done (${batch.length}) — ${categoryCount}/${total} total`);
+      } catch (err) {
+        console.error(`  ✗ Chunk failed:`, err.message);
+        console.error('  Skipping chunk, continuing...');
       }
-
-      console.log(`  ✓ Generated ${batch.length} entries`);
-    } catch (err) {
-      console.error(`  ✗ Failed for ${category}:`, err.message);
-      console.error('  Continuing with next category...');
     }
   }
 
