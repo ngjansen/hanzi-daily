@@ -10,11 +10,12 @@ const wordsPath = join(__dirname, '../src/data/words.json');
 const client = new Anthropic();
 
 const TARGETS = {
-  classical_idiom:  70,
+  classical_idiom:  220, // expand from 70 → 220 (+150)
   business:         60,
   modern_tech:      50,
   literature:       45,
   internet_culture: 50,
+  modern_idiom:     130, // new: contemporary idioms that entered everyday usage
 };
 
 const CHUNK_SIZE = 25; // max entries per API call to avoid JSON corruption
@@ -42,6 +43,7 @@ Category descriptions:
 - modern_tech: Technology, internet, and contemporary Chinese terms
 - literature: Literary expressions, poetic language, classical references
 - internet_culture: Slang, memes, trending phrases used by Chinese internet users
+- modern_idiom: Contemporary four-character or fixed expressions (新成语) that emerged in the 20th–21st century and are now widely used in modern Chinese
 
 Do NOT include any of these already-existing words: ${existingList}
 
