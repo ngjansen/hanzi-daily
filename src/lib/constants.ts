@@ -1,4 +1,4 @@
-export const LAUNCH_DATE = new Date('2026-02-22');
+export const LAUNCH_DATE = new Date('2026-04-09');
 
 export function getDaysSinceStart(date: Date): number {
   const start = new Date(LAUNCH_DATE);

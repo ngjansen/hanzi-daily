@@ -19,8 +19,20 @@ const TARGETS = {
 
 const CHUNK_SIZE = 25; // max entries per API call to avoid JSON corruption
 
-async function generateBatch(category, count, existing) {
-  const existingList = existing.map(e => e.chinese).join('、');
+function loadWords() {
+  return JSON.parse(readFileSync(wordsPath, 'utf8'));
+}
+
+function saveWords(entries) {
+  const data = {
+    generated_at: new Date().toISOString(),
+    entries,
+  };
+  writeFileSync(wordsPath, JSON.stringify(data, null, 2), 'utf8');
+}
+
+async function generateBatch(category, count, existingChinese) {
+  const existingList = existingChinese.join('、');
 
   const prompt = `Generate exactly ${count} Chinese vocabulary entries for the category "${category}" for a word-a-day learning app targeting intermediate-to-advanced learners.
 
@@ -52,7 +64,7 @@ Return a JSON array of exactly ${count} objects. Each object must have these exa
 Return ONLY the raw JSON array, no markdown fences, no explanation.`;
 
   const message = await client.messages.create({
-    model: 'claude-opus-4-6',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 16384,
     messages: [{ role: 'user', content: prompt }],
   });
@@ -78,48 +90,82 @@ Return ONLY the raw JSON array, no markdown fences, no explanation.`;
 }
 
 async function main() {
-  const wordsData = JSON.parse(readFileSync(wordsPath, 'utf8'));
-  const existing = wordsData.entries;
-  let nextId = existing.length > 0 ? Math.max(...existing.map(e => e.id)) + 1 : 1;
+  const wordsData = loadWords();
+  const entries = wordsData.entries; // mutated in place, saved after every chunk
+  let nextId = entries.reduce((max, e) => Math.max(max, e.id), 0) + 1;
 
-  console.log(`Starting with ${existing.length} entries. Target: ${existing.length + Object.values(TARGETS).reduce((a, b) => a + b, 0)}`);
+  // Count how many we already have per category (resume support)
+  const countByCategory = {};
+  for (const entry of entries) {
+    countByCategory[entry.category] = (countByCategory[entry.category] || 0) + 1;
+  }
 
-  const newEntries = [];
+  console.log(`\nResume status:`);
+  let totalRemaining = 0;
+  for (const [category, target] of Object.entries(TARGETS)) {
+    const have = countByCategory[category] || 0;
+    const need = Math.max(0, target - have);
+    totalRemaining += need;
+    console.log(`  ${category}: ${have}/${target} — need ${need} more`);
+  }
+  console.log(`Total to generate: ${totalRemaining}\n`);
 
-  for (const [category, total] of Object.entries(TARGETS)) {
-    console.log(`\nGenerating ${total} entries for ${category}...`);
+  if (totalRemaining === 0) {
+    console.log('✅ All categories complete. Nothing to do.');
+    return;
+  }
+
+  for (const [category, target] of Object.entries(TARGETS)) {
+    const have = countByCategory[category] || 0;
+    const need = Math.max(0, target - have);
+
+    if (need === 0) {
+      console.log(`\nSkipping ${category} — already complete (${have}/${target})`);
+      continue;
+    }
+
+    console.log(`\nGenerating ${need} entries for ${category} (have ${have}/${target})...`);
     let categoryCount = 0;
 
-    // Split into chunks to avoid large JSON corruption
-    for (let remaining = total; remaining > 0; remaining -= CHUNK_SIZE) {
+    for (let remaining = need; remaining > 0; remaining -= CHUNK_SIZE) {
       const chunkSize = Math.min(remaining, CHUNK_SIZE);
-      const allExisting = [...existing, ...newEntries];
+      // Only pass same-category words to keep prompt size small
+      const existingChinese = entries.filter(e => e.category === category).map(e => e.chinese);
 
-      try {
-        const batch = await generateBatch(category, chunkSize, allExisting);
+      let batch = null;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          batch = await generateBatch(category, chunkSize, existingChinese);
+          break;
+        } catch (err) {
+          console.error(`  ✗ Attempt ${attempt}/3 failed: ${err.message}`);
+          if (attempt < 3) {
+            const wait = attempt * 3000;
+            console.error(`  Retrying in ${wait / 1000}s...`);
+            await new Promise(r => setTimeout(r, wait));
+          } else {
+            console.error('  All retries exhausted, skipping chunk.');
+          }
+        }
+      }
 
+      if (batch) {
         for (const entry of batch) {
           entry.id = nextId++;
           entry.category = category;
-          newEntries.push(entry);
+          entries.push(entry);
         }
 
         categoryCount += batch.length;
-        console.log(`  ✓ Chunk done (${batch.length}) — ${categoryCount}/${total} total`);
-      } catch (err) {
-        console.error(`  ✗ Chunk failed:`, err.message);
-        console.error('  Skipping chunk, continuing...');
+
+        // Save after every chunk so progress is never lost on crash/interrupt
+        saveWords(entries);
+        console.log(`  ✓ Chunk saved (${batch.length}) — ${have + categoryCount}/${target} for ${category} | total: ${entries.length}`);
       }
     }
   }
 
-  const updated = {
-    generated_at: new Date().toISOString(),
-    entries: [...existing, ...newEntries],
-  };
-
-  writeFileSync(wordsPath, JSON.stringify(updated, null, 2), 'utf8');
-  console.log(`\n✅ Done. words.json now has ${updated.entries.length} entries.`);
+  console.log(`\n✅ Done. words.json now has ${entries.length} entries.`);
 }
 
 main().catch(console.error);

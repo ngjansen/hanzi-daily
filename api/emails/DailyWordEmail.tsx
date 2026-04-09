@@ -141,6 +141,21 @@ export function DailyWordEmail({ entry, dayNumber, siteUrl, unsubscribeUrl }: Da
 
           </Section>
 
+          {/* ── Resources section ── */}
+          <Section style={resourcesSection}>
+            <Text style={resourcesLabel}>RECOMMENDED FOR LEARNERS</Text>
+            <Text style={resourcesItem}>
+              <Link href={`${siteUrl}/resources?utm_source=email&utm_medium=footer&utm_campaign=italki`} style={resourcesLink}>
+                🎓 iTalki — find a Chinese tutor
+              </Link>
+            </Text>
+            <Text style={resourcesItem}>
+              <Link href={`${siteUrl}/resources?utm_source=email&utm_medium=footer&utm_campaign=skritter`} style={resourcesLink}>
+                ✍️ Skritter — practise writing characters
+              </Link>
+            </Text>
+          </Section>
+
           {/* ── Footer ── */}
           <Section style={footer}>
             <Text style={footerText}>
@@ -315,6 +330,35 @@ const ctaButton: React.CSSProperties = {
   borderRadius: '8px',
   textDecoration: 'none',
   boxShadow: '0 4px 20px rgba(200,71,58,0.25), 0 2px 8px rgba(200,71,58,0.15)',
+};
+
+const resourcesSection: React.CSSProperties = {
+  borderTop: '1px solid rgba(26,26,26,0.08)',
+  padding: '20px 32px',
+  textAlign: 'center',
+};
+
+const resourcesLabel: React.CSSProperties = {
+  fontFamily: "'Inter', Arial, sans-serif",
+  fontSize: '10px',
+  fontWeight: 700,
+  color: '#A0A0A0',
+  letterSpacing: '0.12em',
+  textTransform: 'uppercase',
+  margin: '0 0 10px',
+};
+
+const resourcesItem: React.CSSProperties = {
+  fontFamily: "'Inter', Arial, sans-serif",
+  fontSize: '13px',
+  color: '#6B6B6B',
+  margin: '0 0 6px',
+  lineHeight: '1.5',
+};
+
+const resourcesLink: React.CSSProperties = {
+  color: '#C8473A',
+  textDecoration: 'none',
 };
 
 const footer: React.CSSProperties = {

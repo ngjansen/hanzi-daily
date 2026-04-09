@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02",
+  "generated_at": "2026-04-09T08:51:07.119Z",
   "entries": [
     {
       "id": 1,
@@ -1800,6 +1800,3891 @@
       "backstory": "This idiom comes from Chapter 3 (谋攻篇) of Sun Tzu's《孙子兵法》(The Art of War), written around the 5th century BC. The full phrase is \"知己知彼，百战不殆,\" meaning \"Know yourself and know your enemy, and you will never be endangered in a hundred battles.\" Sun Tzu emphasized that thorough intelligence and self-assessment are the foundations of military strategy, a principle that has been widely applied in diplomacy, business, and competitive sports throughout history.",
       "meaning_zh": "既了解自己的优缺点，也了解对方的实力，百战百胜。",
       "backstory_zh": "此成语出自孙子《孙子兵法》第三篇「谋攻篇」，成书于春秋时期（约公元前5世纪）。完整表述为「知己知彼，百战不殆」，意为了解自己和敌人，在任何竞争中都不会失败。这一原理已被广泛应用于外交、商业和竞技体育中。"
+    },
+    {
+      "chinese": "卧虎藏龙",
+      "pinyin": "wò hǔ cáng lóng",
+      "english": "Hidden talents waiting to be discovered",
+      "meaning_zh": "比喻人才众多，未被发现或未被重用的能人隐居在某处。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个小镇卧虎藏龙，有许多默默奉献的工匠。",
+          "english": "This small town has hidden talents, with many craftsmen quietly contributing to society."
+        },
+        {
+          "chinese": "公司里卧虎藏龙，只要给机会，就能发现很多优秀人才。",
+          "english": "The company has many hidden talents; opportunities can reveal numerous excellent employees."
+        }
+      ],
+      "backstory": "This idiom originates from classical Chinese literature and refers to the hidden potential of individuals. It was popularized further by the famous film 'Crouching Tiger, Hidden Dragon,' symbolizing how talented individuals may remain unnoticed until given proper circumstances to showcase their abilities.",
+      "backstory_zh": "这个成语源自中国古典文学，指个人隐藏的潜力。后来被电影《卧虎藏龙》进一步推广，象征有才华的个人在没有适当机会时可能被忽视。",
+      "id": 91
+    },
+    {
+      "chinese": "厚积薄发",
+      "pinyin": "hòu jī báo fā",
+      "english": "Accumulate richly, release sparingly",
+      "meaning_zh": "指长期积累知识和能力，然后在适当时机释放出来，取得成就。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位作家厚积薄发，十年磨剑，终于出版了这部杰作。",
+          "english": "This author accumulated knowledge extensively before releasing her masterpiece after a decade of work."
+        },
+        {
+          "chinese": "学习就是一个厚积薄发的过程，需要耐心和毅力。",
+          "english": "Learning is a process of gradual accumulation followed by breakthrough achievement."
+        }
+      ],
+      "backstory": "Derived from classical Chinese philosophy, this idiom emphasizes the importance of patience and continuous learning. It reflects Confucian principles of self-cultivation and the belief that true success comes from sustained effort over time rather than sudden inspiration.",
+      "backstory_zh": "源自中国古代哲学，强调耐心和持续学习的重要性。体现了儒家的自我修养原则，认为真正的成功来自长期的坚持而非突然的灵感。",
+      "id": 92
+    },
+    {
+      "chinese": "见微知著",
+      "pinyin": "jiàn wēi zhī zhù",
+      "english": "Recognize great from small signs",
+      "meaning_zh": "从细微的征兆可以推断出大的发展趋势或结果。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "投资者见微知著，早早发现了这家公司的潜力。",
+          "english": "The investor recognized great potential from small signs, discovering the company's future early."
+        },
+        {
+          "chinese": "一个管理者要学会见微知著，及时发现问题。",
+          "english": "A good manager must learn to perceive major issues from minor signs."
+        }
+      ],
+      "backstory": "This idiom appears in classical Chinese texts and emphasizes the importance of keen observation. It reflects the Taoist and philosophical approach to understanding the world through careful attention to details and patterns, suggesting that wisdom comes from seeing beyond surface appearances.",
+      "backstory_zh": "这个成语出现在中国古典文献中，强调敏锐观察的重要性。反映了道家和哲学的观点，认为智慧来自对细节和模式的仔细观察。",
+      "id": 93
+    },
+    {
+      "chinese": "志在千里",
+      "pinyin": "zhì zài qiān lǐ",
+      "english": "Ambitious aspirations span thousands of miles",
+      "meaning_zh": "指志向远大，目标宏伟，不因为年纪或条件限制而放弃。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "虽然他已经退休，但他志在千里，仍在为梦想而努力。",
+          "english": "Although retired, he maintains grand ambitions and continues pursuing his dreams."
+        },
+        {
+          "chinese": "年轻人应该志在千里，敢于挑战自己的极限。",
+          "english": "Young people should harbor lofty aspirations and dare to challenge their limits."
+        }
+      ],
+      "backstory": "This idiom is attributed to Cao Cao, a famous military strategist of the Three Kingdoms period, from his poem 'Short Song.' It encourages individuals to maintain high aspirations regardless of age or circumstances, embodying the spirit of perseverance and determination in Chinese culture.",
+      "backstory_zh": "这个成语来自三国时期名将曹操的诗歌《短歌行》。它鼓励个人无论年纪或环境如何都要保持远大的志向，体现了中国文化中的坚持和决心精神。",
+      "id": 94
+    },
+    {
+      "chinese": "天道酬勤",
+      "pinyin": "tiān dào chóu qín",
+      "english": "Heaven rewards diligent effort",
+      "meaning_zh": "指上天眷顾勤奋的人，通过努力和勤奋最终会获得成功和回报。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他相信天道酬勤，每天坚持学习和锻炼。",
+          "english": "He believes that heaven rewards diligence, so he persists daily in study and exercise."
+        },
+        {
+          "chinese": "天道酬勤，只要你付出足够的努力，就一定会成功。",
+          "english": "Heaven rewards the diligent; sufficient effort will inevitably lead to success."
+        }
+      ],
+      "backstory": "Rooted in Confucian and Taoist philosophy, this idiom represents a core Chinese cultural belief that moral effort and hard work will be rewarded by the natural order of the universe. It has been emphasized throughout Chinese history as a motivational principle for personal and professional development.",
+      "backstory_zh": "根植于儒家和道家哲学，这个成语代表了中国文化的核心信念，即道德努力和勤奋会得到宇宙自然秩序的回报。历史上一直被强调为个人和职业发展的激励原则。",
+      "id": 95
+    },
+    {
+      "chinese": "宁为玉碎，不为瓦全",
+      "pinyin": "níng wéi yù suì, bù wéi wǎ quán",
+      "english": "Better to break as jade than survive as tile",
+      "meaning_zh": "宁愿高尚而毁灭，也不愿卑贱而苟活，表示对节操和品格的坚守。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "烈士们抱着宁为玉碎，不为瓦全的信念，英勇牺牲。",
+          "english": "The martyrs, holding to the principle of breaking as jade rather than surviving as tile, sacrificed bravely."
+        },
+        {
+          "chinese": "他宁为玉碎，不为瓦全，拒绝了不道德的商业交易。",
+          "english": "He chose integrity over survival, refusing an unethical business deal."
+        }
+      ],
+      "backstory": "This idiom originates from classical Chinese poetry and history, particularly associated with discussions of honor and integrity during the Tang Dynasty. It has been used to describe the noble choices of scholars, warriors, and revolutionaries who prioritized their principles and reputation over mere survival or material gain.",
+      "backstory_zh": "这个成语源自中国古典诗歌和历史，特别与唐代关于荣誉和廉洁的讨论相关。它被用来描述那些重视原则和声誉而非单纯生存或物质利益的学者、战士和革命者的高尚选择。",
+      "id": 96
+    },
+    {
+      "chinese": "明月清风",
+      "pinyin": "míng yuè qīng fēng",
+      "english": "Bright moon and clear breeze",
+      "meaning_zh": "比喻清廉高洁的品德，也指清闲、舒适的境界。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他一生明月清风，从不贪图富贵。",
+          "english": "He lived a life of integrity and purity, never desiring wealth or status."
+        },
+        {
+          "chinese": "在乡村，人们享受着明月清风的惬意生活。",
+          "english": "In the countryside, people enjoy the peaceful pleasures of moonlit nights and gentle breezes."
+        }
+      ],
+      "backstory": "This poetic idiom has roots in Chinese classical literature and Taoist philosophy, often appearing in poems and paintings. It represents both the literal appreciation of natural beauty and the metaphorical ideal of a pure, uncorrupted character—qualities highly valued by Chinese scholars and literati throughout history.",
+      "backstory_zh": "这个富有诗意的成语根植于中国古典文学和道家哲学，经常出现在诗歌和绘画中。它既代表对自然美的赞赏，也象征了纯洁、廉正的品格理想——这些品质在中国历史上一直受到学者和文人的重视。",
+      "id": 97
+    },
+    {
+      "chinese": "饮水思源",
+      "pinyin": "yǐn shuǐ sī yuán",
+      "english": "Drink water and recall its source",
+      "meaning_zh": "指饮水时想到水的源头，比喻不忘根本、不忘恩情、感念来处。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们要饮水思源，记住父母和老师的恩情。",
+          "english": "We should remember our roots and be grateful for the kindness of our parents and teachers."
+        },
+        {
+          "chinese": "公司的成功离不开所有员工的努力，我们应该饮水思源。",
+          "english": "The company's success is due to all employees' efforts; we should never forget their contributions."
+        }
+      ],
+      "backstory": "This idiom emphasizes the virtue of gratitude and remembrance in Chinese culture. It originated from classical literature and reflects Confucian values about honoring one's origins, maintaining familial relationships, and showing appreciation for those who have helped along the way. It remains a widely taught moral principle.",
+      "backstory_zh": "这个成语强调了中国文化中感恩和记忆的美德。它源自古典文学，反映了儒家关于尊重来处、维持家庭关系和感谢帮助者的价值观。它至今仍是一个广泛传授的道德原则。",
+      "id": 98
+    },
+    {
+      "chinese": "厚德载物",
+      "pinyin": "hòu dé zài wù",
+      "english": "Virtue of great capacity bears all things",
+      "meaning_zh": "指高尚的道德品质能够承载和容纳一切，强调德行的重要性。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "一个好的领导者应该厚德载物，包容下属的不足。",
+          "english": "A good leader should practice great virtue to bear the shortcomings of subordinates."
+        },
+        {
+          "chinese": "厚德载物是中华文明的重要价值观。",
+          "english": "Virtue of great capacity is an important value in Chinese civilization."
+        }
+      ],
+      "backstory": "This idiom comes from the I Ching (Book of Changes), one of the oldest Chinese classical texts. It represents the Confucian ideal that moral excellence and virtue are the foundation of all achievements. The phrase has been used for centuries to describe the qualities of virtuous leaders, sages, and exemplary individuals in Chinese society.",
+      "backstory_zh": "这个成语源自《易经》，是中国最古老的经典文献之一。它代表了儒家理想，认为道德卓越和品德是所有成就的基础。几个世纪以来，它一直被用来描述中国社会中有品德的领导者、圣贤和模范人物的品质。",
+      "id": 99
+    },
+    {
+      "chinese": "春风化雨",
+      "pinyin": "chūn fēng huà yǔ",
+      "english": "Spring breeze transforms with gentle rain",
+      "meaning_zh": "比喻教育和感化的作用润物无声，像春风春雨一样温柔而有效。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "好的教师应该春风化雨般地引导学生。",
+          "english": "Good teachers should guide students with gentle influence like spring wind and rain."
+        },
+        {
+          "chinese": "他用春风化雨的方式教育孩子，效果非常好。",
+          "english": "He educates his children with gentle and patient influence, achieving excellent results."
+        }
+      ],
+      "backstory": "This idiom is derived from classical Chinese poetry and philosophy, particularly associated with the concept of education and transformation. It emphasizes the subtle, gentle, and enduring nature of positive influence, reflecting Confucian educational philosophy that values patience, kindness, and subtle guidance over harsh discipline.",
+      "backstory_zh": "这个成语源自中国古典诗歌和哲学，特别与教育和转变的概念相关。它强调了积极影响的微妙、温柔和持久的性质，反映了儒家教育哲学对耐心、善良和微妙指导的重视，而不是严厉的纪律。",
+      "id": 100
+    },
+    {
+      "chinese": "卓尔不群",
+      "pinyin": "zhuó ěr bù qún",
+      "english": "Outstandingly superior to the rest",
+      "meaning_zh": "指才能、品质或成就远高于一般人，显得非常突出。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位科学家的研究卓尔不群，在业界获得了极高的认可。",
+          "english": "This scientist's research stands out remarkably, gaining high recognition in the field."
+        },
+        {
+          "chinese": "她从众多候选人中卓尔不群地脱颖而出。",
+          "english": "She stood out distinctly from numerous candidates."
+        }
+      ],
+      "backstory": "This idiom appears in classical Chinese literature and represents the ideal of excellence and distinction. It comes from discussions of superior individuals in Confucian texts and has been used throughout Chinese history to describe exceptional people who rise above ordinary standards through talent, virtue, or achievement.",
+      "backstory_zh": "这个成语出现在中国古典文学中，代表了卓越和超越的理想。它来自儒家经典中对杰出个人的讨论，在中国历史上一直被用来描述通过才能、品德或成就超越平凡标准的非凡人物。",
+      "id": 101
+    },
+    {
+      "chinese": "持之以恒",
+      "pinyin": "chí zhī yǐ héng",
+      "english": "Persist with constant effort over time",
+      "meaning_zh": "指持续地坚持下去，永不放弃，始终如一地朝着目标努力。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "成功需要持之以恒的努力和耐心。",
+          "english": "Success requires persistent effort and patience maintained over time."
+        },
+        {
+          "chinese": "他持之以恒地锻炼身体，最终获得了健康。",
+          "english": "He maintained consistent exercise habits and eventually achieved good health."
+        }
+      ],
+      "backstory": "This idiom reflects fundamental Chinese philosophical values about perseverance and dedication. It appears frequently in classical texts and has been a core principle in Chinese education for centuries. The phrase emphasizes that long-term, consistent effort is the key to overcoming obstacles and achieving meaningful goals.",
+      "backstory_zh": "这个成语反映了中国关于毅力和奉献的基本哲学价值观。它在经典文献中经常出现，几个世纪以来一直是中国教育的核心原则。这个短语强调持续一致的努力是克服障碍和实现有意义目标的关键。",
+      "id": 102
+    },
+    {
+      "chinese": "百闻不如一见",
+      "pinyin": "bǎi wén bù rú yī jiàn",
+      "english": "Hearing a hundred times cannot match seeing once",
+      "meaning_zh": "指听再多的介绍和说法，也不如亲眼看一次来得真切有力。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "关于这个地方的描述很多，但百闻不如一见，我们应该亲自去看看。",
+          "english": "Many descriptions exist about this place, but seeing it ourselves is far more convincing."
+        },
+        {
+          "chinese": "他人的建议很宝贵，但百闻不如一见，自己的体验更重要。",
+          "english": "Others' advice is valuable, but firsthand experience is ultimately more important."
+        }
+      ],
+      "backstory": "This idiom has appeared in Chinese literature since ancient times, emphasizing the importance of direct observation and personal experience. It reflects a philosophical stance that values empirical knowledge over hearsay, a principle that has influenced Chinese thought for centuries and remains relevant in modern scientific and practical applications.",
+      "backstory_zh": "这个成语自古以来就出现在中国文献中，强调直接观察和个人经验的重要性。它反映了重视经验知识而非传闻的哲学立场，这一原则几个世纪以来一直影响中国思想，在现代科学和实际应用中仍然相关。",
+      "id": 103
+    },
+    {
+      "chinese": "砥砺前行",
+      "pinyin": "dǐ lì qián xíng",
+      "english": "Advance while honing and strengthening oneself",
+      "meaning_zh": "指在前进的过程中不断磨练和完善自己，提高能力和品质。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "国家砥砺前行，在改革创新中不断发展进步。",
+          "english": "The nation advances while continually honing itself through reform and innovation."
+        },
+        {
+          "chinese": "我们要砥砺前行，在挑战中增强自己的实力。",
+          "english": "We should advance while strengthening ourselves through facing challenges."
+        }
+      ],
+      "backstory": "This idiom combines classical imagery of stone sharpening (砥砺) with the modern sense of progression. While rooted in classical Chinese language, it has become particularly popular in contemporary political and motivational discourse. It reflects the balance between maintaining traditional values while pursuing progress and development.",
+      "backstory_zh": "这个成语结合了磨石（砥砺）的古典意象与现代的进步概念。虽然根植于古典中文，但它在当代政治和励志话语中变得特别流行。它反映了在保持传统价值观和追求进步发展之间的平衡。",
+      "id": 104
+    },
+    {
+      "chinese": "锲而不舍",
+      "pinyin": "qiè ér bù shě",
+      "english": "Carve persistently without ceasing",
+      "meaning_zh": "比喻持续不懈地做某事，如同用刀刻木头一样，不断重复最终会成功。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他锲而不舍地追求梦想，最终实现了自己的目标。",
+          "english": "He pursued his dreams with unwavering persistence and finally achieved his goals."
+        },
+        {
+          "chinese": "学习就是一个锲而不舍的过程，需要不断地重复和巩固。",
+          "english": "Learning is a process of ceaseless effort, requiring constant repetition and reinforcement."
+        }
+      ],
+      "backstory": "This idiom comes from classical Chinese philosophy texts, particularly Confucian writings about self-cultivation and moral development. The metaphor of carving wood emphasizes that significant achievements require consistent, repeated effort over time. It remains a fundamental concept in Chinese educational and personal development philosophy.",
+      "backstory_zh": "这个成语源自中国古典哲学文献，特别是关于自我修养和道德发展的儒家著作。雕刻木头的比喻强调重大成就需要随着时间的推移持续不断地努力。它仍然是中国教育和个人发展哲学中的基本概念。",
+      "id": 105
+    },
+    {
+      "chinese": "商业生态",
+      "pinyin": "shāng yè shēng tài",
+      "english": "Business ecosystem",
+      "meaning_zh": "指由企业、供应商、客户等相互联系形成的完整商业系统。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们需要建立一个完整的商业生态来提高竞争力。",
+          "english": "We need to establish a complete business ecosystem to enhance competitiveness."
+        },
+        {
+          "chinese": "这个平台通过整合资源形成了强大的商业生态。",
+          "english": "This platform has created a powerful business ecosystem by integrating resources."
+        }
+      ],
+      "backstory": "This term emerged in the 21st century as businesses increasingly focused on interconnected systems rather than isolated operations. It reflects the modern understanding that successful companies operate within networks of partnerships and stakeholder relationships.",
+      "backstory_zh": "这个术语在21世纪随着企业越来越关注相互联系的系统而出现。它反映了现代商业理解，即成功的公司在合作伙伴和利益相关者关系的网络中运营。",
+      "id": 106
+    },
+    {
+      "chinese": "供应链",
+      "pinyin": "gōng yìng liàn",
+      "english": "Supply chain",
+      "meaning_zh": "从原材料获取到最终产品交付给消费者的整个过程。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "优化供应链可以降低生产成本。",
+          "english": "Optimizing the supply chain can reduce production costs."
+        },
+        {
+          "chinese": "疫情对我们的供应链造成了严重的影响。",
+          "english": "The pandemic had a serious impact on our supply chain."
+        }
+      ],
+      "backstory": "The term gained prominence during the late 20th century as manufacturing became increasingly global and complex. Supply chain management is now a critical discipline in business operations and has become especially relevant during recent global disruptions.",
+      "backstory_zh": "这个术语在20世纪后期随着制造业日益全球化和复杂化而广泛使用。供应链管理现已成为商业运营中的关键学科，尤其在全球中断时期更为重要。",
+      "id": 107
+    },
+    {
+      "chinese": "利润率",
+      "pinyin": "lì rùn lǜ",
+      "english": "Profit margin",
+      "meaning_zh": "利润与收入的比率，用来衡量企业的盈利能力。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "今年我们的利润率比去年增长了15%。",
+          "english": "Our profit margin increased by 15% compared to last year."
+        },
+        {
+          "chinese": "分析利润率可以帮助我们了解业务的真实表现。",
+          "english": "Analyzing profit margin helps us understand the true performance of our business."
+        }
+      ],
+      "backstory": "This financial metric is fundamental to business analysis and has been used in accounting for centuries. In modern Chinese business contexts, it's essential vocabulary for investors, managers, and financial analysts.",
+      "backstory_zh": "这个财务指标是商业分析的基础，在会计中已使用数百年。在现代中文商业背景中，这是投资者、管理者和财务分析师必备的词汇。",
+      "id": 108
+    },
+    {
+      "chinese": "市场份额",
+      "pinyin": "shì chǎng fèn é",
+      "english": "Market share",
+      "meaning_zh": "一个企业的销售额占整个市场总销售额的比例。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们公司的市场份额在业界排名第三。",
+          "english": "Our company's market share ranks third in the industry."
+        },
+        {
+          "chinese": "增加市场份额是我们今年的首要目标。",
+          "english": "Increasing market share is our primary goal this year."
+        }
+      ],
+      "backstory": "Market share has been a key business metric since the development of modern capitalism. It represents a company's competitive position and is critical for strategic planning and investment decisions.",
+      "backstory_zh": "自现代资本主义发展以来，市场份额一直是关键的商业指标。它代表了公司的竞争地位，对战略规划和投资决策至关重要。",
+      "id": 109
+    },
+    {
+      "chinese": "融资",
+      "pinyin": "róng zī",
+      "english": "Financing, fundraising",
+      "meaning_zh": "企业通过各种途径筹集资金以用于经营和发展。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们的初创公司最近完成了A轮融资。",
+          "english": "Our startup recently completed Series A financing."
+        },
+        {
+          "chinese": "融资渠道多样化有助于降低融资成本。",
+          "english": "Diversifying financing channels helps reduce financing costs."
+        }
+      ],
+      "backstory": "Financing is a fundamental business practice that has evolved significantly in the digital age. Modern Chinese businesses use diverse financing methods including venture capital, bank loans, and crowdfunding, making this essential vocabulary for entrepreneurs.",
+      "backstory_zh": "融资是基础的商业实践，在数字时代已发生重大演变。现代中文企业使用多种融资方法，包括风险投资、银行贷款和众筹，使这成为创业者必备的词汇。",
+      "id": 110
+    },
+    {
+      "chinese": "竞争力",
+      "pinyin": "jìng zhēng lì",
+      "english": "Competitiveness",
+      "meaning_zh": "企业相比其他竞争对手所具备的优势和能力。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "提高产品质量可以增强我们的竞争力。",
+          "english": "Improving product quality can enhance our competitiveness."
+        },
+        {
+          "chinese": "国际竞争力是衡量企业发展的重要指标。",
+          "english": "International competitiveness is an important measure of business development."
+        }
+      ],
+      "backstory": "Competitiveness has become increasingly important in the globalized economy. The term is widely used in Chinese business and policy discussions to evaluate both individual companies and national economic strength.",
+      "backstory_zh": "在全球化经济中，竞争力变得越来越重要。这个术语在中文商业和政策讨论中广泛使用，用来评估个别公司和国家经济力量。",
+      "id": 111
+    },
+    {
+      "chinese": "商业模式",
+      "pinyin": "shāng yè mó shì",
+      "english": "Business model",
+      "meaning_zh": "企业如何创造、传递和获取价值的方式和框架。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "平台型商业模式在互联网时代非常流行。",
+          "english": "Platform-based business models are very popular in the internet age."
+        },
+        {
+          "chinese": "创新商业模式是企业长期竞争的关键。",
+          "english": "Innovative business models are key to long-term competitive advantage."
+        }
+      ],
+      "backstory": "The concept of business model became prominent in the 1990s with the rise of internet companies. Chinese businesses have embraced this concept extensively, particularly with the success of tech giants that pioneered new models.",
+      "backstory_zh": "商业模式概念在1990年代随着互联网公司的兴起而变得突出。中文企业广泛接受了这个概念，特别是随着开创新模式的科技巨头的成功。",
+      "id": 112
+    },
+    {
+      "chinese": "战略规划",
+      "pinyin": "zhàn lüè guī huà",
+      "english": "Strategic planning",
+      "meaning_zh": "企业为实现长期目标而制定的总体计划和方向。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "良好的战略规划有助于企业避免风险。",
+          "english": "Good strategic planning helps companies avoid risks."
+        },
+        {
+          "chinese": "我们需要重新审视我们的战略规划。",
+          "english": "We need to review our strategic planning."
+        }
+      ],
+      "backstory": "Strategic planning emerged as a formal discipline in the mid-20th century. In Chinese business contexts, it reflects the influence of both Western management theory and traditional Chinese strategic thinking.",
+      "backstory_zh": "战略规划在20世纪中期作为正式学科出现。在中文商业背景中，它反映了西方管理理论和传统中文战略思想的影响。",
+      "id": 113
+    },
+    {
+      "chinese": "客户体验",
+      "pinyin": "kè hù tǐ yàn",
+      "english": "Customer experience",
+      "meaning_zh": "客户与企业互动的全过程中所获得的感受和印象。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "改善客户体验是我们的重点工作。",
+          "english": "Improving customer experience is our priority."
+        },
+        {
+          "chinese": "良好的客户体验能够提高客户忠诚度。",
+          "english": "Good customer experience can increase customer loyalty."
+        }
+      ],
+      "backstory": "Customer experience has become a central focus in modern business, especially with the rise of service-oriented industries. Chinese companies now heavily invest in understanding and enhancing customer experience across all touchpoints.",
+      "backstory_zh": "客户体验在现代商业中已成为中心焦点，尤其随着服务导向型产业的兴起。中文公司现在大力投资于理解和改善所有接触点的客户体验。",
+      "id": 114
+    },
+    {
+      "chinese": "数据分析",
+      "pinyin": "shù jù fēn xī",
+      "english": "Data analysis",
+      "meaning_zh": "收集、整理和分析数据以支持商业决策的过程。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "数据分析帮助我们更好地了解消费者行为。",
+          "english": "Data analysis helps us better understand consumer behavior."
+        },
+        {
+          "chinese": "基于数据分析的决策更加科学和有效。",
+          "english": "Data-driven decisions are more scientific and effective."
+        }
+      ],
+      "backstory": "Data analysis has become indispensable in modern business, particularly with big data and AI advancement. Chinese companies, especially in tech sectors, have embraced data analytics as a core competency for competitive advantage.",
+      "backstory_zh": "随着大数据和人工智能的进步，数据分析已成为现代商业中不可或缺的部分。中文公司，特别是科技部门，已将数据分析作为核心竞争力。",
+      "id": 115
+    },
+    {
+      "chinese": "品牌价值",
+      "pinyin": "pǐn pái jià zhí",
+      "english": "Brand value",
+      "meaning_zh": "品牌在市场中的认知度、美誉度和经济价值的总和。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "建立强势品牌价值需要长期投入。",
+          "english": "Building strong brand value requires long-term investment."
+        },
+        {
+          "chinese": "我们的品牌价值在业界排名前五。",
+          "english": "Our brand value ranks in the top five in the industry."
+        }
+      ],
+      "backstory": "Brand value has become a critical asset in modern business, particularly in consumer-oriented industries. Chinese companies have increasingly focused on building strong brands as they expand internationally and compete with established global brands.",
+      "backstory_zh": "品牌价值在现代商业中已成为关键资产，特别是在面向消费者的产业中。随着中文公司扩大国际业务和与全球知名品牌竞争，它们越来越关注品牌建设。",
+      "id": 116
+    },
+    {
+      "chinese": "投资回报率",
+      "pinyin": "tóu zī huí bào lǜ",
+      "english": "Return on investment (ROI)",
+      "meaning_zh": "投资所获得的利益与投入成本的比率。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个项目的投资回报率超过了50%。",
+          "english": "This project's ROI exceeded 50%."
+        },
+        {
+          "chinese": "我们需要确保每笔投资都有合理的回报率。",
+          "english": "We need to ensure reasonable ROI for every investment."
+        }
+      ],
+      "backstory": "ROI is one of the most fundamental metrics in finance and has been used for centuries. In contemporary Chinese business, it remains essential for evaluating investment decisions and project performance.",
+      "backstory_zh": "ROI是金融中最基础的指标之一，已使用数百年。在当代中文商业中，它仍然是评估投资决策和项目绩效的必要指标。",
+      "id": 117
+    },
+    {
+      "chinese": "成本控制",
+      "pinyin": "chéng běn kòng zhì",
+      "english": "Cost control",
+      "meaning_zh": "通过管理措施减少企业运营成本的过程。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "严格的成本控制对于提高利润率至关重要。",
+          "english": "Strict cost control is essential for improving profit margins."
+        },
+        {
+          "chinese": "我们实施了一系列成本控制措施。",
+          "english": "We have implemented a series of cost control measures."
+        }
+      ],
+      "backstory": "Cost control has been a fundamental management practice since the industrial era. In modern Chinese manufacturing and service industries, effective cost control remains critical for maintaining competitiveness in an increasingly price-sensitive market.",
+      "backstory_zh": "自工业时代以来，成本控制一直是基本的管理实践。在现代中文制造业和服务业中，有效的成本控制仍然对于在日益价格敏感的市场中维持竞争力至关重要。",
+      "id": 118
+    },
+    {
+      "chinese": "市场调研",
+      "pinyin": "shì chǎng tiáo yán",
+      "english": "Market research",
+      "meaning_zh": "通过调查和分析市场情况来了解消费者需求和竞争环境。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "详细的市场调研为产品开发提供了重要依据。",
+          "english": "Detailed market research provides important basis for product development."
+        },
+        {
+          "chinese": "我们需要进行全面的市场调研来评估新市场。",
+          "english": "We need to conduct comprehensive market research to assess new markets."
+        }
+      ],
+      "backstory": "Market research has been essential for business decision-making since the 20th century. In contemporary China, it's particularly important as companies seek to understand the rapidly evolving preferences of Chinese consumers.",
+      "backstory_zh": "自20世纪以来，市场调研对商业决策至关重要。在当代中国，随着公司寻求理解中国消费者快速变化的偏好，它尤其重要。",
+      "id": 119
+    },
+    {
+      "chinese": "渠道管理",
+      "pinyin": "qú dào guǎn lǐ",
+      "english": "Channel management",
+      "meaning_zh": "企业管理和优化产品从生产商到消费者的流通途径。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "建立多元化的渠道管理体系有助于扩大销售。",
+          "english": "Establishing a diversified channel management system helps expand sales."
+        },
+        {
+          "chinese": "线上和线下渠道的融合是当今的发展趋势。",
+          "english": "Integration of online and offline channels is a current development trend."
+        }
+      ],
+      "backstory": "Channel management has evolved significantly with the rise of e-commerce. In modern China, companies face the challenge of managing multiple channels including traditional retail, online platforms, and direct-to-consumer models.",
+      "backstory_zh": "随着电子商务的兴起，渠道管理已发生重大演变。在现代中国，公司面临管理多个渠道的挑战，包括传统零售、在线平台和直接面向消费者的模式。",
+      "id": 120
+    },
+    {
+      "chinese": "企业文化",
+      "pinyin": "qǐ yè wén huà",
+      "english": "Corporate culture",
+      "meaning_zh": "企业在发展过程中形成的独特价值观、信念和行为方式。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "良好的企业文化能够提高员工的工作效率。",
+          "english": "Good corporate culture can improve employee productivity."
+        },
+        {
+          "chinese": "我们正在打造创新和开放的企业文化。",
+          "english": "We are building a culture of innovation and openness."
+        }
+      ],
+      "backstory": "Corporate culture gained prominence in business theory during the 1980s. In contemporary China, it has become increasingly important as companies compete for talent and aim to build strong organizational identities.",
+      "backstory_zh": "企业文化在20世纪80年代的商业理论中获得了关注。在当代中国，随着公司竞争人才和建立强大的组织身份，它变得越来越重要。",
+      "id": 121
+    },
+    {
+      "chinese": "绩效管理",
+      "pinyin": "jì xiào guǎn lǐ",
+      "english": "Performance management",
+      "meaning_zh": "通过目标设定、评估和反馈来管理员工或企业的表现。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "科学的绩效管理体系能够激励员工。",
+          "english": "A scientific performance management system can motivate employees."
+        },
+        {
+          "chinese": "我们建立了基于KPI的绩效管理框架。",
+          "english": "We have established a KPI-based performance management framework."
+        }
+      ],
+      "backstory": "Performance management emerged as a formal discipline in the late 20th century. In Chinese businesses, it has become widespread, particularly influenced by multinational corporations' practices and domestic management innovations.",
+      "backstory_zh": "绩效管理在20世纪后期作为正式学科出现。在中文企业中，它已变得普遍，特别是受到跨国公司实践和国内管理创新的影响。",
+      "id": 122
+    },
+    {
+      "chinese": "风险评估",
+      "pinyin": "fēng xiǎn píng gū",
+      "english": "Risk assessment",
+      "meaning_zh": "识别、分析和评估企业可能面临的风险及其影响。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "定期进行风险评估是企业管理的重要组成部分。",
+          "english": "Regular risk assessment is an important part of business management."
+        },
+        {
+          "chinese": "我们需要进行全面的风险评估来制定应对策略。",
+          "english": "We need to conduct a comprehensive risk assessment to develop response strategies."
+        }
+      ],
+      "backstory": "Risk assessment became formalized as a business practice in the 20th century, particularly in financial services and insurance. In modern Chinese enterprises, it's essential for regulatory compliance and strategic planning.",
+      "backstory_zh": "风险评估在20世纪作为商业实践正式化，特别是在金融服务和保险中。在现代中文企业中，它对于监管合规和战略规划至关重要。",
+      "id": 123
+    },
+    {
+      "chinese": "市场定位",
+      "pinyin": "shì chǎng dìng wèi",
+      "english": "Market positioning",
+      "meaning_zh": "确定企业或产品在目标市场中的独特形象和地位。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "清晰的市场定位有助于品牌的长期发展。",
+          "english": "Clear market positioning helps with long-term brand development."
+        },
+        {
+          "chinese": "我们的市场定位是高端和专业的服务提供商。",
+          "english": "Our market positioning is a high-end and professional service provider."
+        }
+      ],
+      "backstory": "Market positioning became a key concept in marketing strategy during the 1970s. In contemporary China, it remains crucial for companies differentiating themselves in increasingly competitive markets.",
+      "backstory_zh": "市场定位在20世纪70年代成为市场营销战略的关键概念。在当代中国，对于公司在日益竞争的市场中进行差异化仍然至关重要。",
+      "id": 124
+    },
+    {
+      "chinese": "资产配置",
+      "pinyin": "zī chǎn pèi zhì",
+      "english": "Asset allocation",
+      "meaning_zh": "将投资资金按比例分配到不同类型的资产以达到风险和收益的平衡。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "合理的资产配置可以降低投资风险。",
+          "english": "Proper asset allocation can reduce investment risk."
+        },
+        {
+          "chinese": "机构投资者通常采用多元化的资产配置策略。",
+          "english": "Institutional investors typically employ diversified asset allocation strategies."
+        }
+      ],
+      "backstory": "Asset allocation is a fundamental principle in investment management developed in modern financial theory. In contemporary China, it's increasingly important for both institutional and retail investors managing their portfolios.",
+      "backstory_zh": "资产配置是现代金融理论中开发的投资管理的基本原则。在当代中国，对于管理投资组合的机构和零售投资者都越来越重要。",
+      "id": 125
+    },
+    {
+      "chinese": "利益相关者",
+      "pinyin": "lì yì xiāng guān zhě",
+      "english": "Stakeholder",
+      "meaning_zh": "与企业相关、可能受企业行动影响的各类人员和组织。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "企业需要平衡各方利益相关者的利益。",
+          "english": "Enterprises need to balance the interests of various stakeholders."
+        },
+        {
+          "chinese": "利益相关者包括员工、客户、供应商和股东。",
+          "english": "Stakeholders include employees, customers, suppliers, and shareholders."
+        }
+      ],
+      "backstory": "The stakeholder concept became prominent in business ethics and corporate governance during the 1980s. It represents a shift from shareholder-only focus to a broader consideration of multiple parties affected by corporate actions.",
+      "backstory_zh": "利益相关者概念在20世纪80年代在商业伦理和公司治理中变得突出。它代表了从仅考虑股东利益到更广泛考虑受公司行动影响的多方的转变。",
+      "id": 126
+    },
+    {
+      "chinese": "产品创新",
+      "pinyin": "chǎn pǐn chuàng xīn",
+      "english": "Product innovation",
+      "meaning_zh": "开发和推出具有新特性、新功能或新用途的产品或服务。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "产品创新是企业保持竞争优势的重要手段。",
+          "english": "Product innovation is an important means to maintain competitive advantage."
+        },
+        {
+          "chinese": "我们投入了大量资源用于产品创新和研发。",
+          "english": "We have invested substantial resources in product innovation and R&D."
+        }
+      ],
+      "backstory": "Product innovation has become increasingly central to business strategy in the knowledge economy. In China, it's particularly emphasized as the country transitions toward higher value-added manufacturing and services.",
+      "backstory_zh": "在知识经济中，产品创新已越来越成为商业战略的中心。在中国，随着国家向更高附加值的制造和服务转变，它特别受到强调。",
+      "id": 127
+    },
+    {
+      "chinese": "质量管理",
+      "pinyin": "zhì liàng guǎn lǐ",
+      "english": "Quality management",
+      "meaning_zh": "通过制定标准、监控和改进过程来确保产品或服务的质量。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "严格的质量管理是产品竞争力的基础。",
+          "english": "Strict quality management is the foundation of product competitiveness."
+        },
+        {
+          "chinese": "我们实施了ISO国际质量管理标准。",
+          "english": "We have implemented ISO international quality management standards."
+        }
+      ],
+      "backstory": "Quality management emerged as a formal discipline through the work of pioneers like Deming and Juran in the 20th century. In contemporary China, quality management is essential as companies aim to meet international standards and reduce defect rates.",
+      "backstory_zh": "质量管理通过20世纪像戴明和朱兰这样的先驱的工作而成为正式学科。在当代中国，质量管理至关重要，因为公司旨在满足国际标准并减少缺陷率。",
+      "id": 128
+    },
+    {
+      "chinese": "商务谈判",
+      "pinyin": "shāng wù tán pàn",
+      "english": "Business negotiation",
+      "meaning_zh": "双方通过讨论来达成合作协议或解决商业分歧的过程。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "成功的商务谈判需要充分的准备和策略。",
+          "english": "Successful business negotiation requires thorough preparation and strategy."
+        },
+        {
+          "chinese": "我们与供应商进行了为期三个月的商务谈判。",
+          "english": "We conducted a three-month business negotiation with the supplier."
+        }
+      ],
+      "backstory": "Business negotiation has been a cornerstone of commerce throughout history. In modern Chinese business, it reflects both traditional negotiating styles and contemporary professional approaches shaped by international business practices.",
+      "backstory_zh": "商务谈判一直是整个历史中商业的基石。在现代中文商业中，它反映了传统谈判风格和受国际商业实践影响的当代专业方式。",
+      "id": 129
+    },
+    {
+      "chinese": "员工激励",
+      "pinyin": "yuán gōng jī lì",
+      "english": "Employee motivation",
+      "meaning_zh": "通过各种手段激发员工的工作热情和积极性。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "有效的员工激励机制可以提高生产力。",
+          "english": "Effective employee motivation mechanisms can improve productivity."
+        },
+        {
+          "chinese": "我们建立了完整的员工激励体系。",
+          "english": "We have established a comprehensive employee motivation system."
+        }
+      ],
+      "backstory": "Employee motivation theory developed significantly during the 20th century through the work of psychologists like Maslow and Herzberg. In contemporary China, companies use diverse motivational strategies combining financial incentives, career development, and recognition.",
+      "backstory_zh": "员工激励理论在20世纪通过心理学家如马斯洛和赫茨伯格的工作而显著发展。在当代中国，公司使用多样化的激励策略，结合财务激励、职业发展和认可。",
+      "id": 130
+    },
+    {
+      "chinese": "抢占先机",
+      "pinyin": "qiǎng zhàn xiān jī",
+      "english": "Seize first-mover advantage",
+      "meaning_zh": "争取在竞争中获得最初的优势，比其他人更早发现并利用机会。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们需要抢占先机，在市场饱和前推出新产品。",
+          "english": "We need to seize first-mover advantage by launching new products before market saturation."
+        },
+        {
+          "chinese": "公司决定抢占先机进入新兴市场。",
+          "english": "The company decided to seize first-mover advantage by entering emerging markets."
+        }
+      ],
+      "backstory": "This phrase combines '抢' (seize) and '先机' (first opportunity), reflecting modern business competition where timing is critical. In contemporary Chinese business discourse, it emphasizes the importance of being early to market and establishing competitive advantages before rivals.",
+      "backstory_zh": "这个短语由'抢'（争取）和'先机'（最初的机会）组成，反映了现代商业竞争中时机的重要性。在当代中文商业语境中，它强调了比对手更早进入市场并建立竞争优势的重要性。",
+      "id": 131
+    },
+    {
+      "chinese": "业务拓展",
+      "pinyin": "yè wù tuò zhǎn",
+      "english": "Business expansion and development",
+      "meaning_zh": "企业扩大业务范围，进入新的市场领域或拓展现有业务。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "今年我们的主要目标是业务拓展，计划进入三个新市场。",
+          "english": "Our main goal this year is business expansion, with plans to enter three new markets."
+        },
+        {
+          "chinese": "公司通过并购实现了快速的业务拓展。",
+          "english": "The company achieved rapid business expansion through mergers and acquisitions."
+        }
+      ],
+      "backstory": "A straightforward term combining '业务' (business) and '拓展' (expand/develop), widely used in corporate strategy discussions. It has become standard terminology in Chinese business vocabulary for describing growth initiatives and market entry strategies.",
+      "backstory_zh": "这是由'业务'（企业活动）和'拓展'（扩大、发展）组成的直接词汇，广泛用于企业战略讨论中。它已成为中文商业词汇中描述增长计划和市场进入战略的标准术语。",
+      "id": 132
+    },
+    {
+      "chinese": "现金流",
+      "pinyin": "xiàn jīn liú",
+      "english": "Cash flow in business",
+      "meaning_zh": "企业在一定时期内现金的流入和流出，反映企业的财务健康状况。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "良好的现金流是企业生存的关键。",
+          "english": "Healthy cash flow is key to business survival."
+        },
+        {
+          "chinese": "我们需要监控现金流，确保有足够的流动资金。",
+          "english": "We need to monitor cash flow to ensure sufficient liquidity."
+        }
+      ],
+      "backstory": "Translated from English 'cash flow,' this financial term has been adopted directly into Chinese business language. It's essential terminology for financial analysis and accounting, representing the movement of money in and out of a business.",
+      "backstory_zh": "这个金融术语从英文'cash flow'翻译而来，已被直接采纳到中文商业语言中。它是财务分析和会计的必要术语，代表资金进出企业的流动情况。",
+      "id": 133
+    },
+    {
+      "chinese": "盈利模式",
+      "pinyin": "yíng lì mó shì",
+      "english": "Profit model or revenue stream",
+      "meaning_zh": "企业通过何种方式获取利润和收入，是商业模式的核心要素。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这家公司的盈利模式主要依靠广告收入。",
+          "english": "This company's profit model primarily relies on advertising revenue."
+        },
+        {
+          "chinese": "我们在探索新的盈利模式以应对市场变化。",
+          "english": "We are exploring new profit models to adapt to market changes."
+        }
+      ],
+      "backstory": "Combining '盈利' (profit-making) and '模式' (model), this term describes how companies generate revenue. It's fundamental to business planning and strategy discussions in Chinese corporate settings.",
+      "backstory_zh": "这个词由'盈利'（获利）和'模式'（方式）组成，描述企业如何产生收入。它对中文商业规划和战略讨论至关重要。",
+      "id": 134
+    },
+    {
+      "chinese": "市场竞争",
+      "pinyin": "shì chǎng jìng zhēng",
+      "english": "Market competition",
+      "meaning_zh": "在特定市场中，多个企业为获得更大的市场份额而相互竞争。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "激烈的市场竞争促使我们不断创新。",
+          "english": "Intense market competition drives us to continuously innovate."
+        },
+        {
+          "chinese": "为了在市场竞争中胜出，我们提高了产品质量。",
+          "english": "To win in market competition, we improved our product quality."
+        }
+      ],
+      "backstory": "A fundamental business concept combining '市场' (market) and '竞争' (competition). This term is basic to understanding modern economics and is used in virtually all business discussions about competitive strategy in China.",
+      "backstory_zh": "这是一个由'市场'和'竞争'组成的基本商业概念。这个术语对于理解现代经济学至关重要，在中国几乎所有关于竞争战略的商业讨论中都会使用。",
+      "id": 135
+    },
+    {
+      "chinese": "战略合作",
+      "pinyin": "zhàn lüè hé zuò",
+      "english": "Strategic partnership or collaboration",
+      "meaning_zh": "两个或多个企业基于共同目标和利益进行的长期合作关系。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们与该公司建立了战略合作关系。",
+          "english": "We established a strategic partnership with that company."
+        },
+        {
+          "chinese": "通过战略合作，两家企业实现了互利共赢。",
+          "english": "Through strategic collaboration, both companies achieved mutual benefits."
+        }
+      ],
+      "backstory": "Combining '战略' (strategy) and '合作' (cooperation), this phrase is central to modern business partnerships in China. It indicates planned, mutually beneficial long-term relationships rather than simple transactions.",
+      "backstory_zh": "这个短语由'战略'和'合作'组成，是中国现代商业合作的核心。它表示有计划的、互利的长期关系，而不是简单的交易。",
+      "id": 136
+    },
+    {
+      "chinese": "投资回报",
+      "pinyin": "tóu zī huí bào",
+      "english": "Return on investment (ROI)",
+      "meaning_zh": "投资者从投资项目中获得的收益或利润与投资成本的关系。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个项目的投资回报率很高。",
+          "english": "This project has a high return on investment."
+        },
+        {
+          "chinese": "在决定投资前，我们需要计算投资回报。",
+          "english": "Before deciding to invest, we need to calculate the return on investment."
+        }
+      ],
+      "backstory": "A key financial metric combining '投资' (investment) and '回报' (return/reward). This term is essential in investment analysis and financial planning, helping stakeholders assess the profitability of business decisions.",
+      "backstory_zh": "这是一个由'投资'和'回报'组成的关键财务指标。这个术语在投资分析和财务规划中至关重要，帮助利益相关者评估商业决策的盈利能力。",
+      "id": 137
+    },
+    {
+      "chinese": "供应链管理",
+      "pinyin": "gōng yìng liàn guǎn lǐ",
+      "english": "Supply chain management",
+      "meaning_zh": "从原材料采购、生产、运输到销售的整个过程的协调和管理。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "优化供应链管理可以降低成本。",
+          "english": "Optimizing supply chain management can reduce costs."
+        },
+        {
+          "chinese": "我们的供应链管理系统提高了效率。",
+          "english": "Our supply chain management system improved efficiency."
+        }
+      ],
+      "backstory": "This compound term combines '供应链' (supply chain) and '管理' (management). It became increasingly important in Chinese business vocabulary as manufacturing and logistics became central to economic competitiveness.",
+      "backstory_zh": "这个复合词由'供应链'和'管理'组成。随着制造业和物流变得对经济竞争力至关重要，它在中文商业词汇中变得越来越重要。",
+      "id": 138
+    },
+    {
+      "chinese": "品牌建设",
+      "pinyin": "pǐn pái jiàn shè",
+      "english": "Brand building and development",
+      "meaning_zh": "通过各种营销和传播活动来创建和增强企业或产品品牌的过程。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "品牌建设是长期的战略投资。",
+          "english": "Brand building is a long-term strategic investment."
+        },
+        {
+          "chinese": "我们在品牌建设上投入了大量资源。",
+          "english": "We invested significant resources in brand building."
+        }
+      ],
+      "backstory": "Combining '品牌' (brand) and '建设' (construction/development), this term reflects the importance of brand value in modern Chinese business. It emphasizes that strong brands require deliberate, sustained effort.",
+      "backstory_zh": "这个词由'品牌'和'建设'组成，反映了品牌价值在现代中文商业中的重要性。它强调强大的品牌需要有意、持续的努力。",
+      "id": 139
+    },
+    {
+      "chinese": "市场调查",
+      "pinyin": "shì chǎng diào chá",
+      "english": "Market research and investigation",
+      "meaning_zh": "通过系统的方法收集和分析市场信息，为商业决策提供依据。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们进行了详细的市场调查后才推出新产品。",
+          "english": "We conducted detailed market research before launching the new product."
+        },
+        {
+          "chinese": "市场调查表明消费者对此产品很感兴趣。",
+          "english": "Market research shows consumers are interested in this product."
+        }
+      ],
+      "backstory": "This straightforward term combines '市场' (market) and '调查' (investigation/survey). It's fundamental to any business strategy, as understanding consumer needs and market conditions is crucial for success in competitive markets.",
+      "backstory_zh": "这个直接的词汇由'市场'和'调查'组成。它对任何商业战略都至关重要，因为了解消费者需求和市场条件对在竞争市场中取得成功至关重要。",
+      "id": 140
+    },
+    {
+      "chinese": "成本效益",
+      "pinyin": "chéng běn xiào yì",
+      "english": "Cost-effectiveness and benefit analysis",
+      "meaning_zh": "投入的成本与获得的效益之间的比较关系，评估是否值得。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们选择这个方案是因为成本效益最优。",
+          "english": "We chose this solution because it offers the best cost-effectiveness."
+        },
+        {
+          "chinese": "在追求成本效益的同时，我们不能忽视质量。",
+          "english": "While pursuing cost-effectiveness, we cannot neglect quality."
+        }
+      ],
+      "backstory": "Combining '成本' (cost) and '效益' (benefit/effectiveness), this term is used to evaluate whether business investments or decisions are worthwhile. It's central to financial decision-making in Chinese organizations.",
+      "backstory_zh": "这个词由'成本'和'效益'组成，用于评估商业投资或决策是否值得。它对中文组织的财务决策制定至关重要。",
+      "id": 141
+    },
+    {
+      "chinese": "商业模式",
+      "pinyin": "shāng yè mó shì",
+      "english": "Business model",
+      "meaning_zh": "企业创造、传递和获取价值的方式，包括产品、服务、收入等核心要素。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "平台经济代表了一种创新的商业模式。",
+          "english": "Platform economy represents an innovative business model."
+        },
+        {
+          "chinese": "我们需要重新审视我们的商业模式以适应数字时代。",
+          "english": "We need to re-examine our business model to adapt to the digital age."
+        }
+      ],
+      "backstory": "Combining '商业' (commerce/business) and '模式' (model/pattern), this term became prevalent in Chinese business discourse in the 2000s as companies increasingly focused on strategic innovation. It describes the fundamental logic of how a company operates and creates value.",
+      "backstory_zh": "这个词由'商业'和'模式'组成，在21世纪初随着企业越来越关注战略创新而在中文商业讨论中变得普遍。它描述了公司运营和创造价值的基本逻辑。",
+      "id": 142
+    },
+    {
+      "chinese": "渠道开拓",
+      "pinyin": "qú dào kāi tuò",
+      "english": "Channel development and expansion",
+      "meaning_zh": "企业开发新的销售、分销或合作渠道，扩大产品或服务的覆盖范围。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "公司计划通过渠道开拓进入更多地区市场。",
+          "english": "The company plans to enter more regional markets through channel expansion."
+        },
+        {
+          "chinese": "渠道开拓是我们今年销售的重点。",
+          "english": "Channel development is our sales focus this year."
+        }
+      ],
+      "backstory": "Combining '渠道' (channel) and '开拓' (develop/pioneer), this term describes the strategic effort to establish new distribution or sales pathways. It's particularly important in Chinese business given the vast and diverse market landscape.",
+      "backstory_zh": "这个词由'渠道'和'开拓'组成，描述了建立新的分销或销售路径的战略努力。考虑到中国广阔而多样的市场格局，它在商业中特别重要。",
+      "id": 143
+    },
+    {
+      "chinese": "绩效考核",
+      "pinyin": "jì xiào kǎo hé",
+      "english": "Performance evaluation and assessment",
+      "meaning_zh": "对员工、部门或企业的工作效能进行定期的评估和测量。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "年度绩效考核决定了员工的晋升和奖励。",
+          "english": "Annual performance evaluation determines employee promotions and bonuses."
+        },
+        {
+          "chinese": "我们建立了科学的绩效考核体系。",
+          "english": "We established a scientific performance evaluation system."
+        }
+      ],
+      "backstory": "Combining '绩效' (performance) and '考核' (assessment/evaluation), this term is fundamental to human resources management in Chinese companies. It reflects the importance of measurable outcomes and accountability in modern organizations.",
+      "backstory_zh": "这个词由'绩效'和'考核'组成，是中国公司人力资源管理的基础。它反映了可测量的成果和问责制在现代组织中的重要性。",
+      "id": 144
+    },
+    {
+      "chinese": "风险防范",
+      "pinyin": "fēng xiǎn fáng fàn",
+      "english": "Risk prevention and mitigation",
+      "meaning_zh": "企业采取措施预防和降低可能遇到的商业、财务或运营风险。",
+      "category": "business",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "风险防范是企业经营的重要环节。",
+          "english": "Risk prevention is an important aspect of business operations."
+        },
+        {
+          "chinese": "我们建立了完整的风险防范机制。",
+          "english": "We established a comprehensive risk mitigation mechanism."
+        }
+      ],
+      "backstory": "Combining '风险' (risk) and '防范' (prevention/defense), this term emphasizes proactive management of potential problems. In Chinese business culture, especially post-2008 financial crisis, risk prevention has become a core management practice.",
+      "backstory_zh": "这个词由'风险'和'防范'组成，强调对潜在问题的主动管理。在中文商业文化中，特别是2008年金融危机后，风险防范已成为一项核心管理实践。",
+      "id": 145
+    },
+    {
+      "chinese": "云计算",
+      "pinyin": "yún jì suàn",
+      "english": "Cloud computing technology and services",
+      "meaning_zh": "通过互联网提供计算资源、存储和应用程序的技术模式。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "许多企业已经迁移到云计算平台以降低成本。",
+          "english": "Many enterprises have migrated to cloud computing platforms to reduce costs."
+        },
+        {
+          "chinese": "云计算使小企业能够访问企业级的技术资源。",
+          "english": "Cloud computing enables small businesses to access enterprise-grade technology resources."
+        }
+      ],
+      "backstory": "Cloud computing emerged in the early 2000s as internet infrastructure matured, allowing on-demand access to computing resources without physical hardware ownership. The term became mainstream in Chinese tech vocabulary around 2008-2010.",
+      "backstory_zh": "云计算在2000年代初期随着互联网基础设施的成熟而出现，允许按需访问计算资源而无需购买物理硬件。该术语在中文科技词汇中大约在2008-2010年间成为主流。",
+      "id": 146
+    },
+    {
+      "chinese": "人工智能",
+      "pinyin": "rén gōng zhì néng",
+      "english": "Artificial intelligence and machine learning",
+      "meaning_zh": "由人制造的机器所表现的智能，包括学习、推理和自适应等能力。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "人工智能正在改革医疗诊断领域。",
+          "english": "Artificial intelligence is revolutionizing the medical diagnosis field."
+        },
+        {
+          "chinese": "这个公司投入了大量资金研发人工智能技术。",
+          "english": "This company has invested heavily in developing artificial intelligence technology."
+        }
+      ],
+      "backstory": "The concept of artificial intelligence was formally introduced in the 1950s, but the Chinese term '人工智能' became widely adopted in mainland China during the AI boom of the 2010s-2020s.",
+      "backstory_zh": "人工智能的概念在20世纪50年代正式提出，但中文术语'人工智能'在2010年代至2020年代的人工智能热潮期间在中国大陆被广泛采用。",
+      "id": 147
+    },
+    {
+      "chinese": "大数据",
+      "pinyin": "dà shù jù",
+      "english": "Big data analysis and processing",
+      "meaning_zh": "规模庞大、种类繁多、增长迅速的数据集合，需要新的处理技术。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "大数据帮助我们更好地理解消费者行为。",
+          "english": "Big data helps us better understand consumer behavior."
+        },
+        {
+          "chinese": "通过大数据分析，企业可以做出更明智的决策。",
+          "english": "Through big data analysis, companies can make smarter decisions."
+        }
+      ],
+      "backstory": "The term '大数据' became prominent in Chinese business and technology circles around 2012-2013, mirroring the global rise of big data analytics as a business tool.",
+      "backstory_zh": "术语'大数据'在中文商业和科技圈大约在2012-2013年间变得突出，反映了全球大数据分析作为商业工具的兴起。",
+      "id": 148
+    },
+    {
+      "chinese": "物联网",
+      "pinyin": "wù lián wǎng",
+      "english": "Internet of Things devices and networks",
+      "meaning_zh": "通过互联网连接的物理设备、车辆和其他对象的网络，能够收集和共享数据。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "物联网技术使智能家居成为现实。",
+          "english": "IoT technology makes smart homes a reality."
+        },
+        {
+          "chinese": "农业中的物联网应用可以提高产量和效率。",
+          "english": "IoT applications in agriculture can improve yield and efficiency."
+        }
+      ],
+      "backstory": "The concept of 物联网 (Internet of Things) was first proposed in the late 1990s, but gained traction in China during the early 2010s as smart device manufacturing became a national focus.",
+      "backstory_zh": "物联网概念在20世纪90年代末首次提出，但在2010年代初期当智能设备制造成为国家重点时，在中国获得了关注。",
+      "id": 149
+    },
+    {
+      "chinese": "区块链",
+      "pinyin": "qū kuài liàn",
+      "english": "Blockchain technology and cryptocurrency",
+      "meaning_zh": "分布式账本技术，通过加密技术记录交易，具有去中心化、不可篡改等特点。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "区块链技术可以确保交易的透明性和安全性。",
+          "english": "Blockchain technology ensures transaction transparency and security."
+        },
+        {
+          "chinese": "许多金融机构正在探索区块链应用。",
+          "english": "Many financial institutions are exploring blockchain applications."
+        }
+      ],
+      "backstory": "The term '区块链' emerged in China around 2013-2015 following the rise of Bitcoin, becoming a major focus of government and corporate investment by 2017.",
+      "backstory_zh": "术语'区块链'在比特币兴起后的2013-2015年左右在中国出现，到2017年成为政府和企业投资的主要焦点。",
+      "id": 150
+    },
+    {
+      "chinese": "5G网络",
+      "pinyin": "wǔ G wǎng luò",
+      "english": "Fifth-generation wireless network technology",
+      "meaning_zh": "第五代移动通信技术，具有高速率、低延迟、大连接等特点。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "5G网络将革命性改变移动通信和物联网。",
+          "english": "5G networks will revolutionize mobile communications and IoT."
+        },
+        {
+          "chinese": "中国已经在多个城市部署了5G网络基础设施。",
+          "english": "China has deployed 5G network infrastructure in multiple cities."
+        }
+      ],
+      "backstory": "5G technology began commercial deployment in China in 2019, with major carriers launching services in 2020. The term '5G网络' became ubiquitous in tech discussions shortly after.",
+      "backstory_zh": "5G技术在中国于2019年开始商业部署，主要运营商在2020年推出服务。术语'5G网络'此后在科技讨论中变得无处不在。",
+      "id": 151
+    },
+    {
+      "chinese": "虚拟现实",
+      "pinyin": "xū nǐ xiàn shí",
+      "english": "Virtual reality immersive technology",
+      "meaning_zh": "通过计算机技术创建的三维虚拟环境，用户可以沉浸式体验。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "虚拟现实在游戏和教育领域有广泛应用。",
+          "english": "Virtual reality has wide applications in gaming and education."
+        },
+        {
+          "chinese": "虚拟现实头盔价格正在逐渐下降。",
+          "english": "Virtual reality headset prices are gradually declining."
+        }
+      ],
+      "backstory": "虚拟现实 has been a recognized concept since the 1980s globally, but became commercially viable in China during the 2015-2020 period with cheaper hardware and more content.",
+      "backstory_zh": "虚拟现实自20世纪80年代以来在全球是公认的概念，但在2015-2020年期间由于硬件成本降低和内容增加，在中国变得商业上可行。",
+      "id": 152
+    },
+    {
+      "chinese": "增强现实",
+      "pinyin": "zēng qiáng xiàn shí",
+      "english": "Augmented reality overlay technology",
+      "meaning_zh": "将虚拟信息叠加到真实世界场景中的技术，增强用户对现实的感知。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "增强现实应用已经出现在许多移动应用中。",
+          "english": "Augmented reality apps have appeared in many mobile applications."
+        },
+        {
+          "chinese": "零售商使用增强现实帮助顾客虚拟试衣。",
+          "english": "Retailers use augmented reality to help customers virtually try clothes."
+        }
+      ],
+      "backstory": "增强现实 technology was developed in the 1990s but became mainstream in China through Pokemon Go and other mobile AR applications around 2016-2018.",
+      "backstory_zh": "增强现实技术在20世纪90年代开发，但通过Pokémon Go和其他移动AR应用在2016-2018年左右在中国成为主流。",
+      "id": 153
+    },
+    {
+      "chinese": "量子计算",
+      "pinyin": "liàng zǐ jì suàn",
+      "english": "Quantum computing and quantum processors",
+      "meaning_zh": "利用量子力学原理进行信息处理的计算技术，具有超强计算能力。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "量子计算有潜力解决许多经典计算机无法解决的问题。",
+          "english": "Quantum computing has potential to solve problems classical computers cannot."
+        },
+        {
+          "chinese": "中国在量子计算研究方面投入了大量资源。",
+          "english": "China has invested significant resources in quantum computing research."
+        }
+      ],
+      "backstory": "量子计算 emerged as a serious research focus in China from 2015 onwards, with notable milestones including the Jiuzhang quantum computer announcement in 2020.",
+      "backstory_zh": "从2015年开始，量子计算在中国成为严肃的研究焦点，包括2020年的九章量子计算机公告等显著里程碑。",
+      "id": 154
+    },
+    {
+      "chinese": "边缘计算",
+      "pinyin": "biān yuán jì suàn",
+      "english": "Edge computing at network periphery",
+      "meaning_zh": "在数据源附近进行数据处理和分析的计算技术，减少延迟和带宽使用。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "边缘计算对实时应用（如自动驾驶）至关重要。",
+          "english": "Edge computing is crucial for real-time applications like autonomous driving."
+        },
+        {
+          "chinese": "5G和边缘计算的结合将推动物联网发展。",
+          "english": "The combination of 5G and edge computing will drive IoT development."
+        }
+      ],
+      "backstory": "边缘计算 became prominent as IoT and 5G technologies developed, particularly gaining attention in China around 2017-2019 as companies sought to reduce cloud dependency.",
+      "backstory_zh": "随着物联网和5G技术发展，边缘计算变得突出，特别是在2017-2019年左右当公司寻求降低云依赖时在中国获得关注。",
+      "id": 155
+    },
+    {
+      "chinese": "网络安全",
+      "pinyin": "wǎng luò ān quán",
+      "english": "Cybersecurity and data protection",
+      "meaning_zh": "保护计算机网络和数据免受未授权访问、破坏和窃取的技术和措施。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "网络安全是企业数字化转型的重要基础。",
+          "english": "Cybersecurity is an important foundation for enterprise digital transformation."
+        },
+        {
+          "chinese": "政府正在加强网络安全法规来保护个人隐私。",
+          "english": "The government is strengthening cybersecurity regulations to protect personal privacy."
+        }
+      ],
+      "backstory": "网络安全 has been a concern since the early days of computing, but became a major national priority in China after 2014 with increased government funding and legislation.",
+      "backstory_zh": "网络安全自计算机早期以来就是一个关注点，但在2014年后随着政府增加资金和立法而成为中国的主要国家优先事项。",
+      "id": 156
+    },
+    {
+      "chinese": "人脸识别",
+      "pinyin": "rén liǎn shí bié",
+      "english": "Facial recognition and biometric authentication",
+      "meaning_zh": "通过分析人脸特征来识别个人身份的技术，广泛应用于安全和支付领域。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "机场使用人脸识别加快安检流程。",
+          "english": "Airports use facial recognition to expedite security screening."
+        },
+        {
+          "chinese": "手机的人脸识别功能提供了便捷的解锁方式。",
+          "english": "Facial recognition on phones provides convenient unlocking."
+        }
+      ],
+      "backstory": "人脸识别 technology advanced significantly in China from 2015 onwards, driven by government surveillance initiatives and investment in AI startups specializing in computer vision.",
+      "backstory_zh": "从2015年开始，人脸识别技术在中国取得了显著进步，由政府监控举措和对计算机视觉专业AI初创公司的投资驱动。",
+      "id": 157
+    },
+    {
+      "chinese": "自动驾驶",
+      "pinyin": "zì dòng jià shǐ",
+      "english": "Autonomous vehicle and self-driving technology",
+      "meaning_zh": "使车辆能够在最少人工干预的情况下自动行驶的技术，涉及感知、决策和控制。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "许多科技公司正在竞争开发自动驾驶汽车。",
+          "english": "Many tech companies are competing to develop autonomous vehicles."
+        },
+        {
+          "chinese": "自动驾驶可能会显著减少交通事故。",
+          "english": "Autonomous driving could significantly reduce traffic accidents."
+        }
+      ],
+      "backstory": "自动驾驶 gained momentum in China around 2016-2017 as major tech companies and startups entered the field, supported by favorable government policies and road testing permissions.",
+      "backstory_zh": "从2016-2017年左右，随着主要科技公司和初创公司进入该领域，自动驾驶在中国获得了动力，得到了有利的政府政策和道路测试许可的支持。",
+      "id": 158
+    },
+    {
+      "chinese": "生物识别",
+      "pinyin": "shēng wù shì bié",
+      "english": "Biometric identification and authentication",
+      "meaning_zh": "利用人的生物特征（如指纹、虹膜等）进行身份识别和认证的技术。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "生物识别技术在智能手机中变得越来越普遍。",
+          "english": "Biometric identification is becoming increasingly common in smartphones."
+        },
+        {
+          "chinese": "银行使用生物识别来提高账户安全性。",
+          "english": "Banks use biometric identification to enhance account security."
+        }
+      ],
+      "backstory": "生物识别 technology has existed since the late 1900s, but became mainstream in consumer devices in China around 2015-2018 with fingerprint sensor integration.",
+      "backstory_zh": "生物识别技术自20世纪末就存在，但大约在2015-2018年左右，随着指纹传感器的集成，在中国的消费设备中成为主流。",
+      "id": 159
+    },
+    {
+      "chinese": "数据挖掘",
+      "pinyin": "shù jù wā jué",
+      "english": "Data mining and knowledge extraction",
+      "meaning_zh": "从大量数据中提取有价值信息和模式的技术，用于决策和预测分析。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "数据挖掘帮助企业发现隐藏的商业机会。",
+          "english": "Data mining helps businesses discover hidden business opportunities."
+        },
+        {
+          "chinese": "零售商使用数据挖掘技术分析消费者购买模式。",
+          "english": "Retailers use data mining to analyze consumer purchasing patterns."
+        }
+      ],
+      "backstory": "数据挖掘 became prominent in China during the 2000s-2010s as companies accumulated more digital data and sought ways to extract value from it.",
+      "backstory_zh": "随着2000年代至2010年代公司积累更多数字数据并寻求从中提取价值的方式，数据挖掘在中国变得突出。",
+      "id": 160
+    },
+    {
+      "chinese": "机器学习",
+      "pinyin": "jī qì xué xí",
+      "english": "Machine learning algorithms and training",
+      "meaning_zh": "计算机通过分析数据自动学习和改进的技术，无需显式编程指令。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "机器学习算法为推荐系统提供动力。",
+          "english": "Machine learning algorithms power recommendation systems."
+        },
+        {
+          "chinese": "企业使用机器学习来优化供应链管理。",
+          "english": "Companies use machine learning to optimize supply chain management."
+        }
+      ],
+      "backstory": "机器学习 emerged as a practical technology in China from around 2012 onwards, accelerating after 2016 with the success of deep learning applications.",
+      "backstory_zh": "机器学习大约从2012年开始在中国成为实际技术，在2016年后随着深度学习应用的成功而加速发展。",
+      "id": 161
+    },
+    {
+      "chinese": "深度学习",
+      "pinyin": "shēn dù xué xí",
+      "english": "Deep learning neural networks",
+      "meaning_zh": "使用多层神经网络进行学习的机器学习方法，特别适合处理复杂数据。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "深度学习在图像识别和自然语言处理中取得了突破。",
+          "english": "Deep learning achieved breakthroughs in image recognition and NLP."
+        },
+        {
+          "chinese": "许多AI应用都基于深度学习技术。",
+          "english": "Many AI applications are based on deep learning technology."
+        }
+      ],
+      "backstory": "深度学习 became a major focus in China after 2012, particularly after the ImageNet competition victories by deep learning methods. Companies like Baidu and Alibaba invested heavily in the field.",
+      "backstory_zh": "深度学习在2012年之后成为中国的主要焦点，特别是在深度学习方法在ImageNet竞赛中的胜利之后。百度和阿里巴巴等公司在该领域投入了大量资金。",
+      "id": 162
+    },
+    {
+      "chinese": "自然语言处理",
+      "pinyin": "zì rán yǔ yán chǔ lǐ",
+      "english": "Natural language processing and understanding",
+      "meaning_zh": "使计算机理解和处理人类语言的技术，包括语音识别、机器翻译等。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "自然语言处理技术使聊天机器人能够理解用户意图。",
+          "english": "NLP enables chatbots to understand user intent."
+        },
+        {
+          "chinese": "机器翻译依赖于自然语言处理的进步。",
+          "english": "Machine translation relies on advances in natural language processing."
+        }
+      ],
+      "backstory": "自然语言处理 gained traction in China from the 1980s onward, but experienced rapid advancement after 2016 with the adoption of transformer-based models.",
+      "backstory_zh": "自然语言处理从20世纪80年代开始在中国获得了关注，但在2016年后随着基于变压器模型的采用而经历了快速进步。",
+      "id": 163
+    },
+    {
+      "chinese": "计算机视觉",
+      "pinyin": "jì suàn jī shì jué",
+      "english": "Computer vision image analysis",
+      "meaning_zh": "使计算机能够理解和分析图像和视频的技术，用于识别和检测物体。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "计算机视觉在医学影像诊断中有重要应用。",
+          "english": "Computer vision has important applications in medical image diagnosis."
+        },
+        {
+          "chinese": "安全摄像头使用计算机视觉进行异常检测。",
+          "english": "Security cameras use computer vision for anomaly detection."
+        }
+      ],
+      "backstory": "计算机视觉 became a major field in China from 2010 onwards, with significant breakthroughs in object detection and face recognition driving rapid commercialization.",
+      "backstory_zh": "从2010年开始，计算机视觉在中国成为主要领域，在物体检测和人脸识别方面的重大突破推动了快速商业化。",
+      "id": 164
+    },
+    {
+      "chinese": "物联网芯片",
+      "pinyin": "wù lián wǎng xīn piàn",
+      "english": "Internet of Things microchips",
+      "meaning_zh": "专为物联网设备设计的微处理器芯片，具有低功耗、小尺寸等特点。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "物联网芯片的成本下降使智能设备更加普及。",
+          "english": "Lower IoT chip costs make smart devices more widespread."
+        },
+        {
+          "chinese": "中国正在开发自主设计的物联网芯片。",
+          "english": "China is developing independently designed IoT chips."
+        }
+      ],
+      "backstory": "物联网芯片 became a strategic focus in China around 2014-2015, part of the broader push to develop domestic semiconductor capabilities and reduce dependence on foreign suppliers.",
+      "backstory_zh": "物联网芯片大约在2014-2015年左右成为中国的战略焦点，是开发国内半导体能力和减少对外国供应商依赖的更广泛推动的一部分。",
+      "id": 165
+    },
+    {
+      "chinese": "云存储",
+      "pinyin": "yún cún chǔ",
+      "english": "Cloud storage services and platforms",
+      "meaning_zh": "通过互联网在远程服务器上存储数据的服务，用户可以随时随地访问数据。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "云存储使文件共享和协作变得容易。",
+          "english": "Cloud storage makes file sharing and collaboration easy."
+        },
+        {
+          "chinese": "许多企业使用云存储备份重要数据。",
+          "english": "Many companies use cloud storage to back up important data."
+        }
+      ],
+      "backstory": "云存储 services began emerging in China around 2008-2010, with companies like Dropbox and later local providers offering consumer and enterprise solutions.",
+      "backstory_zh": "云存储服务大约在2008-2010年左右开始在中国出现，Dropbox等公司以及后来的本地提供商提供消费者和企业解决方案。",
+      "id": 166
+    },
+    {
+      "chinese": "网络直播",
+      "pinyin": "wǎng luò zhí bō",
+      "english": "Live streaming and broadcast platforms",
+      "meaning_zh": "通过互联网实时传输视频内容的技术和平台，支持主播与观众实时互动。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "网络直播已经成为一种新的社交娱乐形式。",
+          "english": "Live streaming has become a new form of social entertainment."
+        },
+        {
+          "chinese": "电商直播结合了购物和娱乐的元素。",
+          "english": "E-commerce live streaming combines shopping and entertainment elements."
+        }
+      ],
+      "backstory": "网络直播 gained phenomenal popularity in China starting around 2015-2016, with platforms like YY, Douyu, and later Kuaishou pioneering live streaming as a major content and commerce platform.",
+      "backstory_zh": "从2015-2016年左右开始，网络直播在中国获得了巨大的受欢迎程度，YY、Douyu等平台以及后来的快手开创了直播作为主要内容和商务平台。",
+      "id": 167
+    },
+    {
+      "chinese": "短视频",
+      "pinyin": "duǎn shì pín",
+      "english": "Short-form video content",
+      "meaning_zh": "长度在几秒到几分钟之间的视频内容，通常在移动应用中分享和传播。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "短视频应用已经改变了人们消费媒体的方式。",
+          "english": "Short-form video apps have changed how people consume media."
+        },
+        {
+          "chinese": "许多品牌通过短视频平台进行营销。",
+          "english": "Many brands conduct marketing through short-form video platforms."
+        }
+      ],
+      "backstory": "短视频 became a dominant content format in China from 2016 onwards, driven by apps like Musical.ly, TikTok (国际版), and particularly Douyin (抖音) which launched in 2016.",
+      "backstory_zh": "从2016年开始，短视频在中国成为了主流内容格式，由Musical.ly、TikTok等应用推动，特别是2016年推出的Douyin（抖音）。",
+      "id": 168
+    },
+    {
+      "chinese": "移动支付",
+      "pinyin": "yí dòng zhī fù",
+      "english": "Mobile payment and digital wallets",
+      "meaning_zh": "通过移动设备进行的电子支付方式，包括扫码支付、NFC支付等。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "移动支付已经成为中国主要的支付方式。",
+          "english": "Mobile payment has become the dominant payment method in China."
+        },
+        {
+          "chinese": "支付宝和微信支付主导了中国的移动支付市场。",
+          "english": "Alipay and WeChat Pay dominate China's mobile payment market."
+        }
+      ],
+      "backstory": "移动支付 experienced explosive growth in China from 2011 onwards, particularly after Alipay's 2013 launch of Alipay Wallet and WeChat's introduction of WeChat Pay in 2014.",
+      "backstory_zh": "从2011年开始，移动支付在中国经历了爆炸性增长，特别是在支付宝2013年推出支付宝钱包和微信2014年推出微信支付之后。",
+      "id": 169
+    },
+    {
+      "chinese": "新能源汽车",
+      "pinyin": "xīn néng yuán qì chē",
+      "english": "New energy vehicles and electric cars",
+      "meaning_zh": "采用新型储能装置和动力技术的汽车，包括纯电动、混合动力等。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "新能源汽车产业是中国重点发展的战略产业。",
+          "english": "The new energy vehicle industry is a strategic focus for China."
+        },
+        {
+          "chinese": "特斯拉和比亚迪是新能源汽车领域的主要竞争者。",
+          "english": "Tesla and BYD are major competitors in the new energy vehicle sector."
+        }
+      ],
+      "backstory": "新能源汽车 became a national strategic priority in China around 2009-2010, accelerating after 2015 with subsidies and infrastructure investment, particularly focusing on battery electric vehicles.",
+      "backstory_zh": "新能源汽车大约在2009-2010年左右成为中国的国家战略优先事项，在2015年后随着补贴和基础设施投资而加速，特别关注电池电动汽车。",
+      "id": 170
+    },
+    {
+      "chinese": "芯片设计",
+      "pinyin": "xīn piàn shè jì",
+      "english": "Chip design and architecture",
+      "meaning_zh": "指电子芯片的设计、开发和架构过程，包括逻辑设计、物理设计等环节。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们公司专注于AI芯片设计，致力于提升计算效率。",
+          "english": "Our company specializes in AI chip design, aiming to improve computational efficiency."
+        },
+        {
+          "chinese": "芯片设计的复杂度随着工艺制程的进步而不断增加。",
+          "english": "The complexity of chip design increases continuously as manufacturing processes advance."
+        }
+      ],
+      "backstory": "As semiconductor technology becomes increasingly crucial for national competitiveness, chip design has become a central focus in modern tech vocabulary. This term reflects China's strategic emphasis on technological self-sufficiency and innovation in the semiconductor industry.",
+      "backstory_zh": "随着半导体技术对国家竞争力的重要性日益凸显，芯片设计成为现代科技词汇的核心焦点。这个术语反映了中国在半导体产业自主创新和技术自给方面的战略重视。",
+      "id": 171
+    },
+    {
+      "chinese": "隐私保护",
+      "pinyin": "yǐn sī bǎo hù",
+      "english": "Privacy protection and data security",
+      "meaning_zh": "指对个人信息和隐私权的保护措施，包括数据加密、隐私政策等。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "新的应用程序在隐私保护方面做得更加严格。",
+          "english": "The new application implements more stringent measures for privacy protection."
+        },
+        {
+          "chinese": "用户对互联网平台的隐私保护提出了更高的要求。",
+          "english": "Users have raised higher expectations for privacy protection from internet platforms."
+        }
+      ],
+      "backstory": "With the rise of data collection and concerns about surveillance, privacy protection has become a critical issue in tech discourse. This term gained prominence following major data breaches and increased regulatory focus on personal data rights.",
+      "backstory_zh": "随着数据收集的增加和对监控的担忧，隐私保护已成为科技话题中的关键问题。在多起数据泄露事件和监管部门加强个人数据保护后，这个术语变得更加突出。",
+      "id": 172
+    },
+    {
+      "chinese": "API接口",
+      "pinyin": "API jiē kǒu",
+      "english": "Application Programming Interface",
+      "meaning_zh": "应用程序编程接口，允许不同软件应用之间进行通信和数据交换的规范。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "开发者通过API接口可以快速集成第三方服务。",
+          "english": "Developers can quickly integrate third-party services through API interfaces."
+        },
+        {
+          "chinese": "这个平台提供了完善的API接口文档供开发者使用。",
+          "english": "This platform provides comprehensive API interface documentation for developers."
+        }
+      ],
+      "backstory": "API has become fundamental to modern software development, enabling seamless integration between different applications and services. This English acronym has been adopted directly into Chinese tech vocabulary as it represents a universal standard in software architecture.",
+      "backstory_zh": "API已成为现代软件开发的基础，使不同应用程序和服务之间能够无缝集成。这个英文缩写被直接引入中文科技词汇中，因为它代表了软件架构中的通用标准。",
+      "id": 173
+    },
+    {
+      "chinese": "算法推荐",
+      "pinyin": "suàn fǎ tuī jiàn",
+      "english": "Algorithm-based recommendation system",
+      "meaning_zh": "通过计算机算法分析用户行为和偏好，为用户推荐相关内容或产品的技术。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "视频平台利用算法推荐为每个用户呈现个性化内容。",
+          "english": "Video platforms use algorithm-based recommendations to deliver personalized content to each user."
+        },
+        {
+          "chinese": "算法推荐的准确度直接影响用户的使用体验和平台的留存率。",
+          "english": "The accuracy of algorithm recommendations directly affects user experience and platform retention rates."
+        }
+      ],
+      "backstory": "As machine learning and AI have become central to modern internet platforms, algorithmic recommendation systems have become ubiquitous in shaping user experience. This term is widely used in discussions about content personalization and platform economics.",
+      "backstory_zh": "随着机器学习和人工智能成为现代互联网平台的核心，算法推荐系统在塑造用户体验中变得无处不在。这个术语在关于内容个性化和平台经济学的讨论中被广泛使用。",
+      "id": 174
+    },
+    {
+      "chinese": "代码开源",
+      "pinyin": "dài mǎ kāi yuán",
+      "english": "Open-source code and software",
+      "meaning_zh": "将软件源代码公开发布，允许任何人查看、修改和分发的开发模式。",
+      "category": "modern_tech",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "许多成功的软件项目都采用了代码开源的模式。",
+          "english": "Many successful software projects have adopted the open-source code model."
+        },
+        {
+          "chinese": "代码开源促进了开发者社区的合作和创新。",
+          "english": "Open-source code has fostered collaboration and innovation within developer communities."
+        }
+      ],
+      "backstory": "Open-source development has revolutionized software creation, enabling collaborative innovation across the globe. This model has produced some of the world's most important software infrastructure, making it a cornerstone of modern tech culture and practice.",
+      "backstory_zh": "开源开发已经彻底改变了软件创建方式，使全球开发者能够进行协作创新。这种模式已经产生了世界上最重要的一些软件基础设施，使其成为现代科技文化和实践的基石。",
+      "id": 175
+    },
+    {
+      "chinese": "文采飞扬",
+      "pinyin": "wén cǎi fēi yáng",
+      "english": "Literary talent shines brilliantly",
+      "meaning_zh": "形容文章或言辞的文学才华闪耀动人，文笔优美生动。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位年轻作家的新作文采飞扬，赢得了众多文学奖项。",
+          "english": "The young writer's new work has brilliant literary talent, winning numerous literary awards."
+        },
+        {
+          "chinese": "她的诗歌文采飞扬，读来令人陶醉。",
+          "english": "Her poetry shines with literary brilliance, captivating readers."
+        }
+      ],
+      "backstory": "This phrase combines '文采' (literary talent/style) with '飞扬' (soaring/flourishing) to describe writing or speech that displays exceptional artistic quality and eloquence. It's commonly used in literary criticism and formal descriptions of creative works.",
+      "backstory_zh": "这个成语将'文采'（文学才华）与'飞扬'（飞舞、昂扬）结合，形容文章或言辞展现出超群的艺术质量和优美的文笔。常用于文学评论和创意作品的正式描述中。",
+      "id": 176
+    },
+    {
+      "chinese": "笔墨纸砚",
+      "pinyin": "bǐ mò zhǐ yàn",
+      "english": "The four treasures of study",
+      "meaning_zh": "泛指文人的书写工具，代指文化修养和文人雅趣。也叫'文房四宝'。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "古代文人墨客精通笔墨纸砚的使用，视其为艺术创作的灵魂。",
+          "english": "Ancient scholars mastered the use of the four treasures of study, viewing them as the soul of artistic creation."
+        },
+        {
+          "chinese": "他的书房里摆满了各式各样的笔墨纸砚，展现出深厚的文化品味。",
+          "english": "His study is filled with various traditional writing implements, displaying profound cultural taste."
+        }
+      ],
+      "backstory": "The 'four treasures of the study' (笔、墨、纸、砚) are the essential tools of Chinese calligraphy and painting. This phrase has been celebrated in Chinese culture for centuries as symbols of scholarly pursuit and artistic refinement. Writers and artists traditionally revered these tools as essential to their craft.",
+      "backstory_zh": "中国传统的'文房四宝'（笔、墨、纸、砚）是书法绘画的必备工具。这个短语在中国文化中被推崇数百年，象征学术追求和艺术修养。文人墨客传统上把这些工具视为创作的灵魂。",
+      "id": 177
+    },
+    {
+      "chinese": "墨守成规",
+      "pinyin": "mò shǒu chéng guī",
+      "english": "Strictly adhere to established conventions",
+      "meaning_zh": "严格遵守规则和惯例，不愿改变。带有保守的含义。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "虽然他墨守成规，但他在诗歌创作上仍然展现了独特的风格。",
+          "english": "Although he adheres strictly to conventions, he still displayed unique style in his poetry."
+        },
+        {
+          "chinese": "文学评论家批评一些作家过于墨守成规，缺乏创新精神。",
+          "english": "Literary critics accused some writers of being too conventional, lacking innovative spirit."
+        }
+      ],
+      "backstory": "Originating from the historical figure Mozi (墨翟), a Warring States period philosopher known for his strict principles, this phrase literally means 'Mozi guards (守) conventions (成规).' It has evolved to describe both positive steadfastness and negative rigidity, depending on context. In literary contexts, it often carries a critical tone.",
+      "backstory_zh": "这个成语源于战国时期哲学家墨翟（墨子），他以严格的原则著称。字面意思是'墨子守成规'。它已演变为描述坚守原则（积极）或固步自封（消极）。在文学语境中，常带有批评的语气。",
+      "id": 178
+    },
+    {
+      "chinese": "唯美主义",
+      "pinyin": "wéi měi zhǔ yì",
+      "english": "Aesthetic movement prioritizing beauty",
+      "meaning_zh": "强调艺术作品的美学价值高于社会道德或实用功能的文学思想流派。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "19世纪的唯美主义文学运动深刻影响了东亚的现代文学发展。",
+          "english": "The 19th century aestheticism literary movement profoundly influenced East Asian modern literature."
+        },
+        {
+          "chinese": "这位诗人信奉唯美主义，认为艺术的目的就是追求完美的形式和意境。",
+          "english": "This poet advocates aestheticism, believing art's purpose is to pursue perfect form and artistic conception."
+        }
+      ],
+      "backstory": "Aestheticism (唯美主义) emerged as a major literary and artistic movement in the late 19th century, emphasizing 'art for art's sake' (艺术为艺术而艺术). This movement, while originating in the West, significantly influenced Chinese literature and philosophy, particularly during the modernization period when writers debated the social role of literature.",
+      "backstory_zh": "唯美主义作为19世纪晚期重要的文学艺术运动，强调'艺术为艺术而艺术'。这一运动虽源于西方，但对中国文学和哲学产生了重大影响，特别是在现代化时期作家们关于文学社会角色的辩论中。",
+      "id": 179
+    },
+    {
+      "chinese": "文脉相承",
+      "pinyin": "wén mài xiāng chéng",
+      "english": "Literary tradition handed down through generations",
+      "meaning_zh": "指文学风格、思想或传统代代相传，一脉相承地发展演变。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "从唐诗到宋词，再到现代新诗，中国诗歌文脉相承，源远流长。",
+          "english": "From Tang poetry to Song ci, and to modern new poetry, Chinese poetry has a continuous literary tradition spanning ages."
+        },
+        {
+          "chinese": "这部小说虽然采用现代叙事手法，但其精神内核与古典文学文脉相承。",
+          "english": "Although this novel employs modern narrative techniques, its spiritual essence carries on the classical literary tradition."
+        }
+      ],
+      "backstory": "'文脉' refers to the continuous line of literary development and inheritance, while '相承' means to pass down or inherit. This phrase is frequently used in literary criticism and cultural studies to describe how literary traditions, styles, and themes evolve while maintaining essential connections to their historical predecessors.",
+      "backstory_zh": "'文脉'指文学发展和传承的连贯线索，'相承'表示代代相传。这个短语常用于文学批评和文化研究中，描述文学传统、风格和主题在保持与历史先辈本质联系的同时如何演变发展。",
+      "id": 180
+    },
+    {
+      "chinese": "破防",
+      "pinyin": "pò fáng",
+      "english": "Emotional defense broken; upset",
+      "meaning_zh": "指心理防线被击破，感到被伤害或难受，通常用于网络吐槽。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看到这个评论我真的破防了。",
+          "english": "I was really upset after seeing this comment."
+        },
+        {
+          "chinese": "她的话直接破了我的防。",
+          "english": "Her words really got to me."
+        }
+      ],
+      "backstory": "This term originated from gaming culture and refers to breaching defensive barriers. In internet culture, it's used metaphorically to describe emotional vulnerability or being hurt by words online.",
+      "backstory_zh": "该词源于游戏文化，指突破防线。在网络文化中常用来形容心理防线被击破，被言论伤害的状态。",
+      "id": 181
+    },
+    {
+      "chinese": "绝绝子",
+      "pinyin": "jué jué zǐ",
+      "english": "Absolutely amazing; super cool",
+      "meaning_zh": "表示某样东西或事物非常好、非常棒，是赞美之词。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个新剧真的绝绝子！",
+          "english": "This new drama is absolutely amazing!"
+        },
+        {
+          "chinese": "你这个穿搭绝绝子。",
+          "english": "Your outfit is super cool."
+        }
+      ],
+      "backstory": "This term became viral on Chinese social media platforms like Douyin and Bilibili. The repetition of 'jue' (絕/绝) emphasizes the superlative quality, while 子 is a colloquial suffix used in modern slang.",
+      "backstory_zh": "这个词在抖音、B站等社交媒体上走红，通过重复'绝'字来强调最高级，'子'是现代俚语中的常用后缀。",
+      "id": 182
+    },
+    {
+      "chinese": "但是呢",
+      "pinyin": "dàn shi ne",
+      "english": "However; but then again",
+      "meaning_zh": "网络流行用语，用来铺垫转折，制造叙述的戏剧效果。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看起来不错，但是呢，仔细一看全是bug。",
+          "english": "It looks good, but then again, it's full of bugs."
+        },
+        {
+          "chinese": "他说得有道理，但是呢，我还是不同意。",
+          "english": "What he said makes sense, but then again, I still disagree."
+        }
+      ],
+      "backstory": "This phrase became popular from video creators and streamers who use it to build suspense and create comedic timing. The suffix '呢' adds a conversational, dramatic tone that makes stories more engaging.",
+      "backstory_zh": "这个短语在视频创作者和主播中流行，用来营造悬念和喜剧效果。'呢'的使用增加了对话的戏剧性。",
+      "id": 183
+    },
+    {
+      "chinese": "病娇",
+      "pinyin": "bìng jiāo",
+      "english": "Yandere character archetype",
+      "meaning_zh": "指一类性格扭曲、行为极端的二次元角色，通常表现为病态的执着和占有欲。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个角色设定有点病娇啊。",
+          "english": "This character has a yandere personality."
+        },
+        {
+          "chinese": "不要学动画里的病娇角色。",
+          "english": "Don't imitate yandere characters from anime."
+        }
+      ],
+      "backstory": "This term comes from anime and manga culture, combining '病' (sick/ill) and '娇' (coquettish). It describes a character archetype that is mentally unstable and obsessive, popular in Japanese animation.",
+      "backstory_zh": "该词源于动画漫画文化，由'病'和'娇'组成，描述一种心理扭曲、执着病态的二次元角色类型。",
+      "id": 184
+    },
+    {
+      "chinese": "小镇做题家",
+      "pinyin": "xiǎo zhèn zuò tí jiā",
+      "english": "Small-town test-taker; exam-focused student",
+      "meaning_zh": "指来自小镇、通过刷题获得高分的学生，讽刺其只会考试但眼界有限。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他虽然成绩好，但大家都说他是小镇做题家。",
+          "english": "Although he has good grades, people say he's just a small-town exam-taker."
+        },
+        {
+          "chinese": "小镇做题家和国际视野有很大区别。",
+          "english": "There's a big difference between exam-focused students and those with international perspectives."
+        }
+      ],
+      "backstory": "This term emerged during discussions about educational inequality and meritocracy in China. It refers to students from smaller towns who excel at standardized tests but may lack broader perspectives.",
+      "backstory_zh": "这个词在关于中国教育不公平和精英选拔的讨论中出现，指来自小镇通过刷题获得高分但眼界有限的学生。",
+      "id": 185
+    },
+    {
+      "chinese": "低情商",
+      "pinyin": "dī qíng shang",
+      "english": "Low emotional intelligence",
+      "meaning_zh": "指一个人缺乏情感认知能力，不懂得处理人际关系，常用来评价不会说话的人。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他的评论真的很低情商。",
+          "english": "His comment shows low emotional intelligence."
+        },
+        {
+          "chinese": "高情商的人不会这样说话。",
+          "english": "A person with high emotional intelligence wouldn't speak like that."
+        }
+      ],
+      "backstory": "This term has been widely used in Chinese internet culture to critique people who lack social awareness or say inappropriate things. It's often paired with '高情商' (high EQ) to highlight the contrast.",
+      "backstory_zh": "这个词在中文网络文化中广泛使用，用来批评缺乏社交意识或说不当言论的人。常与'高情商'相对比。",
+      "id": 186
+    },
+    {
+      "chinese": "非主流",
+      "pinyin": "fēi zhǔ liú",
+      "english": "Non-mainstream; alternative style",
+      "meaning_zh": "指不跟风主流审美的人，通常指2000年代中期网络上流行的个性化、夸张的风格。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他的穿衣风格很非主流。",
+          "english": "His fashion style is very non-mainstream."
+        },
+        {
+          "chinese": "那个时代的非主流文化现在看起来很搞笑。",
+          "english": "The non-mainstream culture of that era looks funny now."
+        }
+      ],
+      "backstory": "This term became prominent in mid-2000s Chinese internet culture, particularly on QQ spaces and forums. It described users who adopted alternative aesthetics with dyed hair, heavy makeup, and unconventional fashion.",
+      "backstory_zh": "这个词在2000年代中期的中文网络上流行，特别是在QQ空间和论坛。它描述采用另类审美、染发、浓妆等非主流风格的网民。",
+      "id": 187
+    },
+    {
+      "chinese": "杠精",
+      "pinyin": "gàng jīng",
+      "english": "Argumentative troll; contrarian",
+      "meaning_zh": "指喜欢反驳他人、凡事都要杠一下的人，无论对方说什么都要找茬。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "别理他，他就是个杠精。",
+          "english": "Ignore him, he's just a contrarian troll."
+        },
+        {
+          "chinese": "网上这么多杠精，真的很烦。",
+          "english": "There are so many argumentative trolls online, it's really annoying."
+        }
+      ],
+      "backstory": "The term combines '杠' (to argue) and '精' (expert/essence). It's used to describe people who automatically contradict others online, often with poor intentions. The term is commonly used in Chinese social media criticism.",
+      "backstory_zh": "这个词由'杠'（对抗）和'精'（专家）组合而成。用来描述那些在网上自动反驳他人、常常为了反驳而反驳的人。",
+      "id": 188
+    },
+    {
+      "chinese": "摸鱼",
+      "pinyin": "mō yú",
+      "english": "Shirk work; slack off",
+      "meaning_zh": "指在工作或学习期间偷懒、不认真，趁机休息或做其他事情。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "上班时间摸鱼被老板发现了。",
+          "english": "I got caught slacking off during work hours."
+        },
+        {
+          "chinese": "周五下午大家都在摸鱼。",
+          "english": "Everyone is shirking work on Friday afternoons."
+        }
+      ],
+      "backstory": "This colloquial term comes from the fishing metaphor: when fish aren't biting, fishermen are essentially idle or wasting time. In modern usage, it refers to employees or students not working seriously during designated work/study time.",
+      "backstory_zh": "这个俗语源于钓鱼的比喻：鱼不上钩时，渔民实际上是在闲散或浪费时间。在现代用法中，指员工或学生在工作/学习时间内不认真。",
+      "id": 189
+    },
+    {
+      "chinese": "emo",
+      "pinyin": "ē mò",
+      "english": "Feeling sad or depressed",
+      "meaning_zh": "指感到悲伤、沮丧或抑郁的状态，网友常用来形容心情不好。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "最近天天下雨，我有点emo了。",
+          "english": "It's been raining every day lately, I'm feeling a bit down."
+        },
+        {
+          "chinese": "别emo了，开心点。",
+          "english": "Don't be sad, cheer up."
+        }
+      ],
+      "backstory": "Borrowed from English 'emo' music culture, this term became popular among Chinese youth on social media. It's used as a verb or adjective to describe a melancholic or depressed mood, often jokingly or casually.",
+      "backstory_zh": "这个词借自英文'emo'音乐文化，在中国青少年社交媒体中流行。用来形容忧郁或抑郁的心情，通常是开玩笑或随意地使用。",
+      "id": 190
+    },
+    {
+      "chinese": "真的假的",
+      "pinyin": "zhēn de jiǎ de",
+      "english": "Really? Seriously? No way!",
+      "meaning_zh": "用来表示质疑、惊讶或不相信，是常见的网络感叹语。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他说要辞职了？真的假的！",
+          "english": "He's quitting his job? Seriously?"
+        },
+        {
+          "chinese": "真的假的，这是真的吗？",
+          "english": "No way, is this for real?"
+        }
+      ],
+      "backstory": "This phrase is a common colloquial expression that gained wider internet usage through memes and video content. It's used to express disbelief or surprise in a casual, relatable way that resonates with younger audiences.",
+      "backstory_zh": "这个短语是常见的口语表达，通过网络梗和视频内容获得更广泛的使用。用来以随意、易引起共鸣的方式表达怀疑或惊讶。",
+      "id": 191
+    },
+    {
+      "chinese": "爷们儿",
+      "pinyin": "yé men ér",
+      "english": "Buddy; homie; dude",
+      "meaning_zh": "对兄弟或朋友的昵称，带有亲切和俏皮的感觉，网络文化中常见。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "爷们儿，晚上一起去玩啊。",
+          "english": "Hey buddy, wanna hang out tonight?"
+        },
+        {
+          "chinese": "爷们儿们，集合了！",
+          "english": "Alright homies, let's gather up!"
+        }
+      ],
+      "backstory": "This is a colloquial Beijing/Northern Chinese term that has been popularized through internet humor and memes. It's an affectionate way to address friends or teammates with a mix of casualness and camaraderie.",
+      "backstory_zh": "这是北京/华北地区的口语词汇，通过网络幽默和梗文化得到推广。是一种既随意又亲切的方式来称呼朋友或队友。",
+      "id": 192
+    },
+    {
+      "chinese": "疯狂暗示",
+      "pinyin": "fēng kuáng àn shì",
+      "english": "Crazy hints; obvious hints",
+      "meaning_zh": "指某人在故意放出很多明显的暗示或线索，通常带有幽默感。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你这是在疯狂暗示什么呢？",
+          "english": "What are you hinting at so obviously?"
+        },
+        {
+          "chinese": "她疯狂暗示自己想要一个包包。",
+          "english": "She's dropping crazy hints that she wants a handbag."
+        }
+      ],
+      "backstory": "This phrase comes from meme culture and is often used ironically. It's used when someone is being very obvious about hinting at something, to the point where it's no longer subtle or understated.",
+      "backstory_zh": "这个短语来自网络梗文化，常带有讽刺意味。用来形容某人在故意放出非常明显的暗示，已经不再微妙含蓄。",
+      "id": 193
+    },
+    {
+      "chinese": "我酸了",
+      "pinyin": "wǒ suān le",
+      "english": "I'm jealous; I'm envious",
+      "meaning_zh": "表达嫉妒或羡慕的感情，通常用于看到他人的好消息时的玩笑式表达。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你们在度蜜月？我酸了！",
+          "english": "You're on a honeymoon? I'm so jealous!"
+        },
+        {
+          "chinese": "看到你的晒照我酸了。",
+          "english": "Looking at your selfies made me envious."
+        }
+      ],
+      "backstory": "This expression became popular on Chinese social media to express lighthearted jealousy or envy. The verb '酸' (sour) metaphorically represents the feeling of jealousy, similar to English 'salty.'",
+      "backstory_zh": "这个表达在中文社交媒体上流行，用来表达不太认真的嫉妒或羡慕。动词'酸'比喻嫉妒的感觉，类似英文的'salty'。",
+      "id": 194
+    },
+    {
+      "chinese": "大翻车",
+      "pinyin": "dà fān chē",
+      "english": "Major disaster; epic fail",
+      "meaning_zh": "指计划或事情完全失败，出现了严重的问题，常用于吐槽或评价。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这次活动真的大翻车了。",
+          "english": "This event was a complete disaster."
+        },
+        {
+          "chinese": "他的表现大翻车，粉丝都脱粉了。",
+          "english": "His performance was an epic fail, and fans stopped supporting him."
+        }
+      ],
+      "backstory": "The metaphor '翻车' (overturn/crash) describes a catastrophic failure, like a vehicle overturning. It's commonly used in Chinese internet culture to describe celebrities' failed performances, product launches, or public relations mishaps.",
+      "backstory_zh": "比喻'翻车'（车辆翻覆）描述灾难性的失败。在中文网络文化中常用来形容明星表演失败、产品发布或公关事件的惨败。",
+      "id": 195
+    },
+    {
+      "chinese": "我的青春结束了",
+      "pinyin": "wǒ de qīng chūn jié shù le",
+      "english": "My youth is over",
+      "meaning_zh": "一种自嘲的说法，表示感到自己变老了或错过了青春。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看到他们的新歌，我的青春结束了。",
+          "english": "Seeing their new song made me realize my youth is gone."
+        },
+        {
+          "chinese": "不能打游戏了，我的青春结束了。",
+          "english": "Can't play games anymore, my youth is over."
+        }
+      ],
+      "backstory": "This is a self-deprecating phrase used by Chinese netizens to express nostalgic feelings about aging or missing out on youthful experiences. It's often used humorously when reflecting on personal changes.",
+      "backstory_zh": "这是中文网民用来表达对衰老或错过青春经历的怀旧感的自嘲说法。常用来幽默地反思个人的变化。",
+      "id": 196
+    },
+    {
+      "chinese": "我会慢慢陪你",
+      "pinyin": "wǒ huì màn man péi nǐ",
+      "english": "I'll be with you slowly; patience",
+      "meaning_zh": "网络文案用语，表示会耐心陪伴或等待，常带有温暖的感情。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你慢慢来，我会慢慢陪你。",
+          "english": "Take your time, I'll be here with you."
+        },
+        {
+          "chinese": "在治疗的道路上，我会慢慢陪你。",
+          "english": "On the path to recovery, I'll patiently accompany you."
+        }
+      ],
+      "backstory": "This phrase became popular as inspirational and emotional content on Chinese social media. It expresses unconditional patience and companionship, often used in motivational or supportive contexts.",
+      "backstory_zh": "这个短语在中文社交媒体上作为励志和情感内容流行。表达无条件的耐心和陪伴，常用于励志或支持的语境。",
+      "id": 197
+    },
+    {
+      "chinese": "沙雕",
+      "pinyin": "shā diào",
+      "english": "Silly; ridiculous; stupid",
+      "meaning_zh": "网络用语，用来形容某个人或事物很沙雕（傻、滑稽），通常带有亲切的玩笑意味。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你这个想法也太沙雕了。",
+          "english": "That idea is so ridiculous."
+        },
+        {
+          "chinese": "这个视频沙雕得我笑死了。",
+          "english": "This video is so silly it made me laugh."
+        }
+      ],
+      "backstory": "This term is a play on words and internet slang that became popular on platforms like Bilibili and Douyin. It's used affectionately to describe silly or absurd behavior, with less harsh connotation than direct insults.",
+      "backstory_zh": "这个词是网络俚语和文字游戏，在B站和抖音等平台上流行。用来亲切地形容愚蠢或荒唐的行为，不如直接辱骂那么刺耳。",
+      "id": 198
+    },
+    {
+      "chinese": "赶快去学",
+      "pinyin": "gǎn kuài qù xué",
+      "english": "Go learn it quickly",
+      "meaning_zh": "网络梗，当某人做了令人印象深刻的事时，网友会回复'赶快去学'来表示该事值得学习。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他的演讲太棒了，赶快去学！",
+          "english": "His speech was amazing, go learn from it!"
+        },
+        {
+          "chinese": "这个化妆技巧绝了，赶快去学。",
+          "english": "This makeup technique is incredible, go pick it up."
+        }
+      ],
+      "backstory": "This phrase emerged from Chinese social media as an appreciative response to impressive content or skills. It's often used sarcastically or genuinely to encourage others to learn from someone's achievements.",
+      "backstory_zh": "这个短语源于中文社交媒体，作为对令人印象深刻的内容或技能的欣赏回应。可以真诚或讽刺地鼓励他人学习某人的成就。",
+      "id": 199
+    },
+    {
+      "chinese": "我不装了",
+      "pinyin": "wǒ búzhuāng le",
+      "english": "I'm done pretending; time to be real",
+      "meaning_zh": "表示不再伪装或隐瞒真实想法，通常带有豁出去的感觉。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我不装了，我就是喜欢这个明星。",
+          "english": "I'm done pretending, I really do like this celebrity."
+        },
+        {
+          "chinese": "我不装了，我承认我很在乎。",
+          "english": "I'm not gonna act anymore, I admit I care a lot."
+        }
+      ],
+      "backstory": "This phrase became a meme expressing the decision to stop being inauthentic or hiding one's true feelings. It's used in Chinese internet culture to show honesty and vulnerability after pretending to be unaffected.",
+      "backstory_zh": "这个短语成为了表达停止不真诚或隐藏真实感受的决定的网络梗。用来展示在假装无所谓后的诚实和脆弱。",
+      "id": 200
+    },
+    {
+      "chinese": "黑化",
+      "pinyin": "hēi huà",
+      "english": "Go dark; character corruption",
+      "meaning_zh": "指原本善良或正面的人物或形象变得邪恶或黑暗，常见于动画、游戏或虚构作品。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个角色突然黑化了，很意外。",
+          "english": "This character suddenly went dark, very unexpected."
+        },
+        {
+          "chinese": "被网暴后，他的性格黑化了。",
+          "english": "After being cyberbullied, his personality became darker."
+        }
+      ],
+      "backstory": "This term originates from anime and manga culture to describe character transformation into villains or darker personas. In internet culture, it's applied to real people to describe personality changes due to traumatic events.",
+      "backstory_zh": "这个词源于动漫文化，描述角色转变为反派或更黑暗的人格。在网络文化中也用来形容真实的人因创伤事件而产生的性格改变。",
+      "id": 201
+    },
+    {
+      "chinese": "蚌埠住了",
+      "pinyin": "bàng bù zhù le",
+      "english": "Can't hold it in anymore",
+      "meaning_zh": "谐音'绷不住'，表示忍不住要笑或无法保持冷静，因为某事很搞笑。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看到这个视频我蚌埠住了。",
+          "english": "Seeing this video, I couldn't hold it in anymore."
+        },
+        {
+          "chinese": "他的表情真的让我蚌埠住了。",
+          "english": "His expression really made me crack up."
+        }
+      ],
+      "backstory": "This is a homophone pun where '蚌埠' (a city name) is used to replace '绷不住' (can't hold back). It became viral on Chinese social media for its clever wordplay and is used to express uncontrollable laughter.",
+      "backstory_zh": "这是同音替代的谐音梗，用'蚌埠'代替'绷不住'。因为聪明的文字游戏在中文社交媒体上走红，用来表达无法控制的笑声。",
+      "id": 202
+    },
+    {
+      "chinese": "让我看看",
+      "pinyin": "ràng wǒ kàn kan",
+      "english": "Let me see; show me",
+      "meaning_zh": "网络梗，通常带有好奇或戏谑的语气，有时用来表示对某人的审视。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "让我看看你最近的相册。",
+          "english": "Let me see your recent photos."
+        },
+        {
+          "chinese": "让我看看你们的合照。",
+          "english": "Show me your couple photos."
+        }
+      ],
+      "backstory": "This phrase gained meme status through reaction videos and streams where content creators would request to see things with a specific tone. It's often used playfully or in a teasing manner on Chinese social media.",
+      "backstory_zh": "这个短语通过反应视频和直播获得网络梗地位，内容创作者会以特定的语气要求查看内容。在中文社交媒体上常以调皮或戏谑的方式使用。",
+      "id": 203
+    },
+    {
+      "chinese": "顶流",
+      "pinyin": "dǐng liú",
+      "english": "Top celebrity; A-list star",
+      "meaning_zh": "指最受欢迎、热度最高的明星或网红，通常在某个领域处于顶端。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "她是最近的顶流明星。",
+          "english": "She's a top celebrity right now."
+        },
+        {
+          "chinese": "这个平台上的顶流主播。",
+          "english": "The top-tier streamer on this platform."
+        }
+      ],
+      "backstory": "This term evolved from entertainment industry parlance and has become mainstream in Chinese internet culture. It refers to celebrities and content creators with the highest popularity and influence in their respective fields.",
+      "backstory_zh": "这个词源于娱乐业术语，已成为中文网络文化中的主流用语。指在各自领域中最受欢迎和最有影响力的明星和内容创作者。",
+      "id": 204
+    },
+    {
+      "chinese": "不好意思啊",
+      "pinyin": "búhǎo yì si a",
+      "english": "Sorry about that; my bad",
+      "meaning_zh": "网络文化中的常见短语，用来委婉地道歉或表示不好意思，常带有开玩笑的语气。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "不好意思啊，我迟到了。",
+          "english": "Sorry about that, I'm late."
+        },
+        {
+          "chinese": "不好意思啊，说错话了。",
+          "english": "My bad, I misspoke."
+        }
+      ],
+      "backstory": "This casual apology phrase is ubiquitous in Chinese internet communication, used both sincerely and ironically. It's a soft, non-confrontational way to apologize or acknowledge a mistake in online interactions.",
+      "backstory_zh": "这个随意的道歉短语在中文网络交流中无处不在，既可真诚使用，也可讽刺使用。这是在网络互动中温和、非对抗式地道歉或承认错误的方式。",
+      "id": 205
+    },
+    {
+      "chinese": "emo",
+      "pinyin": "ē mò",
+      "english": "Feeling sad or melancholic",
+      "meaning_zh": "形容情绪低落、感到悲伤或抑郁的状态。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "最近工作太累了，我有点emo。",
+          "english": "Work has been exhausting lately, I'm feeling a bit down."
+        },
+        {
+          "chinese": "别emo了，事情会好起来的。",
+          "english": "Don't be sad, things will get better."
+        }
+      ],
+      "backstory": "Derived from the English word 'emo' (emotional), this term became popular among Chinese internet users to describe a temporary melancholic mood. It's often used humorously in online conversations to express sadness without being too serious.",
+      "backstory_zh": "源自英文单词'emo'（情感），在中文网络用语中用来形容一种暂时的忧郁情绪。常被网友用来幽默地表达悲伤，但并不过分严肃。",
+      "id": 206
+    },
+    {
+      "chinese": "沙雕",
+      "pinyin": "shā diāo",
+      "english": "Silly or ridiculous person",
+      "meaning_zh": "用来形容某人行为愚蠢、滑稽或很傻的词汇，带有戏谑的意味。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你真是个沙雕，居然忘记带钥匙了。",
+          "english": "You're such a silly person, you forgot your keys again."
+        },
+        {
+          "chinese": "这个沙雕段子笑死我了。",
+          "english": "This ridiculous joke made me laugh so hard."
+        }
+      ],
+      "backstory": "This term is a play on words combining 'sha' (silly) and 'diao' (sculpture), creating a humorous insult that's become popular in memes and casual online banter. It's typically used affectionately rather than as genuine criticism.",
+      "backstory_zh": "这个词是对'傻'和'雕'的谐音组合，形成了一个幽默的讽刺说法，在网络段子和随意的聊天中流行开来。通常是以开玩笑的方式使用，而非真正的批评。",
+      "id": 207
+    },
+    {
+      "chinese": "顶流",
+      "pinyin": "dǐng liú",
+      "english": "Top celebrity or influencer",
+      "meaning_zh": "指在某个领域最受欢迎、最有影响力的顶级明星或网红。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "她是娱乐圈的顶流明星。",
+          "english": "She is a top-tier celebrity in the entertainment industry."
+        },
+        {
+          "chinese": "这个直播主播现在成了抖音顶流。",
+          "english": "This streamer has become a top influencer on TikTok."
+        }
+      ],
+      "backstory": "Originally from Chinese social media, 'dingliu' (top flow) refers to the most influential or popular figures in a particular field. The term gained widespread usage with the rise of short-video platforms and celebrity culture in China.",
+      "backstory_zh": "源自中文社交媒体，'顶流'指在某个领域最受欢迎和最有影响力的人物。这个词随着短视频平台和明星文化在中国的兴盛而广泛使用。",
+      "id": 208
+    },
+    {
+      "chinese": "破防",
+      "pinyin": "pò fáng",
+      "english": "Emotional defenses broken",
+      "meaning_zh": "指某人的心理防线被摧毁，被某件事深深触动或伤害。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看到他的道歉，我直接破防哭了。",
+          "english": "After seeing his apology, my defenses broke and I cried."
+        },
+        {
+          "chinese": "这部电影的结局把我破防了。",
+          "english": "The ending of this movie really got to me emotionally."
+        }
+      ],
+      "backstory": "This gaming term refers to breaking an opponent's defensive line, but has been adapted in internet culture to mean having one's emotional barriers broken. It's commonly used to express being deeply moved or hurt by something.",
+      "backstory_zh": "这个源自游戏术语，原指击破对手的防线，后来被网络文化改造用来形容一个人的心理防线被摧毁。常用来表达被某事深深打动或伤害的情况。",
+      "id": 209
+    },
+    {
+      "chinese": "绝绝子",
+      "pinyin": "jué jué zi",
+      "english": "Amazing or absolutely incredible",
+      "meaning_zh": "用来形容某事物非常棒、绝妙或令人印象深刻，是一个赞叹的表达。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个创意真的绝绝子！",
+          "english": "This idea is absolutely amazing!"
+        },
+        {
+          "chinese": "她的表演绝绝子，我给五星。",
+          "english": "Her performance was incredible, I'd give it five stars."
+        }
+      ],
+      "backstory": "A playful intensification of 'jue' (absolute/incredible) by repeating it with the diminutive suffix 'zi', this term has become popular among younger Chinese internet users to express excessive praise or admiration for something.",
+      "backstory_zh": "通过重复'绝'字并加上小词后缀'子'来强调，这个词在年轻的中文网友中很流行，用来表达对某事物过度的称赞或钦佩。",
+      "id": 210
+    },
+    {
+      "chinese": "病娇",
+      "pinyin": "bìng jiāo",
+      "english": "Unhealthily obsessive person",
+      "meaning_zh": "指性格扭曲、过度执着或患有心理问题的人，常见于二次元文化。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个动画角色是个病娇，对主角执迷不悟。",
+          "english": "This anime character is obsessive and can't let go of the protagonist."
+        },
+        {
+          "chinese": "别那么病娇，要学会放下。",
+          "english": "Don't be so unhealthily obsessive, learn to let go."
+        }
+      ],
+      "backstory": "Originally from Japanese otaku and anime culture, this term combines 'bing' (sick/unhealthy) and 'jiao' (charming) to describe characters with twisted or obsessive personalities. It's widely used in Chinese anime and manga communities.",
+      "backstory_zh": "源自日本宅文化和动漫用语，这个词结合了'病'（不健康）和'娇'（可爱），用来形容性格扭曲或执着的角色。在中文动漫和漫画社区广泛使用。",
+      "id": 211
+    },
+    {
+      "chinese": "杠精",
+      "pinyin": "gàng jīng",
+      "english": "Serial contrarian or argumentative",
+      "meaning_zh": "指喜欢与人争辩、总是持相反意见的人，网络上的'杠子'。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "别跟他说话，他就是个杠精。",
+          "english": "Don't bother talking to him, he's just a serial contrarian."
+        },
+        {
+          "chinese": "网上总有一些杠精喜欢抬杠。",
+          "english": "There are always arguers online who like to contradict everything."
+        }
+      ],
+      "backstory": "The term 'gang' (杠, literally 'pole/lever') is used metaphorically to mean 'to contradict', and 'jing' (精, expert) makes it 'expert at contradicting'. This term emerged from Chinese social media to describe people who reflexively argue against everything.",
+      "backstory_zh": "'杠'字字面意思是'杆'，但引申为'反驳'，'精'表示'专家'，所以'杠精'指那些总爱反驳他人的人。这个词从中文社交媒体产生，用来形容那些条件反射式地反对一切的人。",
+      "id": 212
+    },
+    {
+      "chinese": "摸鱼",
+      "pinyin": "mō yú",
+      "english": "Slacking off at work",
+      "meaning_zh": "在工作或学习中偷懒、不认真的行为，趁机休闲娱乐。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "boss不在，我们趁机摸鱼一下。",
+          "english": "Since the boss isn't here, let's slack off a bit."
+        },
+        {
+          "chinese": "上班摸鱼是大多数打工人的日常。",
+          "english": "Slacking off at work is part of the daily routine for most employees."
+        }
+      ],
+      "backstory": "This folk expression literally means 'to touch fish', metaphorically referring to taking advantage of the turbidity of water (chaos) to catch fish easily. In modern usage, it describes employees finding time to relax during work hours.",
+      "backstory_zh": "这个民俗表达字面意思是'摸鱼'，比喻趁着水浑浊（混乱）容易捉鱼。在现代用法中，用来形容员工在工作时间找机会放松休闲。",
+      "id": 213
+    },
+    {
+      "chinese": "低情商",
+      "pinyin": "dī qíng shāng",
+      "english": "Low emotional intelligence",
+      "meaning_zh": "指一个人缺乏情绪管理能力，说话不得体、行为不当社交。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他说的话太低情商了，没有考虑别人的感受。",
+          "english": "His words were low EQ, showing no consideration for others' feelings."
+        },
+        {
+          "chinese": "这样做太低情商，会伤害朋友的心。",
+          "english": "This action is low emotional intelligence and will hurt your friend."
+        }
+      ],
+      "backstory": "Popularized by psychology and self-help culture in China, 'low emotional intelligence' has become a common critique on social media for insensitive behavior. It's often contrasted with 'high emotional intelligence' to evaluate interpersonal skills.",
+      "backstory_zh": "随着心理学和自助文化在中国的流行，'低情商'成为了网络社交媒体中对不敏感行为的常见评价。它常与'高情商'相对比，用来评估人际交往能力。",
+      "id": 214
+    },
+    {
+      "chinese": "真的假的",
+      "pinyin": "zhēn de jiǎ de",
+      "english": "Are you serious or joking",
+      "meaning_zh": "用来质疑或惊讶地询问对方说的话是真实的还是开玩笑。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你真的假的，这事怎么可能是真的。",
+          "english": "Are you serious? There's no way this could be true."
+        },
+        {
+          "chinese": "他说他要辞职了，我的反应就是'真的假的'。",
+          "english": "When he said he was quitting, I responded with 'are you joking?'"
+        }
+      ],
+      "backstory": "This casual interrogative phrase is used to express disbelief or astonishment at what someone has just said. It's extremely common in everyday Chinese conversation and online chats, often delivered in a tone of playful skepticism.",
+      "backstory_zh": "这个随意的疑问短语用来表达对他人所说之事的不信任或惊讶。在日常中文对话和网络聊天中非常常见，通常带有调皮的怀疑语气。",
+      "id": 215
+    },
+    {
+      "chinese": "非主流",
+      "pinyin": "fēi zhǔ liú",
+      "english": "Non-mainstream or alternative style",
+      "meaning_zh": "指不符合主流审美或社会规范的另类风格和审美选择。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他的穿衣风格很非主流，独立而有个性。",
+          "english": "His fashion style is quite alternative and expresses his individuality."
+        },
+        {
+          "chinese": "那个年代很多网友都喜欢非主流的审美。",
+          "english": "Many internet users of that era enjoyed non-mainstream aesthetics."
+        }
+      ],
+      "backstory": "Emerging from early 2000s internet culture, particularly QQ Zone culture, this term describes aesthetics and styles that deliberately diverge from mainstream trends. It includes dark makeup, alternative fashion, and unconventional selfies.",
+      "backstory_zh": "源自2000年代初期的网络文化，特别是QQ空间文化，这个词描述故意背离主流趋势的审美和风格。包括黑色化妆、另类服装和非常规自拍。",
+      "id": 216
+    },
+    {
+      "chinese": "小镇做题家",
+      "pinyin": "xiǎo zhèn zuò tí jiā",
+      "english": "Small-town test-taker",
+      "meaning_zh": "指来自小镇的学生，通过做题来学习，靠高考成绩改变命运的学生群体。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "作为一个小镇做题家，我深知高考的重要性。",
+          "english": "As a small-town student focused on test prep, I understand the importance of the gaokao."
+        },
+        {
+          "chinese": "小镇做题家的故事常常引发人们关于教育公平的讨论。",
+          "english": "Stories of small-town test-takers often spark discussions about educational equality."
+        }
+      ],
+      "backstory": "This term emerged as a self-reflective label for students from rural areas who rely heavily on studying and test-taking to compete academically. It reflects broader societal discussions about educational inequality and social mobility in China.",
+      "backstory_zh": "这个词源自小镇学生的自我反思，用来描述那些主要通过学习和做题来竞争的学生群体。它反映了关于中国教育不平等和社会流动性的更广泛社会讨论。",
+      "id": 217
+    },
+    {
+      "chinese": "我酸了",
+      "pinyin": "wǒ suān le",
+      "english": "I'm feeling jealous or envious",
+      "meaning_zh": "表示对他人的好事或成就感到嫉妒或羡慕。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "看到她的新房子，我直接酸了。",
+          "english": "Seeing her new house made me jealous."
+        },
+        {
+          "chinese": "他们去旅游了，我酸了。",
+          "english": "I'm envious that they went on vacation."
+        }
+      ],
+      "backstory": "The word 'suan' (sour) is used metaphorically to describe the bitter feeling of envy or jealousy. This internet slang became popular for expressing mild, often humorous jealousy about others' good fortune or achievements.",
+      "backstory_zh": "'酸'字被隐喻性地用来形容嫉妒或羡慕的苦涩感受。这个网络用语变得很流行，用来表达对他人好运或成就的温和、通常是幽默的嫉妒。",
+      "id": 218
+    },
+    {
+      "chinese": "黑化",
+      "pinyin": "hēi huà",
+      "english": "Character corruption or going dark",
+      "meaning_zh": "指一个人或角色的性格发生了负面变化，变得邪恶或堕落。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个角色在第三季开始黑化了。",
+          "english": "This character started going dark in the third season."
+        },
+        {
+          "chinese": "长期的压力让他逐渐黑化，变成了一个坏人。",
+          "english": "Long-term stress gradually corrupted his character, turning him into a villain."
+        }
+      ],
+      "backstory": "Originally from anime and manga communities, 'heihuan' (blackification) describes a character's moral or personality deterioration. It's now widely used in entertainment discussions to describe any character becoming increasingly villainous or morally compromised.",
+      "backstory_zh": "源自动漫和漫画社区，'黑化'描述角色道德或性格的恶化。现在广泛用于娱乐讨论中，描述任何角色变得越来越邪恶或道德沦丧的情况。",
+      "id": 219
+    },
+    {
+      "chinese": "蚌埠住了",
+      "pinyin": "bàng bù zhù le",
+      "english": "Can't take it anymore",
+      "meaning_zh": "表示忍无可忍、被逗笑、或被某件事搞得无法继续的状态。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个笑话太搞笑了，我蚌埠住了。",
+          "english": "This joke is too funny, I can't stop laughing."
+        },
+        {
+          "chinese": "他的反应让我蚌埠住了。",
+          "english": "His reaction made me unable to hold it together."
+        }
+      ],
+      "backstory": "A homophone pun using 'Bangbu' (a Chinese city) to sound like 'can't hold anymore', this phrase gained viral popularity as a humorous way to express that something has pushed you to your limits or made you laugh uncontrollably.",
+      "backstory_zh": "这是一个谐音双关语，利用'蚌埠'（一个中国城市）的发音来表示'忍不住'，这个短语通过病毒式传播，作为一种幽默的方式来表达某事已经把你逼到极限或让你笑到无法自控的状态。",
+      "id": 220
+    },
+    {
+      "chinese": "大翻车",
+      "pinyin": "dà fān chē",
+      "english": "Catastrophic failure or disaster",
+      "meaning_zh": "指事情计划完全失败，出现意想不到的负面结果。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个活动大翻车了，没有人来参加。",
+          "english": "This event was a complete disaster, nobody showed up."
+        },
+        {
+          "chinese": "他的表白大翻车，被直接拒绝了。",
+          "english": "His confession was a total failure, he got rejected immediately."
+        }
+      ],
+      "backstory": "Using the metaphor of a vehicle flipping over (翻车), this internet slang describes plans or events going catastrophically wrong. It became popular on social media to comment on public failures or embarrassing situations.",
+      "backstory_zh": "使用车辆翻覆（翻车）的比喻，这个网络用语描述计划或事件的灾难性失败。它在社交媒体上变得很流行，用来评论公众失败或尴尬的情况。",
+      "id": 221
+    },
+    {
+      "chinese": "让我看看",
+      "pinyin": "ràng wǒ kàn kan",
+      "english": "Let me see what you have",
+      "meaning_zh": "在网络文化中用来表示要查看某人的内容、成果或秘密。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "你新买的手机呢，让我看看。",
+          "english": "Where's your new phone? Let me see it."
+        },
+        {
+          "chinese": "网友评论'让我看看'，想要查看原po的照片。",
+          "english": "Internet users comment 'let me see', wanting to view the original poster's photos."
+        }
+      ],
+      "backstory": "Originally a simple request phrase, this has become a meme on Chinese social media where users jokingly demand to see something, particularly in comments. It's often used ironically or playfully in discussions.",
+      "backstory_zh": "原本只是一个简单的请求短语，但它在中文社交媒体上已成为一个梗，用户会开玩笑地要求看某些东西，特别是在评论中。它经常被讽刺或玩笑地使用在讨论中。",
+      "id": 222
+    },
+    {
+      "chinese": "我不装了",
+      "pinyin": "wǒ búyào zhuāng le",
+      "english": "I'm done pretending",
+      "meaning_zh": "表示一个人放弃假装、停止伪装，坦诚自己真实的想法或感受。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我不装了，我就是喜欢偷懒。",
+          "english": "I'm done pretending, I actually do like being lazy."
+        },
+        {
+          "chinese": "看这个表情包，网友们都说'我不装了'。",
+          "english": "Looking at this meme, internet users say 'I'm done pretending.'"
+        }
+      ],
+      "backstory": "This phrase emerged as a humorous way to express abandoning one's facade and admitting one's true nature or desires. It gained popularity in meme culture as people jokingly 'confess' their lazy, indulgent, or unconventional preferences.",
+      "backstory_zh": "这个短语作为一种幽默的方式来表达放弃伪装并承认真实的自我和欲望。它在梗文化中变得流行，人们开玩笑地'承认'自己的懒惰、沉溺或非常规的偏好。",
+      "id": 223
+    },
+    {
+      "chinese": "疯狂暗示",
+      "pinyin": "fēng kuáng àn shì",
+      "english": "Obvious hints or subtly suggesting",
+      "meaning_zh": "指用不太隐晦的方式向他人暗示某事，虽然叫'暗示'但其实很明显。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "她一直在疯狂暗示她想要一个礼物。",
+          "english": "She's been heavily hinting that she wants a gift."
+        },
+        {
+          "chinese": "他疯狂暗示自己很饿，其实就是想让我请吃饭。",
+          "english": "He's subtly suggesting he's hungry, basically asking me to treat him to dinner."
+        }
+      ],
+      "backstory": "This phrase ironically uses 'crazy' (疯狂) with 'subtle hints' (暗示) to describe when someone's hints are so obvious they're barely subtle at all. It's commonly used humorously in relationships and friendships.",
+      "backstory_zh": "这个短语讽刺地将'疯狂'与'暗示'组合，用来描述某人的暗示太明显了，根本不隐晦。它在人际关系和友谊中经常被幽默地使用。",
+      "id": 224
+    },
+    {
+      "chinese": "我的青春结束了",
+      "pinyin": "wǒ de qīng chūn jié shù le",
+      "english": "My youth is over",
+      "meaning_zh": "表示对年龄增长、青年岁月流逝的感慨，常带有调侃和幽默。",
+      "category": "internet_culture",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "一个年轻人说'我的青春结束了'，这太搞笑了。",
+          "english": "A young person saying 'my youth is over' is hilarious."
+        },
+        {
+          "chinese": "看着同学们都在谈恋爱，我叹气说'我的青春结束了'。",
+          "english": "Seeing all my classmates in relationships, I sighed 'my youth is over.'"
+        }
+      ],
+      "backstory": "A humorous self-lamentation popular among young people, this phrase exaggerates feelings of aging even when the person is still young. It's often used ironically when facing adult responsibilities, failed relationships, or simply getting older.",
+      "backstory_zh": "这是在年轻人中很流行的幽默自我哀叹方式，即使这个人还很年轻也会夸大衰老的感受。它经常被讽刺性地用来面对成人责任、感情失败或只是变老的事实。",
+      "id": 225
+    },
+    {
+      "chinese": "文采斐然",
+      "pinyin": "wén cǎi fěi rán",
+      "english": "Writing with brilliant literary talent",
+      "meaning_zh": "文章或言辞中显现出华丽的文采和才华。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位作家的新作文采斐然，令人赞叹。",
+          "english": "This writer's new work displays brilliant literary talent, earning admiration."
+        },
+        {
+          "chinese": "她的诗歌文采斐然，充满意象。",
+          "english": "Her poems are rich in literary brilliance and imagery."
+        }
+      ],
+      "backstory": "This phrase combines 文采 (literary talent) with 斐然 (brilliantly evident), used to describe writing that showcases exceptional artistic quality and elegance. It's commonly used in literary criticism and academic contexts.",
+      "backstory_zh": "该短语由\"文采\"（文学才华）和\"斐然\"（显然、明显）组成，用来形容文章或作品展现出卓越的艺术质量和优雅。常用于文学评论和学术场景。",
+      "id": 226
+    },
+    {
+      "chinese": "妙笔生花",
+      "pinyin": "miào bǐ shēng huā",
+      "english": "Magical brush brings flowers to life",
+      "meaning_zh": "形容写文章、作画等创作天赋高超，笔下生动逼真。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位画家用妙笔生花的手法描绘了山水。",
+          "english": "This painter used masterful technique to bring landscapes to life."
+        },
+        {
+          "chinese": "她妙笔生花，将人物描写得栩栩如生。",
+          "english": "Her magical pen brings characters vividly to life in her writing."
+        }
+      ],
+      "backstory": "An idiom from classical Chinese aesthetics, this phrase suggests that a skilled artist's work is so vivid it seems to make flowers bloom from the page. It's widely used to praise exceptional artistic or literary ability.",
+      "backstory_zh": "这个成语源于古代中国审美，暗示一位技艺高超的艺术家的作品栩栩如生。广泛用于赞美卓越的艺术或文学能力。",
+      "id": 227
+    },
+    {
+      "chinese": "文思泉涌",
+      "pinyin": "wén sī quán yǒng",
+      "english": "Literary thoughts gush forth like a spring",
+      "meaning_zh": "灵感和文思源源不断地涌现出来，创意突然大量产生。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "在创意工坊中，设计师们文思泉涌。",
+          "english": "In the creative workshop, designers' ideas flowed abundantly."
+        },
+        {
+          "chinese": "看到那幅画，诗人的灵感文思泉涌。",
+          "english": "Upon seeing that painting, the poet's inspiration gushed forth."
+        }
+      ],
+      "backstory": "This phrase metaphorically compares the flow of creative ideas to a natural spring, suggesting unstoppable, abundant inspiration. It's frequently used in creative and academic contexts to describe moments of exceptional productivity.",
+      "backstory_zh": "该短语用自然泉水的流动比喻创意思想的涌现，暗示灵感源源不断。经常用在创意和学术场景中，描述例外高产的时刻。",
+      "id": 228
+    },
+    {
+      "chinese": "笔下生辉",
+      "pinyin": "bǐ xià shēng huī",
+      "english": "Words shine brilliantly under the pen",
+      "meaning_zh": "指文字或作品因为出自名家之笔而显得特别有光彩和价值。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "大文豪的笔下生辉，每一个字都闪闪发光。",
+          "english": "Great writers' words shine brilliantly, each character glowing with brilliance."
+        },
+        {
+          "chinese": "经过修改，这篇文章笔下生辉。",
+          "english": "After revision, this article shines with brilliance."
+        }
+      ],
+      "backstory": "A classical expression praising the radiance of fine writing, this phrase suggests that words by skilled authors glow with an inherent brilliance. It's used to commend exceptional writing quality.",
+      "backstory_zh": "这是一个经典表达，赞美精妙文字的光彩，暗示技艺高超的作者的文字发出内在的光辉。用来表扬卓越的写作质量。",
+      "id": 229
+    },
+    {
+      "chinese": "意境深远",
+      "pinyin": "yì jìng shēn yuǎn",
+      "english": "Profound artistic conception and mood",
+      "meaning_zh": "文学作品或艺术作品中所表现的想象空间和精神意蕴深邃悠远。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这首诗的意境深远，令人陷入沉思。",
+          "english": "This poem's artistic conception is profound, inspiring deep contemplation."
+        },
+        {
+          "chinese": "水墨画的意境深远，给人留下无尽想象。",
+          "english": "Ink wash painting's artistic mood is profound, leaving boundless imagination."
+        }
+      ],
+      "backstory": "A term from Chinese aesthetics describing the depth and subtlety of artistic expression beyond literal meaning. It emphasizes the emotional and spiritual dimensions of art that linger with viewers or readers.",
+      "backstory_zh": "中国美学术语，描述艺术表达的深度和微妙，超越字面含义。强调艺术对观众或读者产生的情感和精神影响。",
+      "id": 230
+    },
+    {
+      "chinese": "含蓄蕴藉",
+      "pinyin": "hán xù yùn jiè",
+      "english": "Subtle and richly suggestive expression",
+      "meaning_zh": "文学表现手法细微婉转，意思不直接说出，而是含而不露、暗示深刻。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "中国古诗词常采用含蓄蕴藉的表现手法。",
+          "english": "Classical Chinese poetry often employs subtle and suggestive techniques."
+        },
+        {
+          "chinese": "他的文章写得很含蓄蕴藉，耐人寻味。",
+          "english": "His article is subtle and richly layered, inviting deep reflection."
+        }
+      ],
+      "backstory": "A literary criticism term describing works that suggest meanings through implication rather than direct statement, characteristic of classical Chinese poetry and prose. It values subtlety and reader interpretation.",
+      "backstory_zh": "文学评论术语，描述通过暗示而非直接陈述来表达意义的作品，是古代中文诗文的特点。强调微妙性和读者的解读。",
+      "id": 231
+    },
+    {
+      "chinese": "诗情画意",
+      "pinyin": "shī qíng huà yì",
+      "english": "Poetic sentiment and picturesque beauty",
+      "meaning_zh": "景物或场景具有诗歌般的感情氛围和绘画般的美感。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "春日里漫步花园，处处诗情画意。",
+          "english": "Walking through the garden in spring, poetic sentiment and beauty abound."
+        },
+        {
+          "chinese": "这幅风景画充满诗情画意。",
+          "english": "This landscape painting is full of poetic and picturesque beauty."
+        }
+      ],
+      "backstory": "A phrase combining the aesthetic qualities of poetry (emotion and feeling) with visual beauty (painting), used to describe landscapes or scenes that evoke both emotional and artistic appreciation. Common in travel writing and art criticism.",
+      "backstory_zh": "将诗歌的审美品质（情感和感受）与视觉美感（绘画）结合的短语，用来形容能激发情感和艺术欣赏的景物。常见于游记和艺术评论。",
+      "id": 232
+    },
+    {
+      "chinese": "词不达意",
+      "pinyin": "cí bù dá yì",
+      "english": "Words fail to convey the intended meaning",
+      "meaning_zh": "说话或写文章的词语无法充分表达所要表达的意思。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我试图解释，但感觉词不达意。",
+          "english": "I tried to explain, but felt my words failed to convey the meaning."
+        },
+        {
+          "chinese": "有时候，词不达意会导致误解。",
+          "english": "Sometimes, words failing to convey meaning leads to misunderstanding."
+        }
+      ],
+      "backstory": "A classical idiom acknowledging the limitation of language in expressing complex thoughts and emotions. It's frequently used in literary and philosophical discussions about the gap between language and meaning.",
+      "backstory_zh": "一个经典成语，承认语言在表达复杂思想和情感方面的局限性。常用于文学和哲学讨论中，涉及语言与意义之间的鸿沟。",
+      "id": 233
+    },
+    {
+      "chinese": "文脉传承",
+      "pinyin": "wén mài chuán chéng",
+      "english": "Transmission of literary tradition",
+      "meaning_zh": "文学传统和风格从一代传承到下一代，延续文学血脉。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "现代作家继承了古典文脉传承的精髓。",
+          "english": "Modern writers inherited the essence of classical literary tradition."
+        },
+        {
+          "chinese": "文脉传承是中华文化的重要组成部分。",
+          "english": "Literary tradition transmission is crucial to Chinese cultural heritage."
+        }
+      ],
+      "backstory": "A term emphasizing the continuity of literary styles and themes across generations, particularly in Chinese literary history. It underscores how classical works influence and shape contemporary literature.",
+      "backstory_zh": "强调文学风格和主题在几代人之间的连贯性的术语，特别是在中文文学历史中。突出古代作品如何影响和塑造当代文学。",
+      "id": 234
+    },
+    {
+      "chinese": "修辞立其诚",
+      "pinyin": "xiū cí lì qī chéng",
+      "english": "Rhetoric establishes sincerity and truth",
+      "meaning_zh": "通过精妙的修辞手法来表现真诚的思想和深刻的真理。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "好的文学作品应该做到修辞立其诚。",
+          "english": "Good literature should use rhetoric to establish truth."
+        },
+        {
+          "chinese": "修辞立其诚是古代文论的重要观点。",
+          "english": "Rhetoric establishing sincerity is an important concept in classical literary criticism."
+        }
+      ],
+      "backstory": "A classical Chinese literary principle stating that rhetorical devices should serve truth rather than obscure it. Derived from ancient Chinese texts, it emphasizes the ethical dimension of literary expression.",
+      "backstory_zh": "古代中文文学原则，说明修辞手法应该服务于真理而非掩盖真理。源于古代中文典籍，强调文学表达的伦理维度。",
+      "id": 235
+    },
+    {
+      "chinese": "文化蕴藏",
+      "pinyin": "wén huà yùn cáng",
+      "english": "Cultural richness contained within",
+      "meaning_zh": "文学或艺术作品中蕴含着深厚的文化底蕴和历史积淀。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这部经典小说文化蕴藏丰富。",
+          "english": "This classic novel contains rich cultural richness."
+        },
+        {
+          "chinese": "中国古诗的文化蕴藏令人赞叹。",
+          "english": "The cultural richness contained in ancient Chinese poetry is admirable."
+        }
+      ],
+      "backstory": "A term describing how literary works store and preserve cultural values, historical contexts, and philosophical wisdom. Often used when analyzing classical texts and their significance to cultural heritage.",
+      "backstory_zh": "描述文学作品如何存储和保存文化价值、历史背景和哲学智慧的术语。常用于分析经典文献及其对文化遗产的意义。",
+      "id": 236
+    },
+    {
+      "chinese": "笔墨横溢",
+      "pinyin": "bǐ mò héng yì",
+      "english": "Literary talent overflowing abundantly",
+      "meaning_zh": "文思敏捷，笔下才华横溢，文字生动有力。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位作家笔墨横溢，创作不断。",
+          "english": "This writer's talent overflows abundantly, producing continuously."
+        },
+        {
+          "chinese": "她的文章笔墨横溢，充满活力。",
+          "english": "Her articles overflow with literary talent and vitality."
+        }
+      ],
+      "backstory": "A phrase combining 笔墨 (writing/brushwork) with 横溢 (overflowing), used to describe writers whose talent abundantly manifests in their work. It emphasizes the wealth of literary ability.",
+      "backstory_zh": "将\"笔墨\"（写作/笔法）与\"横溢\"（溢出）结合的短语，用来形容天才在作品中丰富体现的作者。强调文学才华的丰富性。",
+      "id": 237
+    },
+    {
+      "chinese": "情文并茂",
+      "pinyin": "qíng wén bìng mào",
+      "english": "Emotion and literary expression equally excellent",
+      "meaning_zh": "文章既有深厚的感情，又有优美的文辞，情感和文采并行俱佳。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这篇散文情文并茂，令人感动。",
+          "english": "This essay combines emotion and literary expression beautifully, moving readers."
+        },
+        {
+          "chinese": "她的诗歌情文并茂，既有意境又有技巧。",
+          "english": "Her poems are both emotionally resonant and technically excellent."
+        }
+      ],
+      "backstory": "A traditional literary criterion valuing the balance between emotional authenticity and artistic craftsmanship. This phrase appears frequently in classical literary criticism and modern essay evaluation.",
+      "backstory_zh": "传统文学标准，强调情感真实性与艺术技巧之间的平衡。这个短语经常出现在古代文学批评和现代散文评价中。",
+      "id": 238
+    },
+    {
+      "chinese": "引经据典",
+      "pinyin": "yǐn jīng jù diǎn",
+      "english": "Cite classics to support arguments",
+      "meaning_zh": "引用古代经典著作或历史事实来作为论述的依据和证明。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "学者在论文中引经据典，支撑自己的观点。",
+          "english": "The scholar cited classics to support his arguments in the paper."
+        },
+        {
+          "chinese": "他讲话时常引经据典，显得很有学问。",
+          "english": "He often cites classics when speaking, demonstrating great erudition."
+        }
+      ],
+      "backstory": "A phrase originating from traditional Chinese scholarship, describing the practice of referencing classical texts to support arguments. It's widely used in academic and intellectual discourse.",
+      "backstory_zh": "源于传统中文学问的短语，描述引用经典文献来支撑论点的做法。广泛用于学术和知识分子讨论。",
+      "id": 239
+    },
+    {
+      "chinese": "韵味深长",
+      "pinyin": "yùn wèi shēn cháng",
+      "english": "Lingering flavor and profound resonance",
+      "meaning_zh": "文学作品中蕴含着持久的韵味和深层的意蕴，令人久思不忘。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这首诗的韵味深长，值得反复品读。",
+          "english": "This poem has lingering flavor worth reading repeatedly."
+        },
+        {
+          "chinese": "古人的文章韵味深长，经久不衰。",
+          "english": "Ancient texts have enduring charm that never fades."
+        }
+      ],
+      "backstory": "A term from aesthetic criticism describing how literary works create lasting impressions through subtle resonance and layered meaning. It's particularly used to praise classical poetry and philosophical texts.",
+      "backstory_zh": "美学批评术语，描述文学作品通过微妙共鸣和多层意义创造持久印象的方式。特别用于赞美古代诗歌和哲学文献。",
+      "id": 240
+    },
+    {
+      "chinese": "构思精妙",
+      "pinyin": "gòu sī jīng miào",
+      "english": "Ingeniously conceived and constructed",
+      "meaning_zh": "文学作品的结构安排和创意设想精巧独特，构思巧妙。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这部小说的构思精妙，故事情节引人入胜。",
+          "english": "This novel's conception is ingenious, with a captivating plot."
+        },
+        {
+          "chinese": "诗人的构思精妙，意象新奇。",
+          "english": "The poet's conception is ingenious, with novel imagery."
+        }
+      ],
+      "backstory": "A phrase used in literary criticism to praise the originality and cleverness of a work's design and structure. It suggests that the author has thoughtfully considered every element.",
+      "backstory_zh": "文学批评中的短语，赞美作品设计和结构的原创性和巧妙性。暗示作者深思熟虑了每个要素。",
+      "id": 241
+    },
+    {
+      "chinese": "文質彬彬",
+      "pinyin": "wén zhì bīn bīn",
+      "english": "Refined and cultured with balanced qualities",
+      "meaning_zh": "既有文采修养，又有质朴本质，形容人或作品既优雅又不失本真。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他是个文質彬彬的君子，言谈举止都很得体。",
+          "english": "He is a refined gentleman, with graceful words and bearing."
+        },
+        {
+          "chinese": "这部作品文質彬彬，既有艺术性又有真实感。",
+          "english": "This work is refined and authentic, balancing artistry with authenticity."
+        }
+      ],
+      "backstory": "A classical phrase from Confucian philosophy describing the ideal balance between literary refinement and authentic character. Originally in the Analects, it emphasizes moral and aesthetic cultivation.",
+      "backstory_zh": "源于儒家哲学的经典短语，描述文学修养与真实品格之间的理想平衡。最初出自《论语》，强调道德和审美修养。",
+      "id": 242
+    },
+    {
+      "chinese": "篇章结构",
+      "pinyin": "piān zhāng jié gòu",
+      "english": "Structural organization of composition",
+      "meaning_zh": "文章的段落划分、逻辑组织和整体布局安排。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这篇论文的篇章结构清晰合理。",
+          "english": "This paper's structural organization is clear and logical."
+        },
+        {
+          "chinese": "小说的篇章结构影响读者的阅读体验。",
+          "english": "A novel's compositional structure affects the reading experience."
+        }
+      ],
+      "backstory": "A technical term in literary analysis referring to how a work is organized into larger sections. Understanding篇章结构is essential for both writers and literary critics.",
+      "backstory_zh": "文学分析的技术术语，指作品如何组织成较大段落。对作家和文学评论家来说，理解篇章结构都很重要。",
+      "id": 243
+    },
+    {
+      "chinese": "咫尺天涯",
+      "pinyin": "zhǐ chǐ tiān yá",
+      "english": "Vast emotional distance in physical proximity",
+      "meaning_zh": "物理上距离很近，但心理或感情上却相距遥远，形容人心隔膜。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他们相隔咫尺天涯，无法相互理解。",
+          "english": "Though physically close, they are separated by vast emotional distance."
+        },
+        {
+          "chinese": "诗人笔下，咫尺天涯表达了深深的孤独感。",
+          "english": "The poet conveyed deep loneliness through the image of distance despite proximity."
+        }
+      ],
+      "backstory": "An idiom expressing the paradox of emotional estrangement despite physical closeness. Widely used in literature to describe broken relationships, miscommunication, or existential loneliness.",
+      "backstory_zh": "一个成语，表达尽管物理上接近但情感疏远的悖论。广泛用于文学中描述破裂关系、沟通不畅或存在孤独感。",
+      "id": 244
+    },
+    {
+      "chinese": "描写细腻",
+      "pinyin": "miáo xiě xì nì",
+      "english": "Detailed and delicate descriptive technique",
+      "meaning_zh": "对人物、景物或场景的描写非常细致入微，刻画精准传神。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位作家的人物描写细腻，性格饱满。",
+          "english": "This writer's character description is delicate and psychologically rich."
+        },
+        {
+          "chinese": "她对自然风景的描写细腻，令人如临其境。",
+          "english": "Her nature descriptions are detailed, making readers feel immersed."
+        }
+      ],
+      "backstory": "A critical term praising the precision and subtlety of descriptive writing. It emphasizes how details are woven together to create vivid, authentic impressions that engage the reader's senses.",
+      "backstory_zh": "赞美描写性写作精准性和微妙性的评论术语。强调细节如何结合在一起，创造生动、真实的印象，引发读者的感官体验。",
+      "id": 245
+    },
+    {
+      "chinese": "意象丰富",
+      "pinyin": "yì xiàng fēng fù",
+      "english": "Rich and abundant imagery and symbolism",
+      "meaning_zh": "文学作品中包含众多的意象、比喻和象征性的表达，层次深厚。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这首诗的意象丰富，充满了古典美感。",
+          "english": "This poem is rich in imagery, full of classical beauty."
+        },
+        {
+          "chinese": "他的创意写作意象丰富，呈现多维的思想世界。",
+          "english": "His creative writing has abundant imagery, presenting a multidimensional thought world."
+        }
+      ],
+      "backstory": "A term from modern literary criticism describing works that employ multiple layers of symbolic and metaphorical imagery. It's especially valued in poetry and philosophical literature.",
+      "backstory_zh": "现代文学批评术语，描述采用多层象征和隐喻意象的作品。在诗歌和哲学文学中特别被重视。",
+      "id": 246
+    },
+    {
+      "chinese": "笔触生动",
+      "pinyin": "bǐ chù shēng dòng",
+      "english": "Vivid and lively writing technique",
+      "meaning_zh": "作者笔法灵活生动，文字表现力强，使读者产生鲜明的感受。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位漫画家的笔触生动，人物栩栩如生。",
+          "english": "This cartoonist's brushwork is vivid, bringing characters to life."
+        },
+        {
+          "chinese": "作家用笔触生动的笔法描绘了城市的活力。",
+          "english": "The writer depicted the city's vitality with vivid, dynamic writing."
+        }
+      ],
+      "backstory": "A phrase borrowed from visual arts criticism, applied to literature to describe writing that is lively and impressionistic. It suggests the writer's technique creates immediate, visceral impact.",
+      "backstory_zh": "从视觉艺术评论借用的短语，用于文学描述活跃和印象派的写作。暗示作者的技巧创造即时的、内脏的影响。",
+      "id": 247
+    },
+    {
+      "chinese": "雅俗共赏",
+      "pinyin": "yǎ sú gòng shǎng",
+      "english": "Appeal to both refined and popular tastes",
+      "meaning_zh": "文学作品既有高深的文化品味，又通俗易懂，雅与俗相结合。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "好的文学作品应该做到雅俗共赏。",
+          "english": "Good literature should appeal to both refined and popular audiences."
+        },
+        {
+          "chinese": "这部电视剧的剧本写得雅俗共赏，广受欢迎。",
+          "english": "This TV drama's script achieves a balance of sophistication and accessibility."
+        }
+      ],
+      "backstory": "A classical aesthetic principle valuing works that transcend class and educational boundaries by combining intellectual depth with popular appeal. Highly praised in traditional Chinese literary criticism.",
+      "backstory_zh": "经典美学原则，重视超越阶级和教育界限、结合知识深度和通俗吸引力的作品。在传统中文文学批评中备受称赞。",
+      "id": 248
+    },
+    {
+      "chinese": "文言文雅",
+      "pinyin": "wén yán wén yǎ",
+      "english": "Elegant classical literary language",
+      "meaning_zh": "使用文言文或古雅的现代文学语言，表达庄重、优美的思想内涵。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位作家喜欢用文言文雅的笔法写作。",
+          "english": "This writer prefers to write using elegant classical language."
+        },
+        {
+          "chinese": "文言文雅的表达方式增加了作品的文化底蕴。",
+          "english": "Elegant classical language enhances the cultural depth of the work."
+        }
+      ],
+      "backstory": "A literary style descriptor referring to the use of classical Chinese or classically-inspired modern language. It's valued for its cultural resonance and aesthetic formality in contemporary literature.",
+      "backstory_zh": "文学风格描述符，指使用古代中文或以古代中文为灵感的现代语言。由于其文化共鸣和美学正式性，在当代文学中受到重视。",
+      "id": 249
+    },
+    {
+      "chinese": "言近旨远",
+      "pinyin": "yán jìn zhǐ yuǎn",
+      "english": "Simple words convey profound meanings",
+      "meaning_zh": "用浅显易懂的语言和事例表达深刻的思想和哲理。",
+      "category": "literature",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "孔子的教导往往是言近旨远，深刻而易懂。",
+          "english": "Confucius' teachings are simple in words but profound in meaning."
+        },
+        {
+          "chinese": "这个故事看似简单，但言近旨远，蕴含哲理。",
+          "english": "This simple story carries profound philosophical implications."
+        }
+      ],
+      "backstory": "A classical principle of effective communication and teaching, emphasizing that the most profound truths can be expressed simply. Widely used in classical Chinese philosophy and literature.",
+      "backstory_zh": "有效沟通和教学的经典原则，强调最深刻的真理可以简单表达。广泛用于古代中文哲学和文学。",
+      "id": 250
+    },
+    {
+      "chinese": "卧虎藏龙",
+      "pinyin": "wò hǔ cáng lóng",
+      "english": "Hidden talents waiting to be discovered",
+      "meaning_zh": "比喻隐藏着未被发现的杰出人才或潜力。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个小镇看似平凡，但卧虎藏龙，人才众多。",
+          "english": "This small town appears ordinary but is full of hidden talents."
+        },
+        {
+          "chinese": "我们公司卧虎藏龙，许多员工都有出众的能力。",
+          "english": "Our company has many hidden talents among its staff."
+        }
+      ],
+      "backstory": "This idiom originates from classical Chinese literature, describing places or situations where exceptional people or potential remain unnoticed. It has become popular in modern Chinese to describe teams or organizations with untapped talent.",
+      "backstory_zh": "该成语源自中国古代文学，用来形容隐藏着杰出人物或潜力的地方。现代常用来形容团队或组织中尚未被发现的人才。",
+      "id": 251
+    },
+    {
+      "chinese": "厚积薄发",
+      "pinyin": "hòu jī báo fā",
+      "english": "Accumulate deeply, release gradually and powerfully",
+      "meaning_zh": "长期积累，然后在适当时候大发展、大成功。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位科学家厚积薄发，终于在50岁时取得重大突破。",
+          "english": "This scientist accumulated knowledge deeply before achieving breakthrough at 50."
+        },
+        {
+          "chinese": "成功不是一夜之间的事，需要厚积薄发的过程。",
+          "english": "Success requires a process of deep accumulation before breakthrough."
+        }
+      ],
+      "backstory": "This idiom emphasizes the importance of long-term preparation and accumulation before achieving success. It reflects Confucian values of patient self-cultivation and is widely used to encourage perseverance.",
+      "backstory_zh": "强调长期准备和积累的重要性。体现了儒家的修养观念，广泛用于鼓励人们坚持和耐心等待成功。",
+      "id": 252
+    },
+    {
+      "chinese": "见微知著",
+      "pinyin": "jiàn wēi zhī zhù",
+      "english": "Perceive the great from the small",
+      "meaning_zh": "从小的地方看出大的问题，能够洞察事物本质。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "经验丰富的医生能见微知著，从细微症状判断病情。",
+          "english": "Experienced doctors can perceive serious illness from minor symptoms."
+        },
+        {
+          "chinese": "投资者要有见微知著的能力，及早发现市场变化。",
+          "english": "Investors should be able to perceive market changes from subtle signs."
+        }
+      ],
+      "backstory": "This idiom originates from Daoist philosophy and emphasizes keen observation and deep understanding. It's valued in traditional Chinese thought as a sign of wisdom and foresight.",
+      "backstory_zh": "源自道家哲学，强调敏锐观察和深刻理解。在中国传统文化中被视为智慧和远见的表现。",
+      "id": 253
+    },
+    {
+      "chinese": "志在千里",
+      "pinyin": "zhì zài qiān lǐ",
+      "english": "Ambition extends to distant horizons",
+      "meaning_zh": "志向远大，目标宏伟，不局限于眼前的利益。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "虽然他年纪轻轻，但志在千里，梦想改变世界。",
+          "english": "Though young, he has ambitions to change the world."
+        },
+        {
+          "chinese": "创业者需要志在千里的精神，才能克服各种困难。",
+          "english": "Entrepreneurs need lofty ambitions to overcome difficulties."
+        }
+      ],
+      "backstory": "This phrase comes from traditional Chinese military and philosophical texts, often used to describe those with grand visions and determination. It's commonly applied to inspire ambitious pursuits.",
+      "backstory_zh": "源自中国古代军事和哲学著作，通常用来形容那些有远大理想和决心的人。常被用来鼓励远大追求。",
+      "id": 254
+    },
+    {
+      "chinese": "天道酬勤",
+      "pinyin": "tiān dào chóu qín",
+      "english": "Heaven rewards hard work and diligence",
+      "meaning_zh": "上天会报酬勤劳的人，付出总会有回报。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他相信天道酬勤，每天坚持锻炼和学习。",
+          "english": "He believes heaven rewards diligence and practices daily."
+        },
+        {
+          "chinese": "天道酬勤，你的努力最终会得到认可和回报。",
+          "english": "Heaven rewards the diligent; your efforts will be recognized."
+        }
+      ],
+      "backstory": "This is a core concept in Confucian philosophy, emphasizing that dedication and hard work lead to success and rewards. It's one of the most motivational idioms in Chinese culture.",
+      "backstory_zh": "这是儒家哲学的核心观念，强调奉献和努力会带来成功和回报。是中文中最励志的成语之一。",
+      "id": 255
+    },
+    {
+      "chinese": "宁为玉碎，不为瓦全",
+      "pinyin": "níng wéi yù suì, bù wéi wǎ quán",
+      "english": "Better to shatter as jade than survive as tile",
+      "meaning_zh": "宁可保持高尚品质而死，也不愿苟且偷生。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "烈士们宁为玉碎，不为瓦全，为国家献出生命。",
+          "english": "Martyrs chose death with honor over shameful survival."
+        },
+        {
+          "chinese": "在原则问题上，我们要有宁为玉碎的精神。",
+          "english": "On matters of principle, we must maintain integrity at all costs."
+        }
+      ],
+      "backstory": "This phrase originated from Chinese historical records and represents the spirit of martyrdom and unwillingness to compromise on principles. It's deeply embedded in Chinese moral philosophy.",
+      "backstory_zh": "源自中国历史记载，代表殉难精神和不愿在原则上妥协的品质。深深扎根于中国伦理哲学。",
+      "id": 256
+    },
+    {
+      "chinese": "明月清风",
+      "pinyin": "míng yuè qīng fēng",
+      "english": "Clear moon and fresh breeze, purity and virtue",
+      "meaning_zh": "比喻高洁的品质、清廉的为政态度或纯净的人生境界。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位官员以明月清风的品质赢得了人民的尊重。",
+          "english": "This official earned people's respect through his purity and virtue."
+        },
+        {
+          "chinese": "她追求明月清风的生活，远离名利的纷扰。",
+          "english": "She pursues a pure and serene life, away from worldly desires."
+        }
+      ],
+      "backstory": "This poetic idiom is rooted in Daoist and Buddhist philosophy, often used in classical literature to describe moral purity and spiritual enlightenment. It remains popular in describing virtuous conduct.",
+      "backstory_zh": "这个诗意的成语源自道教和佛教哲学，常用于古代文学中描写道德纯洁和精神觉悟。仍广泛用于描述高尚品德。",
+      "id": 257
+    },
+    {
+      "chinese": "饮水思源",
+      "pinyin": "yǐn shuǐ sī yuán",
+      "english": "Drink water and think of its source, remember origins",
+      "meaning_zh": "饮水时想起水的来源，比喻不忘本，感恩。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们要饮水思源，感恩祖先们的奋斗。",
+          "english": "We must remember our origins and be grateful for ancestors' efforts."
+        },
+        {
+          "chinese": "成功后不能忘记饮水思源的道理，要回报社会。",
+          "english": "After success, remember your roots and give back to society."
+        }
+      ],
+      "backstory": "This idiom emphasizes gratitude and not forgetting one's origins. It's deeply rooted in Confucian values of filial piety and social responsibility.",
+      "backstory_zh": "强调感恩和不忘本的重要性。深深扎根于孝道和社会责任的儒家价值观中。",
+      "id": 258
+    },
+    {
+      "chinese": "厚德载物",
+      "pinyin": "hòu dé zài wù",
+      "english": "Virtue carries all things, boundless virtue",
+      "meaning_zh": "高尚的品德能够承载万物，容纳一切。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "一个有厚德载物品质的人能够包容他人的缺点。",
+          "english": "A virtuous person can tolerate others' shortcomings."
+        },
+        {
+          "chinese": "厚德载物是中华文明的精神内核。",
+          "english": "Boundless virtue is the spiritual core of Chinese civilization."
+        }
+      ],
+      "backstory": "This phrase derives from the I Ching (Book of Changes) and is one of the most profound concepts in Chinese philosophy. It represents the ideal of moral cultivation and universal acceptance.",
+      "backstory_zh": "源自《易经》，是中国哲学中最深刻的观念之一。代表道德修养和普遍包容的理想。",
+      "id": 259
+    },
+    {
+      "chinese": "春风化雨",
+      "pinyin": "chūn fēng huà yǔ",
+      "english": "Gentle as spring breeze and rain, benevolent influence",
+      "meaning_zh": "比喻和风细雨般的教育方式，温和而有效地改变人。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "好的老师会用春风化雨的方法来教育学生。",
+          "english": "Good teachers educate students with gentle, benevolent methods."
+        },
+        {
+          "chinese": "文化的力量是春风化雨般的，潜移默化地影响人们。",
+          "english": "Cultural influence works like gentle rain, subtly affecting people."
+        }
+      ],
+      "backstory": "This idiom references natural imagery to describe gentle, persistent influence. It's widely used in educational and cultural contexts to emphasize soft power and positive influence.",
+      "backstory_zh": "用自然意象描写温和持久的影响。广泛用于教育和文化语境中，强调软实力和积极影响。",
+      "id": 260
+    },
+    {
+      "chinese": "卓尔不群",
+      "pinyin": "zhuó ěr bù qún",
+      "english": "Outstanding and unique, standing out from the crowd",
+      "meaning_zh": "形容某人或某物非常优秀，与众不同，超群出众。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "她在众多候选人中卓尔不群，最终获得了这个机会。",
+          "english": "She stood out among all candidates and got the opportunity."
+        },
+        {
+          "chinese": "这个艺术家的作品卓尔不群，引领了新的艺术风格。",
+          "english": "This artist's work is outstanding and pioneered a new style."
+        }
+      ],
+      "backstory": "This phrase comes from classical Chinese literature and philosophy, often used to describe exceptional individuals. It carries positive connotations of excellence and uniqueness.",
+      "backstory_zh": "源自古代中国文学和哲学，常用来形容杰出的个人。具有优秀和独特的正面含义。",
+      "id": 261
+    },
+    {
+      "chinese": "持之以恒",
+      "pinyin": "chí zhī yǐ héng",
+      "english": "Persist with constancy, persevere continuously",
+      "meaning_zh": "有恒心地坚持下去，不半途而废。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "学习需要持之以恒的态度，不能急功近利。",
+          "english": "Learning requires persistent effort, not quick results."
+        },
+        {
+          "chinese": "他持之以恒地锻炼，最终成为了专业运动员。",
+          "english": "He persisted in training and became a professional athlete."
+        }
+      ],
+      "backstory": "This idiom emphasizes the virtue of perseverance, a core value in Confucian philosophy. It's frequently used to encourage people to maintain consistent effort toward their goals.",
+      "backstory_zh": "强调坚持这一美德，这是儒家哲学的核心价值。常用来鼓励人们在目标上保持持续的努力。",
+      "id": 262
+    },
+    {
+      "chinese": "百闻不如一见",
+      "pinyin": "bǎi wén búrú yī jiàn",
+      "english": "Seeing once is worth hearing hundred times",
+      "meaning_zh": "听一百次不如亲眼看一次，强调亲身体验的重要性。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "别人再怎么介绍这个地方，都百闻不如一见。",
+          "english": "No description compares to seeing this place in person."
+        },
+        {
+          "chinese": "关于产品质量，百闻不如一见，您亲自试用一下。",
+          "english": "About product quality, seeing is believing; try it yourself."
+        }
+      ],
+      "backstory": "This is a practical wisdom idiom that appears in classical Chinese texts, emphasizing the value of direct experience and observation over secondhand information.",
+      "backstory_zh": "这是一句体现实用智慧的成语，出现在古代中文著作中，强调直接经验和观察比间接信息更有价值。",
+      "id": 263
+    },
+    {
+      "chinese": "砥砺前行",
+      "pinyin": "dǐ lì qián xíng",
+      "english": "Polish and advance, strive forward with determination",
+      "meaning_zh": "磨练自己，克服困难，坚定地向前进。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "在改革的道路上，我们要砥砺前行，不怕挑战。",
+          "english": "On the path of reform, we must advance boldly and fearlessly."
+        },
+        {
+          "chinese": "虽然困难重重，但我们要砥砺前行，实现梦想。",
+          "english": "Despite difficulties, we must persevere and pursue our dreams."
+        }
+      ],
+      "backstory": "This modern classical idiom combines traditional values with contemporary usage. It's frequently used in official and motivational speeches to inspire determination and resilience.",
+      "backstory_zh": "这个现代古典成语结合了传统价值和当代用法。常用于官方演讲和激励性讲话中，鼓励决心和韧性。",
+      "id": 264
+    },
+    {
+      "chinese": "锲而不舍",
+      "pinyin": "qiè ér búshě",
+      "english": "Carve persistently without ceasing, unwavering persistence",
+      "meaning_zh": "像用刀子刻东西一样坚持不懈，不轻易放弃。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这位科研工作者锲而不舍地钻研，最终取得成功。",
+          "english": "This researcher persisted in his research and achieved success."
+        },
+        {
+          "chinese": "只要锲而不舍，再大的困难也能克服。",
+          "english": "With unwavering persistence, any difficulty can be overcome."
+        }
+      ],
+      "backstory": "This idiom originates from Confucian texts and uses the metaphor of carving stone to illustrate the importance of relentless effort. It's one of the most valued virtues in Chinese philosophy.",
+      "backstory_zh": "源自儒家典籍，用刻石头的比喻说明坚持不懈的重要性。这是中国哲学中最受重视的美德之一。",
+      "id": 265
+    },
+    {
+      "chinese": "风雨同舟",
+      "pinyin": "fēng yǔ tóng zhōu",
+      "english": "Share the same boat through wind and rain, face adversity together",
+      "meaning_zh": "比喻在困难中互相帮助，一起渡过难关。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "在这个项目中，我们要风雨同舟，互相支持。",
+          "english": "In this project, we must work together and support each other."
+        },
+        {
+          "chinese": "两个国家风雨同舟，共同应对全球挑战。",
+          "english": "The two nations face global challenges together."
+        }
+      ],
+      "backstory": "This idiom uses the metaphor of a boat in storm to represent unity and mutual support. It's widely used in diplomatic and organizational contexts to emphasize cooperation.",
+      "backstory_zh": "用暴风雨中的船的比喻代表团结和互相支持。广泛用于外交和组织语境中，强调合作。",
+      "id": 266
+    },
+    {
+      "chinese": "千锤百炼",
+      "pinyin": "qiān chuí bǎi liàn",
+      "english": "Tempered by countless blows, refined through practice",
+      "meaning_zh": "经过长期、反复的训练和改进，逐渐完善。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这部作品经过千锤百炼，质量非常高。",
+          "english": "This work has been refined through countless iterations and is of high quality."
+        },
+        {
+          "chinese": "优秀的运动员都是千锤百炼出来的。",
+          "english": "Excellent athletes are refined through extensive training."
+        }
+      ],
+      "backstory": "This idiom uses the metaphor of forging metal to describe the process of refinement through repeated effort. It emphasizes the value of practice and continuous improvement.",
+      "backstory_zh": "用锻造金属的比喻描写通过重复努力进行完善的过程。强调实践和持续改进的价值。",
+      "id": 267
+    },
+    {
+      "chinese": "水到渠成",
+      "pinyin": "shuǐ dào qú chéng",
+      "english": "When water arrives, channels form naturally, success comes naturally",
+      "meaning_zh": "条件成熟了，事情就会自然而然地成功。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "我们继续努力，水到渠成，成功会如期而至。",
+          "english": "We keep working, and success will come naturally when conditions are met."
+        },
+        {
+          "chinese": "这个计划已经准备充分，现在只需水到渠成。",
+          "english": "The plan is well prepared; success will follow naturally."
+        }
+      ],
+      "backstory": "This idiom uses natural hydraulic principles as a metaphor for success following proper preparation. It's optimistic in tone and emphasizes patience and preparation.",
+      "backstory_zh": "用自然水力原理作为成功伴随适当准备的比喻。语气乐观，强调耐心和准备。",
+      "id": 268
+    },
+    {
+      "chinese": "循序渐进",
+      "pinyin": "xún xù jiàn jìn",
+      "english": "Follow order and advance gradually, step by step progress",
+      "meaning_zh": "按照顺序，逐步地前进，不急功近利。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "学习外语要循序渐进，不能一蹴而就。",
+          "english": "Learning a language requires gradual progress, not overnight success."
+        },
+        {
+          "chinese": "教师应该循序渐进地提高教学难度。",
+          "english": "Teachers should gradually increase teaching difficulty."
+        }
+      ],
+      "backstory": "This idiom reflects Confucian educational philosophy emphasizing proper sequence and patient progression. It's commonly used in teaching, learning, and management contexts.",
+      "backstory_zh": "反映儒家教育哲学，强调正确的顺序和耐心的进展。常用于教学、学习和管理等语境中。",
+      "id": 269
+    },
+    {
+      "chinese": "柳暗花明",
+      "pinyin": "liǔ àn huā míng",
+      "english": "Dark willows and bright flowers, sudden breakthrough after difficulty",
+      "meaning_zh": "柳树遮阴，花朵明亮，比喻困境过后豁然开朗。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "经过多年的失败后，他最终柳暗花明，事业成功了。",
+          "english": "After years of failure, he finally achieved success and breakthrough."
+        },
+        {
+          "chinese": "不要放弃，柳暗花明又一村，希望总会出现。",
+          "english": "Don't give up; hope will appear around the corner."
+        }
+      ],
+      "backstory": "This poetic idiom originates from Tang Dynasty poetry and describes the sudden emergence of hope after despair. It's widely used to provide encouragement during difficult times.",
+      "backstory_zh": "这个诗意的成语源自唐代诗歌，描写绝望后希望的突然出现。广泛用于在困难时期提供鼓励。",
+      "id": 270
+    },
+    {
+      "chinese": "卧虎藏龙",
+      "pinyin": "wò hǔ cáng lóng",
+      "english": "Hidden talents and potential, concealed excellence",
+      "meaning_zh": "隐藏着杰出人才和未发掘的潜力。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "这个研究所卧虎藏龙，有许多顶尖的科学家。",
+          "english": "This research institute has many outstanding scientists."
+        },
+        {
+          "chinese": "看似普通的公司里卧虎藏龙，暗藏着很多能人。",
+          "english": "This ordinary-looking company harbors many talented individuals."
+        }
+      ],
+      "backstory": "This idiom describes situations where exceptional talent or potential lies hidden and unrecognized. It's inspired by classical Chinese martial arts narratives and philosophical texts.",
+      "backstory_zh": "描写杰出才能或潜力隐藏未被认可的情况。受古代中文武术叙事和哲学文献的启发。",
+      "id": 271
+    },
+    {
+      "chinese": "一鸣惊人",
+      "pinyin": "yī míng jīng rén",
+      "english": "A single cry that startles people, sudden remarkable success",
+      "meaning_zh": "平时默默无闻，一旦显露实力就令人惊讶。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他在比赛中一鸣惊人，获得了冠军。",
+          "english": "He astonished everyone and won the championship."
+        },
+        {
+          "chinese": "这位年轻演员一鸣惊人，成为了明星。",
+          "english": "This young actor rose to stardom with a breakthrough performance."
+        }
+      ],
+      "backstory": "This idiom originates from the story of King Xuan of Qi, who challenged a pheasant to sing, leading to a dramatic transformation. It represents dramatic breakthrough from obscurity.",
+      "backstory_zh": "源自齐宣王的故事，代表从默默无闻到突然成功的戏剧性突破。常用来形容杰出的成就。",
+      "id": 272
+    },
+    {
+      "chinese": "志同道合",
+      "pinyin": "zhì tóng dào hé",
+      "english": "Share same ideals and methods, kindred spirits",
+      "meaning_zh": "志向和追求的目标相同，道路和方法也一致。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "他们志同道合，一起创办了这家公司。",
+          "english": "They are kindred spirits and founded this company together."
+        },
+        {
+          "chinese": "在学术研究上，我们志同道合，经常交流想法。",
+          "english": "In academic research, we share the same vision and often discuss ideas."
+        }
+      ],
+      "backstory": "This idiom emphasizes the importance of shared values and common goals in relationships. It's derived from Confucian philosophy regarding friendship and collaboration.",
+      "backstory_zh": "强调关系中共同价值观和目标的重要性。源自儒家哲学中关于友谊和合作的思想。",
+      "id": 273
+    },
+    {
+      "chinese": "坚持不懈",
+      "pinyin": "jiān chí búxiè",
+      "english": "Persist without slacking, unwavering determination",
+      "meaning_zh": "持续不断地坚持，没有半点松懈。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "只要坚持不懈地努力，就一定能成功。",
+          "english": "Success will come with unwavering persistence and effort."
+        },
+        {
+          "chinese": "这位运动员坚持不懈地训练，最终获得金牌。",
+          "english": "This athlete trained relentlessly and won gold."
+        }
+      ],
+      "backstory": "This classical virtue emphasizes the importance of consistent effort and determination. It's a fundamental concept in Chinese philosophy and widely used in motivational contexts.",
+      "backstory_zh": "强调持续努力和决心的重要性。这是中国哲学的基本概念，广泛用于激励性语境。",
+      "id": 274
+    },
+    {
+      "chinese": "海纳百川",
+      "pinyin": "hǎi nà bǎi chuān",
+      "english": "The sea accepts hundred rivers, tolerance and inclusivity",
+      "meaning_zh": "大海容纳百条河流，比喻宽容包容不同观点。",
+      "category": "classical_idiom",
+      "hsk_level": null,
+      "examples": [
+        {
+          "chinese": "一个开放的社会应该海纳百川，接纳不同的声音。",
+          "english": "An open society should be inclusive and accept diverse voices."
+        },
+        {
+          "chinese": "文化海纳百川，融合了东西方的精华。",
+          "english": "Culture is inclusive, blending the best of East and West."
+        }
+      ],
+      "backstory": "This idiom uses the image of the ocean to represent unlimited capacity for acceptance. It's rooted in Confucian values of tolerance and is a cornerstone of modern multicultural philosophy.",
+      "backstory_zh": "用大海的意象代表无限的包容能力。根植于儒家容忍的价值观，是现代多元文化哲学的基石。",
+      "id": 275
     }
   ]
 }

@@ -4,7 +4,7 @@ import Snoowrap from 'snoowrap';
 import { BskyAgent } from '@atproto/api';
 import wordsData from '../src/data/words.json';
 
-const LAUNCH_DATE = new Date('2026-02-22');
+const LAUNCH_DATE = new Date('2026-04-09');
 function getDaysSinceStart(date: Date): number {
   const start = new Date(LAUNCH_DATE);
   start.setHours(0, 0, 0, 0);
